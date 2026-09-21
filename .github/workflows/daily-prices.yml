@@ -1,0 +1,298 @@
+name: daily-prices
+
+on:
+  schedule:
+    # 02:17, not 02:00 - GitHub's own docs warn that top-of-the-hour cron
+    # triggers queue behind everyone else's, and it showed: confirmed live,
+    # every "02:00" run actually started 06:47-07:30 UTC, a ~5h delay that
+    # ate deep into the very time budget these chains need. A few minutes
+    # off the hour costs nothing and avoids that queue entirely.
+    - cron: "0 8 * * *"   # ~02:17 UTC = ~04:17 DK, after nightly sitemap regen
+  workflow_dispatch:
+    inputs:
+      full:
+        description: "Full scrape (default: smoke 30/chain)"
+        required: false
+        default: "false"
+      limit:
+        description: "Products per chain (smoke mode)"
+        required: false
+        default: "30"
+      continuation:
+        description: "Continuation run: skip chains already complete today"
+        required: false
+        default: "false"
+      resume:
+        description: "Deprecated, ignored (kept so old queued runs' redispatch doesn't 422)"
+        required: false
+        default: "false"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-prices
+  cancel-in-progress: false   # never kill a running catalog build
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      matrix:
+        chain: [ace_us]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Always main's CURRENT tip, never the SHA this run was created
+          # at: a run queued behind another one (concurrency group) would
+          # otherwise scrape on a base missing everything the earlier run
+          # committed in the meantime (see scripts/commit_chain.sh).
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run scraper (${{ matrix.chain }})
+        env:
+          # All nine chains now go through scrape_with_checkpoint (2026-09-18
+          # - bauhaus/davidsen had NO time-budget protection at all before
+          # this, and fog/haraldnyborg/power/skousen's own SCRAPE_OFFSET
+          # resume was confirmed dead code end to end - see each chain's own
+          # scrape() comment). One deadline for all of them: 300 min soft
+          # cutoff inside this job's 350-min hard timeout above - the 50-min
+          # gap is what lets a checkpointed chain exit on its own and reach
+          # "Commit snapshot" instead of being SIGKILLed mid-request with
+          # nothing durably saved.
+          SCRAPE_DEADLINE_SECONDS: "18000"
+          # Without this Python block-buffers stdout when it is not a TTY:
+          # the whole run log arrived in one chunk at the very end (skousen,
+          # 2026-09-19: every line stamped 11:19:53 after a 07:20 start),
+          # making it impossible to see live progress or where time goes.
+          PYTHONUNBUFFERED: "1"
+        run: |
+          if [ "${{ inputs.continuation }}" = "true" ]; then
+            INC=$(python scraper/check_incomplete.py 2>/dev/null | sed -n 's/^incomplete: //p')
+            case ",$INC," in
+              *",${{ matrix.chain }},"*) echo "${{ matrix.chain }} still incomplete - continuing" ;;
+              *) echo "${{ matrix.chain }} already complete today - skipping"; exit 0 ;;
+            esac
+          fi
+          if [ "${{ inputs.full }}" = "true" ] || [ "${{ github.event_name }}" = "schedule" ]; then
+            python scraper/run_daily.py --only ${{ matrix.chain }}
+          else
+            python scraper/run_daily.py --only ${{ matrix.chain }} ${{ inputs.limit || '30' }}
+          fi
+
+      - name: Commit snapshot
+        # All the git logic (stale-base-proof: reset onto origin/main and
+        # re-apply only this chain's own files, no rebase) lives in
+        # scripts/commit_chain.sh - see its header for the incident.
+        run: bash scripts/commit_chain.sh ${{ matrix.chain }}
+
+  merge:
+    needs: scrape
+    if: always()   # merge whatever succeeded — partial catalog beats none
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Always main's CURRENT tip, never the SHA this run was created
+          # at: a run queued behind another one (concurrency group) would
+          # otherwise scrape on a base missing everything the earlier run
+          # committed in the meantime (see scripts/commit_chain.sh).
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Merge, commit, and push
+        run: |
+          git config user.name "price-bot"
+          git config user.email "bot@noreply.github.com"
+          # Every file this job produces is 100% derived from the per-chain
+          # data/latest/<chain>.jsonl files already in the checkout (see
+          # merge_all.py's own header) - nothing here is hand-authored, so
+          # there is never a reason to fight to preserve one frozen local
+          # snapshot of them over a fresher one. Confirmed live: this exact
+          # push previously got stuck in a real rebase conflict (a near-
+          # empty "merge" from an earlier CANCELLED dispatch's own
+          # `if: always()` merge job landed on main first, then this run's
+          # real, hours-later merge conflicted against it) and silently
+          # lost an entire evening's feed. Rather than detect-and-recover
+          # from that one shape of conflict, this regenerates from
+          # whatever's actually on origin on every retry - reset onto the
+          # latest main, rebuild, commit, plain-push; if someone else's
+          # commit lands in that same window, there's nothing to reconcile,
+          # just redo the cycle against the new tip. No rebase, so nothing
+          # to get stuck mid-conflict on.
+          pushed=false
+          for i in 1 2 3 4 5 6 7 8; do
+            git fetch origin main -q
+            git reset --hard origin/main -q
+            python scraper/merge_all.py
+            # Small BOM-matchable catalog the Fixer app fetches at runtime.
+            python scraper/build_estimator_catalog.py
+            # History pruning now happens INSIDE merge_all.py itself
+            # (prune_old_history) - this `find -mtime` never actually
+            # worked: every fresh `actions/checkout` resets every file's
+            # mtime to "now", so "-mtime +120" compared "now" against
+            # "now" on every single run and could never match anything.
+            # Confirmed live: data/history had unpruned files going back
+            # weeks despite this line running as part of every merge since
+            # it was added. The real fix reads each file's own date from
+            # its filename instead of trusting checkout-reset timestamps.
+            # Commit the gzipped feed, not the raw one - confirmed live,
+            # prices.jsonl reached 59MB (past GitHub's 50MB warning, closing
+            # in on its 100MB hard block) and only grows as silvan/xlbyg/
+            # stark catch up. Gzip -9 on this file measured 59MB -> 9.1MB
+            # (verified byte-identical round trip locally before this
+            # shipped), and sync-dk-priser now fetches+decompresses the
+            # .gz directly (falls back to the plain file if it's ever
+            # missing) - nothing downstream loses any data, this only
+            # changes the bytes at rest in git.
+            gzip -kf9 data/latest/prices.jsonl
+            git rm --cached --ignore-unmatch -q data/latest/prices.jsonl
+            rm -f data/latest/prices.jsonl
+            git add data/latest/prices.jsonl.gz data/latest/comparison.json data/latest/summary.json data/latest/ages.json data/latest/index.html data/latest/schema.json data/latest/estimator_catalog.json || true
+            if git diff --cached --quiet; then
+              echo "No changes"; pushed=true; break
+            fi
+            git commit -q -m "merged feed $(date -u +%F)"
+            if git push origin main; then
+              pushed=true; break
+            fi
+            echo "push race, retry $i - origin moved, regenerating against its new tip"
+            sleep $((i * 10))
+          done
+          if [ "$pushed" != true ]; then
+            echo "::error::failed to push the merged feed after 8 retries - prices.jsonl was NOT updated"
+            exit 1
+          fi
+
+  continue-check:
+    needs: [scrape, merge]
+    if: always()
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Always main's CURRENT tip, never the SHA this run was created
+          # at: a run queued behind another one (concurrency group) would
+          # otherwise scrape on a base missing everything the earlier run
+          # committed in the meantime (see scripts/commit_chain.sh).
+          ref: main
+      - name: Detect incomplete chains
+        id: check
+        run: |
+          python scraper/check_incomplete.py || true
+          INC=$(python scraper/check_incomplete.py 2>/dev/null | sed -n 's/^incomplete: //p')
+          echo "incomplete=$INC" >> $GITHUB_OUTPUT
+      - name: Re-dispatch for incomplete chains
+        if: steps.check.outputs.incomplete != '' && steps.check.outputs.incomplete != '(none)'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # avoid infinite loops: max 4 continuation attempts PER DAY. The
+          # markers are date-stamped and old ones cleaned up here - without
+          # that, they just accumulate in the repo forever (confirmed live:
+          # all 4 from a single day were still sitting there weeks later),
+          # so `ls .continue-attempt-*` counts every attempt ever made, not
+          # today's, and permanently pins this at "max reached" the moment
+          # any 4 attempts have ever happened - silently disabling
+          # auto-continue for good instead of just for the rest of that day.
+          #
+          # Same fetch/reset/regenerate/push pattern as the merge job (see
+          # its own comment) instead of a bare `|| true` rebase attempt -
+          # the marker files and completion.json are just as fully
+          # regenerable, and a silently-lost attempt marker here means the
+          # 4-per-day counter under- or over-counts real attempts, which
+          # either wastes redispatches or wrongly blocks them for the rest
+          # of the day.
+          git config user.name price-bot; git config user.email bot@noreply.github.com
+          for i in 1 2 3; do
+            git fetch origin main -q
+            git reset --hard origin/main -q
+            python scraper/check_incomplete.py || true
+            TODAY=$(date -u +%F)
+            find data/latest -maxdepth 1 -name '.continue-attempt-*' -not -name ".continue-attempt-${TODAY}-*" -delete
+            ATTEMPT=$(ls data/latest/.continue-attempt-${TODAY}-* 2>/dev/null | wc -l || echo 0)
+            if [ "$ATTEMPT" -ge 4 ]; then
+              echo "Max continuation attempts reached for today — will retry tomorrow"; exit 0
+            fi
+            touch "data/latest/.continue-attempt-${TODAY}-$((ATTEMPT + 1))"
+            git add -A data/latest/.continue-attempt-* data/latest/completion.json
+            git commit -q -m "continue attempt $((ATTEMPT + 1)) ($TODAY)" || true
+            if git push origin main; then break; fi
+            echo "push race, retry $i"; sleep $((i * 5))
+          done
+          # `resume=true` used to be a workflow-level flag threaded down
+          # into a RESUME env var for run_daily.py - removed 2026-09-18
+          # once every scrape() call went through scrape_with_checkpoint,
+          # which resumes from its own committed per-url state regardless
+          # of any flag. That blanket flag was also the actual root cause
+          # of a 3-week-old bug (see run_daily.py's own comment): it
+          # suppressed the completion marker AND the collapse guard for
+          # every chain, on every run, whenever this redispatch fired -
+          # which, because no chain could ever reach "complete" while it
+          # was set, was almost always.
+          gh workflow run daily-prices.yml -f full=true -f continuation=true
+
+      # Last step, `if: always()`, so it can never block the redispatch above
+      # but still fails this job (-> the alert job opens an issue) when a
+      # chain has gone >3 days without ever completing a full pass - see
+      # scraper/check_stale.py. Checkout is main's tip, i.e. includes every
+      # marker this run's scrape jobs just committed.
+      - name: Alert on chains stuck for days
+        if: always()
+        run: python scraper/check_stale.py
+
+  alert:
+    # continue-check added: it now does real git/bash work of its own (the
+    # race-proof push loop above) that scrape/merge failing wouldn't catch -
+    # a broken continue-check previously could never trip this alert at all,
+    # since `contains(needs.*.result, ...)` only looks at jobs actually
+    # listed here.
+    needs: [scrape, merge, continue-check]
+    if: always() && contains(needs.*.result, 'failure')
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Always main's CURRENT tip, never the SHA this run was created
+          # at: a run queued behind another one (concurrency group) would
+          # otherwise scrape on a base missing everything the earlier run
+          # committed in the meantime (see scripts/commit_chain.sh).
+          ref: main
+      - name: Open failure issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = `Nightly price run failed ${new Date().toISOString().slice(0,10)}`;
+            const existing = await github.rest.issues.listForRepo({
+              owner: context.repo.owner, repo: context.repo.repo,
+              state: 'open', per_page: 100
+            });
+            const dup = existing.data.find(i => i.title === title);
+            // `context.runUrl` isn't a real property on the script context
+            // (Context only exposes serverUrl/repo/runId etc.) - this
+            // always rendered as the literal string "undefined" in the
+            // issue body, so the one thing the alert exists to give you
+            // (a link to actually go look) never worked.
+            const runUrl = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            const body = 'One or more chain jobs, the merge job, or continue-check failed. Check the run: ' + runUrl;
+            if (dup) {
+              await github.rest.issues.createComment({ owner: context.repo.owner,
+                repo: context.repo.repo, issue_number: dup.number, body });
+            } else {
+              await github.rest.issues.create({ owner: context.repo.owner,
+                repo: context.repo.repo, title, body });
+            }
