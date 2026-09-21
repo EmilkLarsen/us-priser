@@ -80,8 +80,19 @@ def _release(host):
         _inflight[host] = max(0, _inflight.get(host, 1) - 1)
 
 
+import urllib.parse
+
+def _encode_url(url):
+    """URL-encode non-ASCII characters (Norwegian ø, Swedish å, etc.)."""
+    parts = urllib.parse.urlsplit(url)
+    path = urllib.parse.quote(parts.path, safe="/%:+@")
+    query = urllib.parse.quote(parts.query, safe="=&%?/:+@")
+    return urllib.parse.urlunsplit((parts.scheme, parts.netloc, path, query, parts.fragment))
+
+
 def get(url, binary=False, max_bytes=40000000):
     """Polite GET: per-host lane throttle + jitter, realistic UA."""
+    url = _encode_url(url)
     host = re.match(r"https?://([^/]+)", url).group(1)
     _throttle(host)
     try:
