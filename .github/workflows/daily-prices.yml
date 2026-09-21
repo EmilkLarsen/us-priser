@@ -7,7 +7,7 @@ on:
     # every "02:00" run actually started 06:47-07:30 UTC, a ~5h delay that
     # ate deep into the very time budget these chains need. A few minutes
     # off the hour costs nothing and avoids that queue entirely.
-    - cron: "0 8 * * *"   # staggered nightly run (local midnight window)
+    - cron: "0 8 * * *"   # ~02:17 UTC = ~04:17 DK, after nightly sitemap regen
   workflow_dispatch:
     inputs:
       full:
