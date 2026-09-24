@@ -1,0 +1,9706 @@
+[
+ {
+  "key": "cement_25kg",
+  "name": "Cement 25kg",
+  "synonyms": [
+   "cement",
+   "portland cement",
+   "cement 25 kg",
+   "25kg cement",
+   "cement25kg"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "sand_0_2_25kg",
+  "name": "Sand 0-2mm 25kg",
+  "synonyms": [
+   "sand",
+   "sand 0-2",
+   "0-2 sand",
+   "fugesand",
+   "sand 25 kg",
+   "sand25kg"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 59
+ },
+ {
+  "key": "gravel_8_16_25kg",
+  "name": "Grus 8-16mm 25kg",
+  "synonyms": [
+   "grus",
+   "gravel",
+   "8-16 grus",
+   "grus 25 kg",
+   "stabilgrus",
+   "grus25kg"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 65
+ },
+ {
+  "key": "concrete_mix_25kg",
+  "name": "Betonblanding 25kg",
+  "synonyms": [
+   "beton",
+   "betonmix",
+   "concrete mix",
+   "beton 25 kg",
+   "betonblanding",
+   "beton25kg"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "self_leveling_compound_20kg",
+  "name": "Gulvspartel 20kg",
+  "synonyms": [
+   "gulvspartel",
+   "selvnivellerende",
+   "self leveling compound",
+   "flydespartel",
+   "nivelleringsmasse",
+   "gulvspartel 20 kg"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 189
+ },
+ {
+  "key": "patching_compound_10kg",
+  "name": "Reparationsspartel 10kg",
+  "synonyms": [
+   "reparationsspartel",
+   "patching compound",
+   "reparationsmasse",
+   "spartel 10 kg",
+   "spartelmasse 10 kg"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "wall_filler_5kg",
+  "name": "Spartelmasse 5kg",
+  "synonyms": [
+   "spartelmasse",
+   "filler",
+   "wall filler",
+   "spartel 5 kg",
+   "spartelmasse 5 kg",
+   "spartel"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "joint_compound_10l",
+  "name": "Gipsspartel 10L",
+  "synonyms": [
+   "gipsspartel",
+   "joint compound",
+   "gips spartel",
+   "spartel til gips",
+   "gipsfiller",
+   "joint filler"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 169
+ },
+ {
+  "key": "primer_general_1l",
+  "name": "Primer 1L",
+  "synonyms": [
+   "primer",
+   "hæftegrunder",
+   "grunder",
+   "bonding primer",
+   "forankringsgrunder",
+   "primer 1 l",
+   "primer 1 liter"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 119
+ },
+ {
+  "key": "primer_general_5l",
+  "name": "Primer 5L",
+  "synonyms": [
+   "primer 5 l",
+   "primer 5 liter",
+   "hæftegrunder 5l",
+   "grunder 5l",
+   "bonding primer 5l"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 299
+ },
+ {
+  "key": "deep_primer_2_5l",
+  "name": "Forankringsgrunder 2.5L",
+  "synonyms": [
+   "forankringsgrunder",
+   "deep primer",
+   "dybdegrunder",
+   "grunder til sugende underlag",
+   "primer til sugende",
+   "forankringsgrunder 2.5"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 239
+ },
+ {
+  "key": "tile_adhesive_20kg",
+  "name": "Fliseklæb 20kg",
+  "synonyms": [
+   "fliseklæb",
+   "fliseklaeb",
+   "tile adhesive",
+   "fliseklæber",
+   "klæb til fliser",
+   "cementbaseret fliseklæb",
+   "fliseklæb 20 kg"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "tile_adhesive_flexible_20kg",
+  "name": "Fleksibel Fliseklæb 20kg",
+  "synonyms": [
+   "fleksibel fliseklæb",
+   "flex tile adhesive",
+   "flexklæb",
+   "flex fliseklæb",
+   "fliseklæb fleksibel",
+   "fliseklæb til gulvvarme"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 219
+ },
+ {
+  "key": "grout_5kg",
+  "name": "Fugemasse 5kg",
+  "synonyms": [
+   "fugemasse",
+   "fuge",
+   "tile grout",
+   "grout",
+   "flisefuge",
+   "cementfuge",
+   "fugepulver"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "grout_flexible_5kg",
+  "name": "Fleksibel Fugemasse 5kg",
+  "synonyms": [
+   "fleksibel fugemasse",
+   "flex grout",
+   "grout flexible",
+   "fuge fleksibel",
+   "fuge til gulvvarme"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 169
+ },
+ {
+  "key": "silicone_sanitary_white",
+  "name": "Sanitetssilikone Hvid",
+  "synonyms": [
+   "sanitetssilikone",
+   "silikone",
+   "silicone",
+   "sealant",
+   "fugesilikone",
+   "vådrumssilikone",
+   "silikone hvid"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 69
+ },
+ {
+  "key": "silicone_sanitary_clear",
+  "name": "Sanitetssilikone Klar",
+  "synonyms": [
+   "sanitetssilikone klar",
+   "silikone klar",
+   "clear silicone",
+   "klar fugesilikone",
+   "sealant clear"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 69
+ },
+ {
+  "key": "acrylic_sealant_paintable",
+  "name": "Malerfuge (Akryl)",
+  "synonyms": [
+   "malerfuge",
+   "akrylfuge",
+   "acrylic sealant",
+   "paintable sealant",
+   "akryl fugemasse"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 39
+ },
+ {
+  "key": "construction_adhesive",
+  "name": "Montagelim",
+  "synonyms": [
+   "montagelim",
+   "construction adhesive",
+   "montage lim",
+   "lim til lister",
+   "montagelim patron"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 59
+ },
+ {
+  "key": "wood_glue",
+  "name": "Trælim",
+  "synonyms": [
+   "trælim",
+   "wood glue",
+   "pva lim",
+   "lim til træ"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 49
+ },
+ {
+  "key": "epoxy_adhesive_set",
+  "name": "Epoxy Lim (Sæt)",
+  "synonyms": [
+   "epoxy",
+   "epoxy lim",
+   "epoxy adhesive",
+   "2 komponent lim",
+   "2k lim"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "waterproofing_membrane_5kg",
+  "name": "Vådrumsmembran 5kg",
+  "synonyms": [
+   "vådrumsmembran",
+   "waterproof membrane",
+   "membran",
+   "vådrum",
+   "flydende membran",
+   "membran 5 kg"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 449
+ },
+ {
+  "key": "waterproofing_primer_1l",
+  "name": "Vådrumsprimer 1L",
+  "synonyms": [
+   "vådrumsprimer",
+   "waterproofing primer",
+   "primer vådrum",
+   "vådrum grunder",
+   "primer til membran"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 159
+ },
+ {
+  "key": "waterproofing_tape_10m",
+  "name": "Vådrumsbånd 10m",
+  "synonyms": [
+   "vådrumsbånd",
+   "waterproof tape",
+   "membranbånd",
+   "tætningsbånd",
+   "tape vådrum"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 189
+ },
+ {
+  "key": "pipe_collar_waterproof",
+  "name": "Rørmanchet (Vådrum)",
+  "synonyms": [
+   "rørmanchet",
+   "pipe collar",
+   "manchet",
+   "tætningsmanchet",
+   "vådrumsmanchet rør"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 49
+ },
+ {
+  "key": "drain_collar_waterproof",
+  "name": "Afløbsmanchet (Vådrum)",
+  "synonyms": [
+   "afløbsmanchet",
+   "drain collar",
+   "manchet afløb",
+   "tætningsmanchet afløb",
+   "vådrumsmanchet afløb"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 89
+ },
+ {
+  "key": "tile_spacers_2mm",
+  "name": "Flisekryds 2mm",
+  "synonyms": [
+   "flisekryds",
+   "tile spacers",
+   "kryds 2mm",
+   "flisekryds 2 mm",
+   "afstandskryds fliser"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 49
+ },
+ {
+  "key": "tile_leveling_system_set",
+  "name": "Flisenivelleringssæt",
+  "synonyms": [
+   "flisenivellering",
+   "tile leveling",
+   "nivelleringssystem fliser",
+   "flise clips",
+   "tile leveling system"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "tile_edge_trim_10mm",
+  "name": "Fliseprofil 10mm (2.5m)",
+  "synonyms": [
+   "fliseprofil",
+   "tile trim",
+   "kantprofil fliser",
+   "aluprofil fliser",
+   "flise afslutningsprofil"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "paint_wall_standard_10l",
+  "name": "Vægmaling Standard 10L (spand)",
+  "synonyms": [
+   "vægmaling 10l",
+   "væg maling 10l",
+   "maling væg 10l",
+   "wall paint 10l",
+   "emulsion paint 10l",
+   "10l spand vægmaling",
+   "bucket 10l wall paint"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 549
+ },
+ {
+  "key": "paint_wall_premium_10l",
+  "name": "Vægmaling Premium 10L (spand)",
+  "synonyms": [
+   "vægmaling premium 10l",
+   "premium wall paint 10l",
+   "maling premium 10l",
+   "10l spand premium vægmaling",
+   "bucket 10l premium wall paint"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 799
+ },
+ {
+  "key": "paint_ceiling_10l",
+  "name": "Loftmaling 10L (spand)",
+  "synonyms": [
+   "loftmaling 10l",
+   "loft maling 10l",
+   "ceiling paint 10l",
+   "mat loftmaling 10l",
+   "10l spand loftmaling",
+   "bucket 10l ceiling paint"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 599
+ },
+ {
+  "key": "paint_wood_trim_2_5l",
+  "name": "Træmaling 2.5L",
+  "synonyms": [
+   "træmaling",
+   "wood paint",
+   "maling træ",
+   "panelmaling",
+   "træværk maling",
+   "maling 2.5l træ"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 399
+ },
+ {
+  "key": "paint_metal_0_75l",
+  "name": "Metal Maling 0.75L",
+  "synonyms": [
+   "metalmaling",
+   "metal paint",
+   "maling metal",
+   "radiatormaling",
+   "metal lak",
+   "maling 0.75l metal"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "wood_stain_2_5l",
+  "name": "Træbeskyttelse 2.5L",
+  "synonyms": [
+   "træbeskyttelse",
+   "wood stain",
+   "wood protection",
+   "udendørs træbeskyttelse",
+   "lasur",
+   "træ olie"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 349
+ },
+ {
+  "key": "masking_tape_25mm",
+  "name": "Malertape 25mm",
+  "synonyms": [
+   "malertape",
+   "masking tape",
+   "afdækningstape",
+   "tape maling",
+   "tape 25mm"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 39
+ },
+ {
+  "key": "masking_tape_50mm",
+  "name": "Malertape 50mm",
+  "synonyms": [
+   "malertape 50mm",
+   "masking tape 50",
+   "afdækningstape 50mm",
+   "tape 50mm"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 59
+ },
+ {
+  "key": "cover_plastic_20m2",
+  "name": "Afdækningsplast 20m2",
+  "synonyms": [
+   "afdækningsplast",
+   "cover plastic",
+   "plast afdækning",
+   "beskyttelsesplast",
+   "malerplast"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 49
+ },
+ {
+  "key": "cover_paper_roll",
+  "name": "Afdækningspap (Rulle)",
+  "synonyms": [
+   "afdækningspap",
+   "cover paper",
+   "gulvpap",
+   "malerpap",
+   "beskyttelsespap"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "painter_fleece_25m2",
+  "name": "Malerfilt 25m2",
+  "synonyms": [
+   "malerfilt",
+   "painter fleece",
+   "afdækningsfilt",
+   "beskyttelsesfilt",
+   "gulvbeskyttelse filt"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "sandpaper_80_grit",
+  "name": "Sandpapir Korn 80",
+  "synonyms": [
+   "sandpapir",
+   "sandpaper",
+   "korn 80",
+   "grit 80",
+   "slibepapir 80"
+  ],
+  "unit": "pack",
+  "fallbackPriceDKK": 59
+ },
+ {
+  "key": "sandpaper_120_grit",
+  "name": "Sandpapir Korn 120",
+  "synonyms": [
+   "sandpapir 120",
+   "sandpaper 120",
+   "korn 120",
+   "grit 120",
+   "slibepapir 120"
+  ],
+  "unit": "pack",
+  "fallbackPriceDKK": 59
+ },
+ {
+  "key": "sandpaper_180_grit",
+  "name": "Sandpapir Korn 180",
+  "synonyms": [
+   "sandpapir 180",
+   "sandpaper 180",
+   "korn 180",
+   "grit 180",
+   "slibepapir 180"
+  ],
+  "unit": "pack",
+  "fallbackPriceDKK": 59
+ },
+ {
+  "key": "paint_roller_covers_2pack",
+  "name": "Rullebetræk (2-pak)",
+  "synonyms": [
+   "rullebetræk",
+   "roller cover",
+   "malerrulle betræk",
+   "rulle 2 pak",
+   "rullecover"
+  ],
+  "unit": "pack",
+  "fallbackPriceDKK": 89
+ },
+ {
+  "key": "paint_tray_liner_pack",
+  "name": "Malerbakke Indlæg",
+  "synonyms": [
+   "bakke indlæg",
+   "paint tray liner",
+   "malerbakke indlæg",
+   "bakke liner"
+  ],
+  "unit": "pack",
+  "fallbackPriceDKK": 49
+ },
+ {
+  "key": "brush_set_basic",
+  "name": "Penselsæt (Basis)",
+  "synonyms": [
+   "penselsæt",
+   "brush set",
+   "pensler",
+   "pensel pakke"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "gipsboard_13mm",
+  "name": "Gipsplade 13mm",
+  "synonyms": [
+   "gipsplade",
+   "gypsum board",
+   "drywall",
+   "gips 13mm",
+   "gipsplade 13 mm",
+   "standard gipsplade"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 89
+ },
+ {
+  "key": "moisture_resistant_gipsboard_13mm",
+  "name": "Vådrumsgips 13mm",
+  "synonyms": [
+   "vådrumsgips",
+   "green board",
+   "moisture resistant drywall",
+   "gips vådrum",
+   "fugtbestandig gips"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 139
+ },
+ {
+  "key": "metal_stud_70mm_3m",
+  "name": "Stålprofil 70mm (3m)",
+  "synonyms": [
+   "stålprofil",
+   "metal stud",
+   "gipsprofil",
+   "stålskinne",
+   "stål regel",
+   "profil 70mm"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "metal_track_70mm_3m",
+  "name": "Stålskinne 70mm (3m)",
+  "synonyms": [
+   "stålskinne",
+   "metal track",
+   "gips skinne",
+   "skinne 70mm",
+   "profil skinne"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 89
+ },
+ {
+  "key": "drywall_screws_3_5x35",
+  "name": "Gipsskruer 3.5x35 (Pakke)",
+  "synonyms": [
+   "gipsskruer",
+   "drywall screws",
+   "skruer til gips",
+   "3.5x35",
+   "gips skrue"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "wood_screws_4x50",
+  "name": "Træskruer 4x50 (Pakke)",
+  "synonyms": [
+   "træskruer",
+   "wood screws",
+   "4x50 skruer",
+   "skruer træ",
+   "spånskruer 4x50",
+   "4 x 50 skrue"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "wood_screws_5x80",
+  "name": "Træskruer 5x80 (Pakke)",
+  "synonyms": [
+   "træskruer 5x80",
+   "wood screws 5x80",
+   "5x80 skruer",
+   "skruer 5x80",
+   "spånskruer 5x80"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "wall_plugs_6mm",
+  "name": "Rawlplugs 6mm (Pakke)",
+  "synonyms": [
+   "rawlplugs",
+   "wall plugs",
+   "dyvler",
+   "plug 6mm",
+   "rawplug 6 mm",
+   "plast dyvel"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 59
+ },
+ {
+  "key": "wall_plugs_8mm",
+  "name": "Rawlplugs 8mm (Pakke)",
+  "synonyms": [
+   "rawlplugs 8mm",
+   "wall plugs 8mm",
+   "dyvler 8mm",
+   "plug 8mm",
+   "rawplug 8 mm"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 69
+ },
+ {
+  "key": "angle_brackets_pack",
+  "name": "Vinkelbeslag (Pakke)",
+  "synonyms": [
+   "vinkelbeslag",
+   "angle bracket",
+   "beslag",
+   "hjørnebeslag",
+   "vinkler beslag"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "wood_battens_45x45_3m",
+  "name": "Trælægte 45x45 (3m)",
+  "synonyms": [
+   "trælægte",
+   "lægte",
+   "wood batten",
+   "reglar",
+   "45x45",
+   "lægte 45x45"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 49
+ },
+ {
+  "key": "osb_board_12mm",
+  "name": "OSB Plade 12mm",
+  "synonyms": [
+   "osb",
+   "osb plade",
+   "osb board",
+   "byggeplade",
+   "osb 12mm",
+   "osb 12 mm"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 219
+ },
+ {
+  "key": "plywood_12mm",
+  "name": "Krydsfiner 12mm",
+  "synonyms": [
+   "krydsfiner",
+   "plywood",
+   "krydsfiner 12mm",
+   "finérplade",
+   "plywood 12 mm"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 249
+ },
+ {
+  "key": "skirting_board_mdf_12x58",
+  "name": "Gulvlist MDF 12x58 (2.4m)",
+  "synonyms": [
+   "gulvlist",
+   "skirting",
+   "fodliste",
+   "mdf liste",
+   "liste gulv",
+   "gulv lister"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "architrave_mdf_12x58",
+  "name": "Gerigt MDF (2.4m)",
+  "synonyms": [
+   "gerigt",
+   "architrave",
+   "dørgerigt",
+   "vinduesgerigt",
+   "mdf gerigt",
+   "indfatning"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 89
+ },
+ {
+  "key": "laminate_underlay_foam",
+  "name": "Underlag Skum 10m2",
+  "synonyms": [
+   "underlag",
+   "foam underlay",
+   "skumunderlag",
+   "underlag laminat",
+   "gulv underlag"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "vapor_barrier_foil_20m2",
+  "name": "Dampspærre (Folie) 20m2",
+  "synonyms": [
+   "dampspærre",
+   "vapor barrier",
+   "dampspaerre",
+   "folie gulv",
+   "plastfolie gulv"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "floor_transition_strip",
+  "name": "Overgangsprofil Gulv (1m)",
+  "synonyms": [
+   "overgangsprofil",
+   "transition strip",
+   "gulv overgang",
+   "overgangsliste",
+   "profil gulv"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "floor_screed_primer_1l",
+  "name": "Gulvprimer 1L",
+  "synonyms": [
+   "gulvprimer",
+   "primer gulv",
+   "floor primer",
+   "primer til gulvspartel"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "wood_putty",
+  "name": "Træspartel",
+  "synonyms": [
+   "træspartel",
+   "wood filler",
+   "spartel til træ",
+   "filler træ",
+   "træfiller"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 69
+ },
+ {
+  "key": "caulk_gun",
+  "name": "Fugepistol",
+  "synonyms": [
+   "fugepistol",
+   "caulk gun",
+   "patronpistol"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "work_gloves",
+  "name": "Arbejdshandsker",
+  "synonyms": [
+   "arbejdshandsker",
+   "work gloves",
+   "handsker",
+   "beskyttelseshandsker"
+  ],
+  "unit": "pair",
+  "fallbackPriceDKK": 49
+ },
+ {
+  "key": "dust_masks_pack",
+  "name": "Støvmaske (Pakke)",
+  "synonyms": [
+   "støvmaske",
+   "dust mask",
+   "maske støv",
+   "åndedrætsværn engangs"
+  ],
+  "unit": "pack",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "garbage_bags_heavy",
+  "name": "Affaldssække (Kraftige)",
+  "synonyms": [
+   "affaldssække",
+   "garbage bags",
+   "byggesække",
+   "affald poser",
+   "sække affald"
+  ],
+  "unit": "pack",
+  "fallbackPriceDKK": 69
+ },
+ {
+  "key": "cleaning_detergent",
+  "name": "Rengøringsmiddel",
+  "synonyms": [
+   "rengøringsmiddel",
+   "cleaner",
+   "detergent",
+   "rengøring",
+   "universal rengøring"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 49
+ },
+ {
+  "key": "degreaser",
+  "name": "Affedter",
+  "synonyms": [
+   "affedter",
+   "degreaser",
+   "affedtning",
+   "rens affedter"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 69
+ },
+ {
+  "key": "mold_remover",
+  "name": "Skimmelfjerner",
+  "synonyms": [
+   "skimmelfjerner",
+   "mold remover",
+   "skimmel rens",
+   "mugfjerner",
+   "skimmel"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 89
+ },
+ {
+  "key": "tile_cleaner",
+  "name": "Fliserens",
+  "synonyms": [
+   "fliserens",
+   "tile cleaner",
+   "rengøring fliser",
+   "cementslør fjerner",
+   "flise rens"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "grout_sealer",
+  "name": "Fugeforsegler",
+  "synonyms": [
+   "fugeforsegler",
+   "grout sealer",
+   "fuge sealer",
+   "imprægnering fuge"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 169
+ },
+ {
+  "key": "silicone_remover",
+  "name": "Silikonefjerner",
+  "synonyms": [
+   "silikonefjerner",
+   "silicone remover",
+   "fjerner silikone",
+   "rens silikone"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "expanding_foam",
+  "name": "Montageskum",
+  "synonyms": [
+   "montageskum",
+   "expanding foam",
+   "skum",
+   "byggeskum",
+   "skum patron"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 89
+ },
+ {
+  "key": "fire_foam",
+  "name": "Brandhæmmende Skum",
+  "synonyms": [
+   "brand skum",
+   "fire foam",
+   "brandhæmmende montageskum",
+   "brandklassificeret skum"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "insulation_batts_100mm",
+  "name": "Isolering 100mm",
+  "synonyms": [
+   "isolering",
+   "insulation",
+   "isolering bats",
+   "mineraluld",
+   "rockwool",
+   "glasuld",
+   "isolering 100mm"
+  ],
+  "unit": "m2",
+  "fallbackPriceDKK": 45
+ },
+ {
+  "key": "acoustic_sealant",
+  "name": "Akustikfuge",
+  "synonyms": [
+   "akustikfuge",
+   "acoustic sealant",
+   "lydfuge",
+   "fuge akustik"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 59
+ },
+ {
+  "key": "door_threshold",
+  "name": "Dørtærskel",
+  "synonyms": [
+   "dørtærskel",
+   "door threshold",
+   "tærskel",
+   "bundstykke dør"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "door_seal_strip",
+  "name": "Tætningsliste Dør",
+  "synonyms": [
+   "tætningsliste",
+   "seal strip",
+   "dør tætningsliste",
+   "liste tætning",
+   "draft excluder"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 69
+ },
+ {
+  "key": "window_sealant",
+  "name": "Fugemasse Vindue/Facade",
+  "synonyms": [
+   "fugemasse",
+   "facadefuge",
+   "window sealant",
+   "outdoor sealant",
+   "elastisk fugemasse",
+   "polymer fugemasse"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 89
+ },
+ {
+  "key": "plaster_repair_kit",
+  "name": "Reparationssæt (Væg)",
+  "synonyms": [
+   "reparationssæt",
+   "wall repair kit",
+   "hul i væg",
+   "patch kit",
+   "væg reparation"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "joint_tape_paper",
+  "name": "Samleband (Papir) 75m",
+  "synonyms": [
+   "samleband",
+   "joint tape",
+   "gips tape",
+   "papirtape gips",
+   "armeringsbånd gips"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 69
+ },
+ {
+  "key": "joint_tape_fiberglass",
+  "name": "Samleband (Glasfiber) 90m",
+  "synonyms": [
+   "glasfiber tape",
+   "fiberglass joint tape",
+   "gips tape glasfiber",
+   "armeringstape",
+   "samleband glasfiber"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "corner_bead_3m",
+  "name": "Hjørneprofil (3m)",
+  "synonyms": [
+   "hjørneprofil",
+   "corner bead",
+   "gips hjørne",
+   "hjørneliste gips"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 49
+ },
+ {
+  "key": "screed_edge_strip",
+  "name": "Kantbånd Gulv",
+  "synonyms": [
+   "kantbånd",
+   "edge strip",
+   "randbånd",
+   "gulv kantbånd"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 89
+ },
+ {
+  "key": "floor_silicone_joint",
+  "name": "Gulvfuge (Elastisk)",
+  "synonyms": [
+   "gulvfuge",
+   "elastic joint",
+   "elastisk fuge",
+   "fuge gulv",
+   "fugemasse gulv"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "tile_backer_board",
+  "name": "Byggeplade (Vådrum)",
+  "synonyms": [
+   "byggeplade",
+   "tile backer board",
+   "vådrumsplade",
+   "cementplade",
+   "construction board"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 299
+ },
+ {
+  "key": "screws_for_backer_board",
+  "name": "Skruer til Byggeplade (Pakke)",
+  "synonyms": [
+   "skruer byggeplade",
+   "backer board screws",
+   "cement board screws",
+   "skruer cementplade"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 119
+ },
+ {
+  "key": "floor_drain",
+  "name": "Gulvafløb",
+  "synonyms": [
+   "gulvafløb",
+   "floor drain",
+   "afløb gulv",
+   "vådrumsafløb"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 399
+ },
+ {
+  "key": "waste_container_small",
+  "name": "Affald (Småmængder)",
+  "synonyms": [
+   "affald",
+   "bortskaffelse",
+   "waste disposal",
+   "deponi",
+   "container affald",
+   "kørselsaffald"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 450
+ },
+ {
+  "key": "tile_10x10_basic",
+  "name": "Fliser Basic (pr m2)",
+  "synonyms": [
+   "fliser",
+   "tiles",
+   "flise",
+   "keramiske fliser",
+   "wall tiles",
+   "floor tiles",
+   "fliser pr m2"
+  ],
+  "unit": "m2",
+  "fallbackPriceDKK": 299
+ },
+ {
+  "key": "tile_30x60_basic",
+  "name": "Fliser 30x60 Basic (pr m2)",
+  "synonyms": [
+   "fliser 30x60",
+   "tiles 30x60",
+   "gulvfliser 30x60",
+   "vægfliser 30x60",
+   "fliser pr m2 30x60"
+  ],
+  "unit": "m2",
+  "fallbackPriceDKK": 349
+ },
+ {
+  "key": "tile_60x60_basic",
+  "name": "Fliser 60x60 Basic (pr m2)",
+  "synonyms": [
+   "fliser 60x60",
+   "tiles 60x60",
+   "gulvfliser 60x60",
+   "fliser pr m2 60x60"
+  ],
+  "unit": "m2",
+  "fallbackPriceDKK": 399
+ },
+ {
+  "key": "tile_cutting_discs_pack",
+  "name": "Skæreskiver (Pakke)",
+  "synonyms": [
+   "skæreskiver",
+   "cutting discs",
+   "klinge",
+   "diamantskive",
+   "skive til fliser"
+  ],
+  "unit": "pack",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "electrical_cable_3g1_5_m",
+  "name": "Elkabel 3G1.5 (pr m)",
+  "synonyms": [
+   "elkabel 3g1.5",
+   "kabel 3g1.5",
+   "installation cable 3g1.5",
+   "ledning 3g1.5",
+   "3g1.5 kabel"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 18
+ },
+ {
+  "key": "electrical_cable_3g2_5_m",
+  "name": "Elkabel 3G2.5 (pr m)",
+  "synonyms": [
+   "elkabel 3g2.5",
+   "kabel 3g2.5",
+   "installation cable 3g2.5",
+   "ledning 3g2.5",
+   "3g2.5 kabel"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 28
+ },
+ {
+  "key": "electrical_flex_conduit_16mm_m",
+  "name": "Flexrør 16mm (pr m)",
+  "synonyms": [
+   "flexrør 16mm",
+   "flex roer 16",
+   "corrugated conduit 16mm",
+   "kabelrør 16mm",
+   "flexslange 16mm"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 8
+ },
+ {
+  "key": "electrical_flex_conduit_20mm_m",
+  "name": "Flexrør 20mm (pr m)",
+  "synonyms": [
+   "flexrør 20mm",
+   "flex roer 20",
+   "corrugated conduit 20mm",
+   "kabelrør 20mm",
+   "flexslange 20mm"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 11
+ },
+ {
+  "key": "junction_box",
+  "name": "Samledåse",
+  "synonyms": [
+   "samledåse",
+   "junction box",
+   "dåse samling",
+   "el samledåse",
+   "forgreningsdåse"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 35
+ },
+ {
+  "key": "wall_socket_single",
+  "name": "Stikkontakt (1x)",
+  "synonyms": [
+   "stikkontakt",
+   "wall socket",
+   "stik",
+   "stikkontakt enkelt",
+   "stikkontakt 1",
+   "kontakt stik"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "wall_socket_double",
+  "name": "Stikkontakt (2x)",
+  "synonyms": [
+   "dobbelt stikkontakt",
+   "double wall socket",
+   "stikkontakt dobbelt",
+   "stik dobbelt",
+   "stikkontakt 2"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "light_switch_single",
+  "name": "Afbryder (1x)",
+  "synonyms": [
+   "afbryder",
+   "light switch",
+   "kontakt",
+   "afbryder enkelt",
+   "stikkontakt afbryder",
+   "tænd sluk"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 89
+ },
+ {
+  "key": "light_switch_double",
+  "name": "Afbryder (2x)",
+  "synonyms": [
+   "dobbelt afbryder",
+   "double light switch",
+   "afbryder dobbelt",
+   "kontakt dobbelt",
+   "tænd sluk dobbelt"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "dimmer_switch",
+  "name": "Lysdæmper",
+  "synonyms": [
+   "lysdæmper",
+   "dimmer",
+   "dimmer switch",
+   "dæmper",
+   "lys dæmper"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 249
+ },
+ {
+  "key": "ceiling_light_outlet",
+  "name": "Lampeudtag Loft",
+  "synonyms": [
+   "lampeudtag",
+   "ceiling outlet",
+   "loftudtag",
+   "lamp outlet",
+   "udtag lampe"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "installation_box_green",
+  "name": "Installationsdåse (Indmuringsdåse)",
+  "synonyms": [
+   "installationsdåse",
+   "indmuringsdåse",
+   "dåse indmur",
+   "wall box",
+   "el dåse"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 25
+ },
+ {
+  "key": "installation_box_hollow_wall",
+  "name": "Installationsdåse (Gips)",
+  "synonyms": [
+   "gipsdåse",
+   "hollow wall box",
+   "installationsdåse gips",
+   "dåse gips",
+   "hulmur dåse"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 29
+ },
+ {
+  "key": "wago_connectors_10pack",
+  "name": "WAGO Samlemuffer (10-pak)",
+  "synonyms": [
+   "wago",
+   "samlemuffer",
+   "wire connectors",
+   "kabelklemmer",
+   "klemrække",
+   "wago 221",
+   "wago 10 pak"
+  ],
+  "unit": "pack",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "terminal_block",
+  "name": "Klemrække",
+  "synonyms": [
+   "klemrække",
+   "terminal block",
+   "klemmer",
+   "klemmerække",
+   "kabel klemrække"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 25
+ },
+ {
+  "key": "cable_ties_pack",
+  "name": "Kabelbindere (Pakke)",
+  "synonyms": [
+   "kabelbindere",
+   "cable ties",
+   "strips",
+   "strip",
+   "zip ties",
+   "kabel strips"
+  ],
+  "unit": "pack",
+  "fallbackPriceDKK": 39
+ },
+ {
+  "key": "electrical_tape",
+  "name": "Isoleringstape",
+  "synonyms": [
+   "isoleringstape",
+   "electrical tape",
+   "el tape",
+   "isoler tape",
+   "tape el"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 25
+ },
+ {
+  "key": "surface_trunking_2m",
+  "name": "Kabelkanal (2m)",
+  "synonyms": [
+   "kabelkanal",
+   "cable trunking",
+   "kabel kanal",
+   "kanal kabel",
+   "ledning kanal"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 49
+ },
+ {
+  "key": "rj45_data_socket",
+  "name": "Netværksudtag RJ45",
+  "synonyms": [
+   "rj45",
+   "netværksudtag",
+   "dataudtag",
+   "ethernet outlet",
+   "lan udtag"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "coax_antenna_socket",
+  "name": "Antenneudtag (Coax)",
+  "synonyms": [
+   "antenneudtag",
+   "coax socket",
+   "tv udtag",
+   "coax outlet",
+   "antenne udtag"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "led_spotlight",
+  "name": "LED Spot (indbygning)",
+  "synonyms": [
+   "led spot",
+   "downlight",
+   "spot indbygning",
+   "indbygningsspot",
+   "spotlight led"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "led_driver",
+  "name": "LED Driver",
+  "synonyms": [
+   "led driver",
+   "driver til led",
+   "transformer led",
+   "led transformer",
+   "strømforsyning led"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 249
+ },
+ {
+  "key": "pex_pipe_15_m",
+  "name": "PEX rør 15mm (pr m)",
+  "synonyms": [
+   "pex 15",
+   "pex rør 15mm",
+   "pex pipe 15",
+   "15mm pex",
+   "pexslange 15"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 18
+ },
+ {
+  "key": "pex_pipe_20_m",
+  "name": "PEX rør 20mm (pr m)",
+  "synonyms": [
+   "pex 20",
+   "pex rør 20mm",
+   "pex pipe 20",
+   "20mm pex",
+   "pexslange 20"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 28
+ },
+ {
+  "key": "multilayer_pipe_16_m",
+  "name": "AluPEX 16mm (pr m)",
+  "synonyms": [
+   "alupex 16",
+   "multilayer pipe 16",
+   "alu pex 16",
+   "16mm alupeks",
+   "kompositrør 16"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 32
+ },
+ {
+  "key": "multilayer_pipe_20_m",
+  "name": "AluPEX 20mm (pr m)",
+  "synonyms": [
+   "alupex 20",
+   "multilayer pipe 20",
+   "alu pex 20",
+   "20mm alupeks",
+   "kompositrør 20"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 45
+ },
+ {
+  "key": "copper_pipe_15_m",
+  "name": "Kobberrør 15mm (pr m)",
+  "synonyms": [
+   "kobberrør 15",
+   "copper pipe 15",
+   "15mm kobber",
+   "cu rør 15mm"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 75
+ },
+ {
+  "key": "copper_pipe_22_m",
+  "name": "Kobberrør 22mm (pr m)",
+  "synonyms": [
+   "kobberrør 22",
+   "copper pipe 22",
+   "22mm kobber",
+   "cu rør 22mm"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 115
+ },
+ {
+  "key": "pvc_waste_pipe_32_m",
+  "name": "Afløbsrør PVC 32mm (pr m)",
+  "synonyms": [
+   "afløbsrør 32",
+   "pvc pipe 32",
+   "waste pipe 32mm",
+   "32mm afløb",
+   "pvc afløb 32"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 22
+ },
+ {
+  "key": "pvc_waste_pipe_40_m",
+  "name": "Afløbsrør PVC 40mm (pr m)",
+  "synonyms": [
+   "afløbsrør 40",
+   "pvc pipe 40",
+   "waste pipe 40mm",
+   "40mm afløb",
+   "pvc afløb 40"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 28
+ },
+ {
+  "key": "pvc_waste_pipe_50_m",
+  "name": "Afløbsrør PVC 50mm (pr m)",
+  "synonyms": [
+   "afløbsrør 50",
+   "pvc pipe 50",
+   "waste pipe 50mm",
+   "50mm afløb",
+   "pvc afløb 50"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 38
+ },
+ {
+  "key": "pvc_waste_pipe_75_m",
+  "name": "Afløbsrør PVC 75mm (pr m)",
+  "synonyms": [
+   "afløbsrør 75",
+   "pvc pipe 75",
+   "waste pipe 75mm",
+   "75mm afløb",
+   "pvc afløb 75"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 65
+ },
+ {
+  "key": "pvc_waste_pipe_110_m",
+  "name": "Afløbsrør PVC 110mm (pr m)",
+  "synonyms": [
+   "afløbsrør 110",
+   "pvc pipe 110",
+   "waste pipe 110mm",
+   "110mm afløb",
+   "pvc afløb 110"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 115
+ },
+ {
+  "key": "pex_elbow_15",
+  "name": "PEX bøjning 15mm",
+  "synonyms": [
+   "pex bøjning 15",
+   "pex elbow 15",
+   "15mm pex vinkel",
+   "pex vinkel 15"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 25
+ },
+ {
+  "key": "pex_elbow_20",
+  "name": "PEX bøjning 20mm",
+  "synonyms": [
+   "pex bøjning 20",
+   "pex elbow 20",
+   "20mm pex vinkel",
+   "pex vinkel 20"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 35
+ },
+ {
+  "key": "pex_tee_15",
+  "name": "PEX T-stykke 15mm",
+  "synonyms": [
+   "pex t-stykke 15",
+   "pex tee 15",
+   "t-stykke pex 15",
+   "15mm pex tee"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 39
+ },
+ {
+  "key": "pex_tee_20",
+  "name": "PEX T-stykke 20mm",
+  "synonyms": [
+   "pex t-stykke 20",
+   "pex tee 20",
+   "t-stykke pex 20",
+   "20mm pex tee"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 55
+ },
+ {
+  "key": "pex_coupler_15",
+  "name": "PEX samlemuffe 15mm",
+  "synonyms": [
+   "pex samlemuffe 15",
+   "pex coupler 15",
+   "muffe pex 15",
+   "samling pex 15"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 29
+ },
+ {
+  "key": "pex_coupler_20",
+  "name": "PEX samlemuffe 20mm",
+  "synonyms": [
+   "pex samlemuffe 20",
+   "pex coupler 20",
+   "muffe pex 20",
+   "samling pex 20"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 39
+ },
+ {
+  "key": "alupex_press_elbow_16",
+  "name": "AluPEX presbøjning 16mm",
+  "synonyms": [
+   "alupex presbøjning 16",
+   "press elbow 16",
+   "komposit pres vinkel 16",
+   "alupex vinkel 16"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 55
+ },
+ {
+  "key": "alupex_press_tee_16",
+  "name": "AluPEX pres T-stykke 16mm",
+  "synonyms": [
+   "alupex pres tee 16",
+   "press tee 16",
+   "alupex t-stykke 16",
+   "komposit tee 16"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "alupex_press_coupler_16",
+  "name": "AluPEX presmuffe 16mm",
+  "synonyms": [
+   "alupex presmuffe 16",
+   "press coupler 16",
+   "alupex samlemuffe 16",
+   "komposit muffe 16"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 65
+ },
+ {
+  "key": "copper_elbow_15",
+  "name": "Kobber bøjning 15mm",
+  "synonyms": [
+   "kobber bøjning 15",
+   "copper elbow 15",
+   "cu vinkel 15",
+   "15mm kobber vinkel"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 19
+ },
+ {
+  "key": "copper_tee_15",
+  "name": "Kobber T-stykke 15mm",
+  "synonyms": [
+   "kobber tee 15",
+   "copper tee 15",
+   "cu t-stykke 15",
+   "15mm kobber tee"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 29
+ },
+ {
+  "key": "copper_coupler_15",
+  "name": "Kobber samlemuffe 15mm",
+  "synonyms": [
+   "kobber muffe 15",
+   "copper coupler 15",
+   "cu muffe 15",
+   "samlemuffe kobber 15"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 15
+ },
+ {
+  "key": "pvc_elbow_32",
+  "name": "PVC bøjning 32mm",
+  "synonyms": [
+   "pvc bøjning 32",
+   "waste elbow 32",
+   "afløbsbøjning 32",
+   "elbow pvc 32"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 25
+ },
+ {
+  "key": "pvc_elbow_40",
+  "name": "PVC bøjning 40mm",
+  "synonyms": [
+   "pvc bøjning 40",
+   "waste elbow 40",
+   "afløbsbøjning 40",
+   "elbow pvc 40"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 29
+ },
+ {
+  "key": "pvc_elbow_50",
+  "name": "PVC bøjning 50mm",
+  "synonyms": [
+   "pvc bøjning 50",
+   "waste elbow 50",
+   "afløbsbøjning 50",
+   "elbow pvc 50"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 39
+ },
+ {
+  "key": "pvc_tee_32",
+  "name": "PVC T-stykke 32mm",
+  "synonyms": [
+   "pvc tee 32",
+   "waste tee 32",
+   "afløbs tee 32",
+   "t-stykke pvc 32"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 35
+ },
+ {
+  "key": "pvc_tee_40",
+  "name": "PVC T-stykke 40mm",
+  "synonyms": [
+   "pvc tee 40",
+   "waste tee 40",
+   "afløbs tee 40",
+   "t-stykke pvc 40"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 39
+ },
+ {
+  "key": "pvc_tee_50",
+  "name": "PVC T-stykke 50mm",
+  "synonyms": [
+   "pvc tee 50",
+   "waste tee 50",
+   "afløbs tee 50",
+   "t-stykke pvc 50"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 49
+ },
+ {
+  "key": "pvc_coupler_32",
+  "name": "PVC samlemuffe 32mm",
+  "synonyms": [
+   "pvc muffe 32",
+   "coupler pvc 32",
+   "samlemuffe afløb 32",
+   "pvc samling 32"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 19
+ },
+ {
+  "key": "pvc_coupler_40",
+  "name": "PVC samlemuffe 40mm",
+  "synonyms": [
+   "pvc muffe 40",
+   "coupler pvc 40",
+   "samlemuffe afløb 40",
+   "pvc samling 40"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 22
+ },
+ {
+  "key": "pvc_coupler_50",
+  "name": "PVC samlemuffe 50mm",
+  "synonyms": [
+   "pvc muffe 50",
+   "coupler pvc 50",
+   "samlemuffe afløb 50",
+   "pvc samling 50"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 29
+ },
+ {
+  "key": "pvc_reducer_50_40",
+  "name": "PVC reduktion 50-40mm",
+  "synonyms": [
+   "pvc reduktion",
+   "reducer 50 40",
+   "reduktion afløb 50 40",
+   "pvc overgang 50 til 40"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 29
+ },
+ {
+  "key": "pvc_reducer_40_32",
+  "name": "PVC reduktion 40-32mm",
+  "synonyms": [
+   "reducer 40 32",
+   "reduktion afløb 40 32",
+   "pvc overgang 40 til 32",
+   "pvc reduktion 40-32"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 25
+ },
+ {
+  "key": "pvc_glue_250ml",
+  "name": "PVC Lim 250ml",
+  "synonyms": [
+   "pvc lim",
+   "pvc glue",
+   "lim til pvc",
+   "afløbslim",
+   "pvc cement"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "pvc_cleaner_250ml",
+  "name": "PVC Rens 250ml",
+  "synonyms": [
+   "pvc rens",
+   "pvc cleaner",
+   "rens pvc",
+   "cleaner pvc",
+   "primer pvc"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 109
+ },
+ {
+  "key": "ptfe_tape",
+  "name": "PTFE Tape",
+  "synonyms": [
+   "ptfe tape",
+   "gevindtape",
+   "teflon tape",
+   "tape gevind",
+   "thread seal tape"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 25
+ },
+ {
+  "key": "plumbing_hemp",
+  "name": "Pakgarn",
+  "synonyms": [
+   "pakgarn",
+   "hemp",
+   "plumbing hemp",
+   "gevindgarn",
+   "hamp pakning"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 39
+ },
+ {
+  "key": "thread_seal_paste",
+  "name": "Gevindpasta",
+  "synonyms": [
+   "gevindpasta",
+   "thread seal paste",
+   "pasta gevind",
+   "pakpasta",
+   "seal paste"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 59
+ },
+ {
+  "key": "pipe_insulation_15mm_m",
+  "name": "Rørskål 15mm (pr m)",
+  "synonyms": [
+   "rørskål 15",
+   "pipe insulation 15",
+   "isolering rør 15mm",
+   "rørisolering 15"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 18
+ },
+ {
+  "key": "pipe_insulation_22mm_m",
+  "name": "Rørskål 22mm (pr m)",
+  "synonyms": [
+   "rørskål 22",
+   "pipe insulation 22",
+   "isolering rør 22mm",
+   "rørisolering 22"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 22
+ },
+ {
+  "key": "pipe_clamp_15",
+  "name": "Rørbærer 15mm",
+  "synonyms": [
+   "rørbærer 15",
+   "pipe clamp 15",
+   "rørholder 15",
+   "klammer rør 15"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 9
+ },
+ {
+  "key": "pipe_clamp_22",
+  "name": "Rørbærer 22mm",
+  "synonyms": [
+   "rørbærer 22",
+   "pipe clamp 22",
+   "rørholder 22",
+   "klammer rør 22"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 12
+ },
+ {
+  "key": "pipe_clamp_32",
+  "name": "Rørbærer 32mm",
+  "synonyms": [
+   "rørbærer 32",
+   "pipe clamp 32",
+   "rørholder 32",
+   "klammer rør 32"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 15
+ },
+ {
+  "key": "ball_valve_1_2",
+  "name": "Kuglehane 1/2\"",
+  "synonyms": [
+   "kuglehane",
+   "ball valve",
+   "afspærringsventil 1/2",
+   "stopventil",
+   "lukkeventil"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 89
+ },
+ {
+  "key": "ball_valve_3_4",
+  "name": "Kuglehane 3/4\"",
+  "synonyms": [
+   "kuglehane 3/4",
+   "ball valve 3/4",
+   "afspærringsventil 3/4",
+   "stopventil 3/4"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 109
+ },
+ {
+  "key": "angle_stop_valve_3_8",
+  "name": "Vinkelventil 3/8\"",
+  "synonyms": [
+   "vinkelventil",
+   "angle stop valve",
+   "stopventil vinkel",
+   "afspærringsventil vask"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "check_valve_1_2",
+  "name": "Kontraventil 1/2\"",
+  "synonyms": [
+   "kontraventil",
+   "check valve",
+   "tilbagestrømningsventil",
+   "non return valve"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "pressure_reducer_1_2",
+  "name": "Trykreduktionsventil 1/2\"",
+  "synonyms": [
+   "trykreduktionsventil",
+   "pressure reducer",
+   "trykreducering",
+   "tryk regulator vand"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 499
+ },
+ {
+  "key": "flex_hose_3_8_40cm",
+  "name": "Flexslange 3/8\" 40cm",
+  "synonyms": [
+   "flexslange",
+   "flex hose",
+   "tilslutningsslange",
+   "slange armatur",
+   "3/8 flexslange 40cm"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "flex_hose_3_8_60cm",
+  "name": "Flexslange 3/8\" 60cm",
+  "synonyms": [
+   "flexslange 60",
+   "flex hose 60cm",
+   "tilslutningsslange 60",
+   "3/8 flexslange 60cm"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 89
+ },
+ {
+  "key": "flex_hose_1_2_60cm",
+  "name": "Flexslange 1/2\" 60cm",
+  "synonyms": [
+   "flexslange 1/2",
+   "flex hose 1/2",
+   "tilslutningsslange 1/2",
+   "1/2 flexslange 60cm"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "water_hammer_arrester",
+  "name": "Vandslagdæmper",
+  "synonyms": [
+   "vandslagdæmper",
+   "water hammer arrester",
+   "støddæmper vand",
+   "slag dæmper"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 249
+ },
+ {
+  "key": "sink_trap_32",
+  "name": "Vandlås 32mm (Vask)",
+  "synonyms": [
+   "vandlås",
+   "sink trap",
+   "p-trap",
+   "vandlaas",
+   "vandlås 32",
+   "afløb vandlås vask"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "sink_trap_40",
+  "name": "Vandlås 40mm (Vask)",
+  "synonyms": [
+   "vandlås 40",
+   "sink trap 40",
+   "p-trap 40",
+   "vandlås køkken",
+   "vandlås 40mm"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "bottle_trap",
+  "name": "Flaskevandlås",
+  "synonyms": [
+   "flaskevandlås",
+   "bottle trap",
+   "vandlås flaske",
+   "flaske laas"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "sink_waste_1_1_4",
+  "name": "Afløbssæt Vask 1 1/4\"",
+  "synonyms": [
+   "afløbssæt vask",
+   "sink waste",
+   "bundventil",
+   "vask afløb",
+   "waste set sink"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "sink_waste_pop_up",
+  "name": "Bundventil Pop-up",
+  "synonyms": [
+   "bundventil pop up",
+   "pop up waste",
+   "pop-up bundventil",
+   "bundventil med løftestang"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "kitchen_sink_strainer",
+  "name": "Køkkenvask Afløbskurv",
+  "synonyms": [
+   "afløbskurv",
+   "sink strainer",
+   "kurvventil",
+   "køkkenvask afløb",
+   "strainer kitchen sink"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 249
+ },
+ {
+  "key": "floor_drain_standard",
+  "name": "Gulvafløb Standard",
+  "synonyms": [
+   "gulvafløb",
+   "floor drain",
+   "afløb gulv",
+   "vådrumsafløb",
+   "bad gulvafløb"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 399
+ },
+ {
+  "key": "shower_channel_drain",
+  "name": "Afløbsrende (Brusezone)",
+  "synonyms": [
+   "afløbsrende",
+   "shower channel drain",
+   "bruserende",
+   "linjeafløb",
+   "rende afløb"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 1299
+ },
+ {
+  "key": "floor_drain_compatible_collars",
+  "name": "Afløbsmanchet (VVS/Vådrum)",
+  "synonyms": [
+   "afløbsmanchet",
+   "drain collar",
+   "tætningsmanchet afløb",
+   "manchet gulvafløb"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 89
+ },
+ {
+  "key": "pipe_collar_vvs",
+  "name": "Rørmanchet (VVS/Vådrum)",
+  "synonyms": [
+   "rørmanchet",
+   "pipe collar",
+   "tætningsmanchet rør",
+   "manchet rør",
+   "vådrumsmanchet rør"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 49
+ },
+ {
+  "key": "toilet_fill_valve",
+  "name": "WC Påfyldningsventil",
+  "synonyms": [
+   "påfyldningsventil",
+   "fill valve",
+   "wc ventil",
+   "cistern vent",
+   "toilet fill valve"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 179
+ },
+ {
+  "key": "toilet_flush_valve",
+  "name": "WC Skylleventil",
+  "synonyms": [
+   "skylleventil",
+   "flush valve",
+   "wc skyl",
+   "toilet flush valve",
+   "cistern flush valve"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 229
+ },
+ {
+  "key": "toilet_flush_button",
+  "name": "WC Trykknap",
+  "synonyms": [
+   "trykknap wc",
+   "flush button",
+   "wc knap",
+   "cistern button",
+   "toilet button"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "toilet_seat_standard",
+  "name": "Toiletsæde Standard",
+  "synonyms": [
+   "toiletsæde",
+   "toilet seat",
+   "wc sæde",
+   "toiletbræt",
+   "wc bræt"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 299
+ },
+ {
+  "key": "toilet_connector_flex",
+  "name": "WC Tilslutningsslange",
+  "synonyms": [
+   "wc tilslutningsslange",
+   "toilet connector",
+   "tilslutning wc",
+   "flex wc",
+   "wc slange"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "wash_basin_faucet_basic",
+  "name": "Håndvaskarmatur Basic",
+  "synonyms": [
+   "håndvaskarmatur",
+   "faucet basin",
+   "armatur vask",
+   "vandhane håndvask",
+   "mixer tap basin"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 799
+ },
+ {
+  "key": "kitchen_faucet_basic",
+  "name": "Køkkenarmatur Basic",
+  "synonyms": [
+   "køkkenarmatur",
+   "kitchen faucet",
+   "armatur køkken",
+   "vandhane køkken",
+   "mixer tap kitchen"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 1199
+ },
+ {
+  "key": "shower_mixer_basic",
+  "name": "Brusearmatur Basic",
+  "synonyms": [
+   "brusearmatur",
+   "shower mixer",
+   "armatur bruser",
+   "vandhane bruser",
+   "mixer shower"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 1399
+ },
+ {
+  "key": "shower_set_basic",
+  "name": "Brusersæt (Slange + Bruser)",
+  "synonyms": [
+   "brusersæt",
+   "shower set",
+   "bruserslange",
+   "håndbruser",
+   "bruser slange sæt"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 499
+ },
+ {
+  "key": "shower_hose_150cm",
+  "name": "Bruserslange 150cm",
+  "synonyms": [
+   "bruserslange",
+   "shower hose",
+   "slange bruser",
+   "bruserslange 150",
+   "slange 150cm bruser"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 159
+ },
+ {
+  "key": "shower_head_handheld",
+  "name": "Håndbruser",
+  "synonyms": [
+   "håndbruser",
+   "hand shower",
+   "brusehoved",
+   "shower head handheld",
+   "bruser hånd"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "radiator_valve_thermostatic",
+  "name": "Termostatventil Radiator",
+  "synonyms": [
+   "termostatventil",
+   "thermostatic valve",
+   "radiator ventil",
+   "radiator termostat ventil"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 299
+ },
+ {
+  "key": "radiator_thermostat_head",
+  "name": "Radiatortermostat",
+  "synonyms": [
+   "radiatortermostat",
+   "thermostat head",
+   "radiator termostat",
+   "termostathoved radiator"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 249
+ },
+ {
+  "key": "silicone_sanitary_white_vvs",
+  "name": "Sanitetssilikone (VVS) Hvid",
+  "synonyms": [
+   "sanitetssilikone",
+   "silikone vådrum",
+   "bathroom silicone",
+   "sealant sanitary",
+   "silikone hvid bad"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 69
+ },
+ {
+  "key": "plumbers_putty",
+  "name": "Sanitetskit / Tætningskit",
+  "synonyms": [
+   "sanitetskit",
+   "plumbers putty",
+   "tætningskit",
+   "kit til afløb",
+   "putty"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 59
+ },
+ {
+  "key": "rubber_gasket_set",
+  "name": "Gummipakninger (Sæt)",
+  "synonyms": [
+   "gummipakninger",
+   "rubber gasket",
+   "pakning sæt",
+   "o-ring sæt",
+   "pakninger vvs"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "o_ring_set",
+  "name": "O-ring (Sæt)",
+  "synonyms": [
+   "o-ring",
+   "o ring",
+   "o-ring sæt",
+   "oring set",
+   "pakning o ring"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 69
+ },
+ {
+  "key": "water_leak_detector",
+  "name": "Vandlækagealarm",
+  "synonyms": [
+   "vandlækagealarm",
+   "leak detector",
+   "vandalarm",
+   "vand sensor",
+   "leak sensor"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "vvs_service_small_parts",
+  "name": "Smådele VVS (diverse)",
+  "synonyms": [
+   "smådele vvs",
+   "diverse fittings",
+   "misc plumbing parts",
+   "diverse pakninger",
+   "småting vvs"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 150
+ },
+ {
+  "key": "kitchen_install_001",
+  "name": "Skruer Træ 4x40 (Køkken) (box)",
+  "synonyms": [
+   "træskruer 4x40",
+   "wood screws 4x40",
+   "skruer 4x40",
+   "køkkenskruer 4x40"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "kitchen_install_002",
+  "name": "Skruer Træ 4x50 (Køkken) (box)",
+  "synonyms": [
+   "træskruer 4x50",
+   "wood screws 4x50",
+   "skruer 4x50",
+   "køkkenskruer 4x50"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "kitchen_install_003",
+  "name": "Skruer Træ 5x60 (Køkken) (box)",
+  "synonyms": [
+   "træskruer 5x60",
+   "wood screws 5x60",
+   "skruer 5x60",
+   "spånskruer 5x60"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "kitchen_install_004",
+  "name": "Skruer Træ 5x80 (box)",
+  "synonyms": [
+   "træskruer 5x80",
+   "wood screws 5x80",
+   "skruer 5x80",
+   "spånskruer 5x80"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "kitchen_install_005",
+  "name": "Spånpladeskruer 4x16 (box)",
+  "synonyms": [
+   "spånpladeskruer 4x16",
+   "chipboard screws 4x16",
+   "skruer 4x16",
+   "beslagsskruer 4x16"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 69
+ },
+ {
+  "key": "kitchen_install_006",
+  "name": "Spånpladeskruer 4x30 (box)",
+  "synonyms": [
+   "spånpladeskruer 4x30",
+   "chipboard screws 4x30",
+   "skruer 4x30",
+   "monteringsskruer 4x30"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 69
+ },
+ {
+  "key": "kitchen_install_007",
+  "name": "Gipsskruer 3.5x35 (box)",
+  "synonyms": [
+   "gipsskruer 3.5x35",
+   "drywall screws 3.5x35",
+   "skruer til gips 35mm"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "kitchen_install_008",
+  "name": "Betonskruer 7.5x60 (box)",
+  "synonyms": [
+   "betonskruer",
+   "concrete screws 7.5x60",
+   "skruer beton",
+   "murskruer 7.5x60"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "kitchen_install_009",
+  "name": "Montageskruer til skabsmontering (box)",
+  "synonyms": [
+   "montageskruer",
+   "cabinet screws",
+   "skabsskruer",
+   "skruer til korpus"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "kitchen_install_010",
+  "name": "Skruer til greb/håndtag (box)",
+  "synonyms": [
+   "skruer til greb",
+   "handle screws",
+   "grebsskruer",
+   "håndtagsskruer"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 59
+ },
+ {
+  "key": "kitchen_install_011",
+  "name": "Rawlplugs 6mm (box)",
+  "synonyms": [
+   "rawlplugs 6mm",
+   "wall plugs 6mm",
+   "dyvler 6mm",
+   "plug 6mm"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 59
+ },
+ {
+  "key": "kitchen_install_012",
+  "name": "Rawlplugs 8mm (box)",
+  "synonyms": [
+   "rawlplugs 8mm",
+   "wall plugs 8mm",
+   "dyvler 8mm",
+   "plug 8mm"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 69
+ },
+ {
+  "key": "kitchen_install_013",
+  "name": "Hulmursplugs til gips (box)",
+  "synonyms": [
+   "hulmursplugs",
+   "gipsplugs",
+   "hollow wall anchors",
+   "molly plugs",
+   "gips ankre"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "kitchen_install_014",
+  "name": "Kemisk anker (patron)",
+  "synonyms": [
+   "kemisk anker",
+   "chemical anchor",
+   "ankerpatron",
+   "limanker"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "kitchen_install_015",
+  "name": "Gevindstænger M8 (sæt)",
+  "synonyms": [
+   "gevindstang m8",
+   "threaded rod m8",
+   "gevindstænger",
+   "stanggevind"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "kitchen_install_016",
+  "name": "Vinkelbeslag Standard (box)",
+  "synonyms": [
+   "vinkelbeslag",
+   "angle brackets",
+   "hjørnebeslag",
+   "beslag vinkel"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "kitchen_install_017",
+  "name": "Forstærkningsbeslag Kraftig (box)",
+  "synonyms": [
+   "forstærkningsbeslag",
+   "heavy duty bracket",
+   "stærke beslag",
+   "beslag kraftig"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "kitchen_install_018",
+  "name": "Ophængsbeslag til overskab (set)",
+  "synonyms": [
+   "ophængsbeslag",
+   "wall cabinet hanger",
+   "beslag overskab",
+   "ophæng overskab"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "kitchen_install_019",
+  "name": "Monteringsskinne til overskabe (2m)",
+  "synonyms": [
+   "monteringsskinne",
+   "cabinet rail",
+   "ophængsskinne",
+   "skinne overskab"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "kitchen_install_020",
+  "name": "Vægskinne til højskab (2m)",
+  "synonyms": [
+   "vægskinne højskab",
+   "tall cabinet rail",
+   "skinne højskab",
+   "ophæng højskab"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 179
+ },
+ {
+  "key": "kitchen_install_021",
+  "name": "Hængsel Soft-close (pcs)",
+  "synonyms": [
+   "hængsel soft close",
+   "soft close hinge",
+   "skabshængsel",
+   "køkkenhængsel"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 49
+ },
+ {
+  "key": "kitchen_install_022",
+  "name": "Hængsel Standard (pcs)",
+  "synonyms": [
+   "hængsel",
+   "hinge",
+   "skabshængsel standard",
+   "køkkenhængsel standard"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 29
+ },
+ {
+  "key": "kitchen_install_023",
+  "name": "Hængsel 155° (pcs)",
+  "synonyms": [
+   "hængsel 155",
+   "wide angle hinge",
+   "hængsel bred vinkel",
+   "køkkenhængsel 155"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 69
+ },
+ {
+  "key": "kitchen_install_024",
+  "name": "Hængsel 110° (pcs)",
+  "synonyms": [
+   "hængsel 110",
+   "hinge 110",
+   "standard køkkenhængsel 110"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 49
+ },
+ {
+  "key": "kitchen_install_025",
+  "name": "Hængsel til integreret låge (pcs)",
+  "synonyms": [
+   "hængsel integreret",
+   "integrated door hinge",
+   "integreret låge hængsel",
+   "hængsel til integreret køleskab"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "kitchen_install_026",
+  "name": "Hængselplader/monteringsplader (box)",
+  "synonyms": [
+   "monteringsplader hængsel",
+   "hinge mounting plates",
+   "hængselplader",
+   "adapterplader hængsel"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "kitchen_install_027",
+  "name": "Dørstopper til skab (pcs)",
+  "synonyms": [
+   "dørstopper skab",
+   "cabinet door stopper",
+   "stop til låge"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 15
+ },
+ {
+  "key": "kitchen_install_028",
+  "name": "Soft-close dæmper (pcs)",
+  "synonyms": [
+   "soft close dæmper",
+   "door damper",
+   "lågedæmper",
+   "softclose buffer"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 25
+ },
+ {
+  "key": "kitchen_install_029",
+  "name": "Skuffeskinner Soft-close 45cm (sæt)",
+  "synonyms": [
+   "skuffeskinner 45",
+   "drawer runners 45cm",
+   "soft close skuffeskinner",
+   "skinne skuffe 45"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 299
+ },
+ {
+  "key": "kitchen_install_030",
+  "name": "Skuffeskinner Soft-close 50cm (sæt)",
+  "synonyms": [
+   "skuffeskinner 50",
+   "drawer runners 50cm",
+   "soft close skuffeskinner 50"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 319
+ },
+ {
+  "key": "kitchen_install_031",
+  "name": "Skuffeskinner Standard 45cm (sæt)",
+  "synonyms": [
+   "skuffeskinner standard 45",
+   "drawer runners standard 45",
+   "skuffeskinner 45 standard"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 219
+ },
+ {
+  "key": "kitchen_install_032",
+  "name": "Skuffeskinner Standard 50cm (sæt)",
+  "synonyms": [
+   "skuffeskinner standard 50",
+   "drawer runners standard 50",
+   "skuffeskinner 50 standard"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 239
+ },
+ {
+  "key": "kitchen_install_033",
+  "name": "Skuffefrontbeslag (sæt)",
+  "synonyms": [
+   "skuffefrontbeslag",
+   "drawer front brackets",
+   "beslag skuffefront",
+   "frontbeslag skuffe"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "kitchen_install_034",
+  "name": "Greb 128mm (pcs)",
+  "synonyms": [
+   "greb 128",
+   "handle 128mm",
+   "skabsgreb 128",
+   "håndtag 128mm"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 59
+ },
+ {
+  "key": "kitchen_install_035",
+  "name": "Greb 160mm (pcs)",
+  "synonyms": [
+   "greb 160",
+   "handle 160mm",
+   "skabsgreb 160",
+   "håndtag 160mm"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 69
+ },
+ {
+  "key": "kitchen_install_036",
+  "name": "Knopgreb (pcs)",
+  "synonyms": [
+   "knop",
+   "knopgreb",
+   "cabinet knob",
+   "knob handle"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 39
+ },
+ {
+  "key": "kitchen_install_037",
+  "name": "Greb Sort Mat (pcs)",
+  "synonyms": [
+   "greb sort",
+   "black handle",
+   "mat sort greb",
+   "håndtag sort"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "kitchen_install_038",
+  "name": "Push-to-open mekanisme (pcs)",
+  "synonyms": [
+   "push to open",
+   "trykåbner",
+   "push open",
+   "mekanisme push"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 49
+ },
+ {
+  "key": "kitchen_install_039",
+  "name": "Skabben (skabsben) justerbar (pcs)",
+  "synonyms": [
+   "skabsben",
+   "cabinet legs",
+   "justerbare ben",
+   "ben til underskab"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 25
+ },
+ {
+  "key": "kitchen_install_040",
+  "name": "Sockelclips (box)",
+  "synonyms": [
+   "sockelclips",
+   "plinth clips",
+   "clips sokkel",
+   "køkkensokkel clips"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "kitchen_install_041",
+  "name": "Sokkel (pr m)",
+  "synonyms": [
+   "sokkel",
+   "køkkensokkel",
+   "plinth",
+   "sockel køkken",
+   "sokkel liste"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "kitchen_install_042",
+  "name": "Sokkel endeprop (pcs)",
+  "synonyms": [
+   "sokkel ende",
+   "plinth end cap",
+   "endeprop sokkel",
+   "sokkel afslutning"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 25
+ },
+ {
+  "key": "kitchen_install_043",
+  "name": "Sokkel hjørnestykke (pcs)",
+  "synonyms": [
+   "sokkel hjørne",
+   "plinth corner",
+   "hjørne sokkel",
+   "sokkel vinkel"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 39
+ },
+ {
+  "key": "kitchen_install_044",
+  "name": "Bordplade laminat (pr m)",
+  "synonyms": [
+   "bordplade laminat",
+   "laminate countertop",
+   "køkkenbordplade laminat",
+   "laminat bordplade pr meter"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 699
+ },
+ {
+  "key": "kitchen_install_045",
+  "name": "Bordplade massivt træ (pr m)",
+  "synonyms": [
+   "bordplade træ",
+   "wood countertop",
+   "massiv træ bordplade",
+   "egetræ bordplade"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 1399
+ },
+ {
+  "key": "kitchen_install_046",
+  "name": "Bordplade kompaktlaminat (pr m)",
+  "synonyms": [
+   "kompaktlaminat bordplade",
+   "compact laminate countertop",
+   "kompakt bordplade",
+   "compact top"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 1899
+ },
+ {
+  "key": "kitchen_install_047",
+  "name": "Bordplade endeliste (pcs)",
+  "synonyms": [
+   "endeliste bordplade",
+   "countertop end trim",
+   "bordplade afslutning",
+   "end cap countertop"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "kitchen_install_048",
+  "name": "Bordpladesamlebeslag (sæt)",
+  "synonyms": [
+   "bordpladesamlebeslag",
+   "worktop bolts",
+   "samlebeslag bordplade",
+   "worktop connector bolts"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "kitchen_install_049",
+  "name": "Bordplade olie 0.5L",
+  "synonyms": [
+   "bordplade olie",
+   "worktop oil",
+   "olie til træbordplade",
+   "træolie bordplade"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "kitchen_install_050",
+  "name": "Fugemasse bordplade/vaske (neutral) (pcs)",
+  "synonyms": [
+   "fugemasse bordplade",
+   "sealant countertop",
+   "fuge ved vask",
+   "neutral silikone",
+   "køkkenfuge"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 89
+ },
+ {
+  "key": "kitchen_install_051",
+  "name": "Kontaktlim (pcs)",
+  "synonyms": [
+   "kontaktlim",
+   "contact adhesive",
+   "lim laminat",
+   "kontaktklæber"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "kitchen_install_052",
+  "name": "Montagelim (pcs)",
+  "synonyms": [
+   "montagelim",
+   "construction adhesive",
+   "montage lim",
+   "lim til lister køkken"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 59
+ },
+ {
+  "key": "kitchen_install_053",
+  "name": "Trælim (pcs)",
+  "synonyms": [
+   "trælim",
+   "wood glue",
+   "pva lim",
+   "lim til træ"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 49
+ },
+ {
+  "key": "kitchen_install_054",
+  "name": "2K Epoxy lim (set)",
+  "synonyms": [
+   "epoxy lim",
+   "2k lim",
+   "epoxy adhesive",
+   "2 komponent lim"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "kitchen_install_055",
+  "name": "Akrylfuge (malerfuge) (pcs)",
+  "synonyms": [
+   "akrylfuge",
+   "malerfuge",
+   "acrylic sealant",
+   "paintable sealant"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 39
+ },
+ {
+  "key": "kitchen_install_056",
+  "name": "Kantbånd laminat (roll)",
+  "synonyms": [
+   "kantbånd",
+   "edge banding",
+   "laminat kantbånd",
+   "kantliste laminat"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "kitchen_install_057",
+  "name": "Kantlim til kantbånd (pcs)",
+  "synonyms": [
+   "kantlim",
+   "edge banding glue",
+   "lim kantbånd",
+   "lim til kantliste"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "kitchen_install_058",
+  "name": "Bagplade / bagskærm HPL (pr m)",
+  "synonyms": [
+   "bagskærm",
+   "backsplash panel",
+   "hpl bagskærm",
+   "bagplade køkken"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 899
+ },
+ {
+  "key": "kitchen_install_059",
+  "name": "Bagplade afslutningsliste (pcs)",
+  "synonyms": [
+   "bagskærm liste",
+   "backsplash trim",
+   "afslutningsliste bagplade"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "kitchen_install_060",
+  "name": "Køkkenvask rustfri (pcs)",
+  "synonyms": [
+   "køkkenvask",
+   "kitchen sink",
+   "vask rustfri",
+   "rustfri køkkenvask"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 1299
+ },
+ {
+  "key": "kitchen_install_061",
+  "name": "Køkkenvask komposit (pcs)",
+  "synonyms": [
+   "komposit vask",
+   "composite sink",
+   "granitsink",
+   "køkkenvask komposit"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 1999
+ },
+ {
+  "key": "kitchen_install_062",
+  "name": "Vaskebeslag/klips (set)",
+  "synonyms": [
+   "vaskebeslag",
+   "sink clips",
+   "sink mounting clips",
+   "klips vask"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "kitchen_install_063",
+  "name": "Kurvventil (køkken) (pcs)",
+  "synonyms": [
+   "kurvventil",
+   "sink strainer",
+   "afløbskurv",
+   "køkken afløb kurv"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 249
+ },
+ {
+  "key": "kitchen_install_064",
+  "name": "Vandlås køkken (pcs)",
+  "synonyms": [
+   "vandlås køkken",
+   "sink trap",
+   "p-trap kitchen",
+   "vandlås med maskinudtag"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 179
+ },
+ {
+  "key": "kitchen_install_065",
+  "name": "Afløbsslangesæt opvaskemaskine (set)",
+  "synonyms": [
+   "afløbsslange opvasker",
+   "dishwasher drain hose",
+   "slangesæt opvaskemaskine",
+   "maskinudtag slange"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "kitchen_install_066",
+  "name": "Tilløbsslange opvaskemaskine (pcs)",
+  "synonyms": [
+   "tilløbsslange opvasker",
+   "dishwasher inlet hose",
+   "vandtilførsel opvaskemaskine",
+   "aquastop slange"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "kitchen_install_067",
+  "name": "Afløbsslange vaskemaskine (pcs)",
+  "synonyms": [
+   "afløbsslange",
+   "drain hose",
+   "slange afløb",
+   "afløb vaskemaskine slange"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "kitchen_install_068",
+  "name": "Vandtilslutning T-stykke (pcs)",
+  "synonyms": [
+   "t-stykke vand",
+   "tee water supply",
+   "tilslutning ekstra vand",
+   "t-stykke 1/2"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 59
+ },
+ {
+  "key": "kitchen_install_069",
+  "name": "Køkkenarmatur (standard) (pcs)",
+  "synonyms": [
+   "køkkenarmatur",
+   "kitchen faucet",
+   "vandhane køkken",
+   "mixer tap kitchen"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 1199
+ },
+ {
+  "key": "kitchen_install_070",
+  "name": "Udtrækstud (armatur) (pcs)",
+  "synonyms": [
+   "udtrækstud",
+   "pull-out spray",
+   "armatur udtræk",
+   "udtræksbruser køkken"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 399
+ },
+ {
+  "key": "kitchen_install_071",
+  "name": "Spændebånd/slangeklemmer (box)",
+  "synonyms": [
+   "slangeklemmer",
+   "hose clamps",
+   "spændebånd",
+   "klemmer slange"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "kitchen_install_072",
+  "name": "PTFE tape (roll)",
+  "synonyms": [
+   "ptfe tape",
+   "teflon tape",
+   "gevindtape",
+   "thread seal tape"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 25
+ },
+ {
+  "key": "kitchen_install_073",
+  "name": "Pakgarn + gevindpasta (set)",
+  "synonyms": [
+   "pakgarn",
+   "gevindpasta",
+   "plumbing hemp",
+   "thread seal paste",
+   "pakningssæt gevind"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "kitchen_install_074",
+  "name": "Affaldsspand indbygning (set)",
+  "synonyms": [
+   "affaldsspand indbygning",
+   "pull out bin",
+   "indbygningsskraldespand",
+   "sorteringsspand skuffe"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 799
+ },
+ {
+  "key": "kitchen_install_075",
+  "name": "Bestikindsats (pcs)",
+  "synonyms": [
+   "bestikindsats",
+   "cutlery tray",
+   "skuffeindsats bestik",
+   "indsats skuffe"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "kitchen_install_076",
+  "name": "Skuffeindsats (organizer) (pcs)",
+  "synonyms": [
+   "skuffeindsats",
+   "drawer organizer",
+   "indsats skuffe",
+   "skuffe inddeler"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "kitchen_install_077",
+  "name": "Hyldebærer (box)",
+  "synonyms": [
+   "hyldebærer",
+   "shelf supports",
+   "hyldeknægte små",
+   "hyldepinde"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 59
+ },
+ {
+  "key": "kitchen_install_078",
+  "name": "Hylde (melamin) (pcs)",
+  "synonyms": [
+   "hylde melamin",
+   "melamine shelf",
+   "skabshylde",
+   "hylde skab"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "kitchen_install_079",
+  "name": "Justerplader/kiler (set)",
+  "synonyms": [
+   "kiler",
+   "shims",
+   "justerplader",
+   "nivelleringskiler",
+   "afstandsklodser"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "kitchen_install_080",
+  "name": "Afstandsklodser træ/plast (set)",
+  "synonyms": [
+   "afstandsklodser",
+   "spacers",
+   "klodser montage",
+   "afstandsstykker"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "kitchen_install_081",
+  "name": "Fugtspærrebånd til bordplade (roll)",
+  "synonyms": [
+   "fugtspærrebånd",
+   "moisture barrier tape",
+   "bånd bordplade",
+   "kantbånd fugt"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 89
+ },
+ {
+  "key": "kitchen_install_082",
+  "name": "Aluminiumstape (ventilation) (roll)",
+  "synonyms": [
+   "alutape",
+   "aluminium tape",
+   "foil tape",
+   "ventilation tape"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 69
+ },
+ {
+  "key": "kitchen_install_083",
+  "name": "Duct tape (roll)",
+  "synonyms": [
+   "duct tape",
+   "gaffatape",
+   "stærk tape",
+   "reparationstape"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 69
+ },
+ {
+  "key": "kitchen_install_084",
+  "name": "Ventilationsslange Ø125 (pr m)",
+  "synonyms": [
+   "ventilationsslange 125",
+   "flex duct 125",
+   "udsugningsslange",
+   "emhætte slange 125"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 59
+ },
+ {
+  "key": "kitchen_install_085",
+  "name": "Ventilationsslange Ø150 (pr m)",
+  "synonyms": [
+   "ventilationsslange 150",
+   "flex duct 150",
+   "udsugningsslange 150",
+   "emhætte slange 150"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 69
+ },
+ {
+  "key": "kitchen_install_086",
+  "name": "Ventilationsrør Ø125 (1m)",
+  "synonyms": [
+   "ventilationsrør 125",
+   "duct pipe 125",
+   "rør emhætte 125",
+   "spiro 125 1m"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 119
+ },
+ {
+  "key": "kitchen_install_087",
+  "name": "Ventilationsrør Ø150 (1m)",
+  "synonyms": [
+   "ventilationsrør 150",
+   "duct pipe 150",
+   "rør emhætte 150",
+   "spiro 150 1m"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "kitchen_install_088",
+  "name": "Bøjning Ø125 90°",
+  "synonyms": [
+   "bøjning 125",
+   "duct elbow 125",
+   "knæk 125",
+   "90 grader bøjning 125"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 119
+ },
+ {
+  "key": "kitchen_install_089",
+  "name": "Bøjning Ø150 90°",
+  "synonyms": [
+   "bøjning 150",
+   "duct elbow 150",
+   "knæk 150",
+   "90 grader bøjning 150"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 139
+ },
+ {
+  "key": "kitchen_install_090",
+  "name": "Spændebånd Ø125 (pcs)",
+  "synonyms": [
+   "spændebånd 125",
+   "duct clamp 125",
+   "klemme ventilation 125",
+   "slangeklemme 125"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 29
+ },
+ {
+  "key": "kitchen_install_091",
+  "name": "Spændebånd Ø150 (pcs)",
+  "synonyms": [
+   "spændebånd 150",
+   "duct clamp 150",
+   "klemme ventilation 150",
+   "slangeklemme 150"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 35
+ },
+ {
+  "key": "kitchen_install_092",
+  "name": "Tilbageløbsventil emhætte (pcs)",
+  "synonyms": [
+   "tilbageløbsventil emhætte",
+   "backdraft damper",
+   "kontraventil udsugning",
+   "spjældventil"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "kitchen_install_093",
+  "name": "Kulfilter til emhætte (set)",
+  "synonyms": [
+   "kulfilter",
+   "carbon filter",
+   "filter emhætte",
+   "recirkulationsfilter"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 299
+ },
+ {
+  "key": "kitchen_install_094",
+  "name": "LED lysliste under skab (1m) (pcs)",
+  "synonyms": [
+   "led lysliste",
+   "under cabinet light",
+   "lys under skab",
+   "led strip light bar"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 249
+ },
+ {
+  "key": "kitchen_install_095",
+  "name": "LED strip 24V (5m) (roll)",
+  "synonyms": [
+   "led strip",
+   "led bånd",
+   "led tape 5m",
+   "led strip 24v"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 299
+ },
+ {
+  "key": "kitchen_install_096",
+  "name": "LED driver 24V (pcs)",
+  "synonyms": [
+   "led driver",
+   "transformer led",
+   "strømforsyning led",
+   "led transformer 24v"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 249
+ },
+ {
+  "key": "kitchen_install_097",
+  "name": "LED profil alu (2m) (pcs)",
+  "synonyms": [
+   "led profil",
+   "aluprofil led",
+   "led channel",
+   "profil til led bånd"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "kitchen_install_098",
+  "name": "LED diffusor (2m) (pcs)",
+  "synonyms": [
+   "led diffusor",
+   "cover led profil",
+   "diffuser led channel",
+   "skærm til led profil"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "kitchen_install_099",
+  "name": "Skabskorpus underskab (pcs)",
+  "synonyms": [
+   "underskab korpus",
+   "base cabinet carcass",
+   "skabskorpus underskab",
+   "korpus køkken underskab"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 899
+ },
+ {
+  "key": "kitchen_install_100",
+  "name": "Skabskorpus overskab (pcs)",
+  "synonyms": [
+   "overskab korpus",
+   "wall cabinet carcass",
+   "skabskorpus overskab",
+   "korpus køkken overskab"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 799
+ },
+ {
+  "key": "kitchen_install_101",
+  "name": "Højskab korpus (pcs)",
+  "synonyms": [
+   "højskab korpus",
+   "tall cabinet carcass",
+   "korpus højskab",
+   "skabskorpus høj"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 1499
+ },
+ {
+  "key": "kitchen_install_102",
+  "name": "Skabslåge standard (pcs)",
+  "synonyms": [
+   "skabslåge",
+   "cabinet door",
+   "låge køkken",
+   "køkkenlåge"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 399
+ },
+ {
+  "key": "kitchen_install_103",
+  "name": "Skuffefront standard (pcs)",
+  "synonyms": [
+   "skuffefront",
+   "drawer front",
+   "front skuffe",
+   "skuffe front"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 349
+ },
+ {
+  "key": "kitchen_install_104",
+  "name": "Vægpanel/melamin sidebeklædning (pcs)",
+  "synonyms": [
+   "sidebeklædning",
+   "cover panel",
+   "end panel",
+   "sidemontage panel",
+   "sidepanel køkken"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 499
+ },
+ {
+  "key": "kitchen_install_105",
+  "name": "Afslutningspanel højskab (pcs)",
+  "synonyms": [
+   "afslutningspanel",
+   "tall cabinet end panel",
+   "sidepanel højskab",
+   "end panel høj"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 599
+ },
+ {
+  "key": "kitchen_install_106",
+  "name": "Dækplade top (pcs)",
+  "synonyms": [
+   "dækplade",
+   "cover plate",
+   "filler panel",
+   "afdækningsplade køkken"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "kitchen_install_107",
+  "name": "Filler panel mellem skabe (pcs)",
+  "synonyms": [
+   "filler panel",
+   "mellemstykke",
+   "fyldstykke",
+   "afstandspanel køkken"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 249
+ },
+ {
+  "key": "kitchen_install_108",
+  "name": "Skabssamlebeslag (box)",
+  "synonyms": [
+   "skabssamlebeslag",
+   "cabinet connector",
+   "samlebeslag skabe",
+   "korpus kobling"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "kitchen_install_109",
+  "name": "Skabsamleskruer (box)",
+  "synonyms": [
+   "skabsamleskruer",
+   "cabinet joining screws",
+   "skruer samle skabe",
+   "korpus skruer samle"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "kitchen_install_110",
+  "name": "Bordplade beslag vinkel (box)",
+  "synonyms": [
+   "bordplade beslag",
+   "countertop brackets",
+   "vinkel bordplade",
+   "beslag til bordplade"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "kitchen_install_111",
+  "name": "Vægbeslag til bordplade (set)",
+  "synonyms": [
+   "vægbeslag bordplade",
+   "worktop wall brackets",
+   "bæring bordplade væg"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "kitchen_install_112",
+  "name": "Skærebræt indsats til vask (pcs)",
+  "synonyms": [
+   "skærebræt vask",
+   "sink cutting board",
+   "indsats vask",
+   "cutting board insert"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 249
+ },
+ {
+  "key": "kitchen_install_113",
+  "name": "Drypbakke indsats til vask (pcs)",
+  "synonyms": [
+   "drypbakke vask",
+   "sink drainer",
+   "vask indsats dræn",
+   "draining tray sink"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "kitchen_install_114",
+  "name": "Skruer til montage af hvidevarer (box)",
+  "synonyms": [
+   "skruer hvidevarer",
+   "appliance mounting screws",
+   "montageskruer hvidevarer",
+   "skruer til integreret opvasker"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "kitchen_install_115",
+  "name": "Vibrationsdæmpere (hvidevarer) (set)",
+  "synonyms": [
+   "vibrationsdæmper",
+   "anti vibration pads",
+   "dæmpefødder",
+   "gummi fødder hvidevarer"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "kitchen_install_116",
+  "name": "Beskyttelsesplade til opvaskemaskine (dampspærre) (pcs)",
+  "synonyms": [
+   "dampspærre opvaskemaskine",
+   "steam protection plate",
+   "beskyttelsesplade under bordplade",
+   "dampbeskyttelse"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "kitchen_install_117",
+  "name": "Beskyttelsestape til bordplade (roll)",
+  "synonyms": [
+   "beskyttelsestape",
+   "protection tape",
+   "tape bordplade",
+   "kant tape bordplade"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 59
+ },
+ {
+  "key": "kitchen_install_118",
+  "name": "Skuffesystem (komplet) (set)",
+  "synonyms": [
+   "skuffesystem",
+   "drawer system",
+   "skuffekasse",
+   "skuffesæt",
+   "komplet skuffe"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 799
+ },
+ {
+  "key": "kitchen_install_119",
+  "name": "Udvtrækshylde (set)",
+  "synonyms": [
+   "udtrækshylde",
+   "pull-out shelf",
+   "udtræk køkkenskab",
+   "udtrækshylde skab"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 699
+ },
+ {
+  "key": "kitchen_install_120",
+  "name": "Karrusel hjørneskab (set)",
+  "synonyms": [
+   "karrusel",
+   "corner carousel",
+   "hjørneskab karrusel",
+   "lazy susan"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 999
+ },
+ {
+  "key": "kitchen_install_121",
+  "name": "Skabshylde hjørnebeslag (set)",
+  "synonyms": [
+   "hylde beslag",
+   "shelf bracket set",
+   "beslag hylde skab",
+   "hyldebeslag"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "kitchen_install_122",
+  "name": "Vægpropper/afdækning til skruer (box)",
+  "synonyms": [
+   "afdækningspropper",
+   "cover caps screws",
+   "propper til skruer",
+   "plast propper skruer"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 49
+ },
+ {
+  "key": "kitchen_install_123",
+  "name": "Filtpuder (box)",
+  "synonyms": [
+   "filtpuder",
+   "felt pads",
+   "møbelpuder",
+   "beskyttelsespuder"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 39
+ },
+ {
+  "key": "kitchen_install_124",
+  "name": "Afdækningsplast (roll)",
+  "synonyms": [
+   "afdækningsplast",
+   "cover plastic",
+   "malerplast",
+   "plast afdækning"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 49
+ },
+ {
+  "key": "kitchen_install_125",
+  "name": "Malertape 25mm (roll)",
+  "synonyms": [
+   "malertape 25",
+   "masking tape 25",
+   "afdækningstape 25mm"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 39
+ },
+ {
+  "key": "kitchen_install_126",
+  "name": "Afdækningspap (roll)",
+  "synonyms": [
+   "afdækningspap",
+   "cover paper",
+   "gulvpap",
+   "malerpap"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "kitchen_install_127",
+  "name": "Fugesilikone køkken (klar) (pcs)",
+  "synonyms": [
+   "silikone klar",
+   "clear silicone",
+   "køkken silikone",
+   "sealant clear kitchen"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 69
+ },
+ {
+  "key": "kitchen_install_128",
+  "name": "Fugesilikone køkken (hvid) (pcs)",
+  "synonyms": [
+   "silikone hvid",
+   "white silicone",
+   "køkken silikone hvid",
+   "sealant white kitchen"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 69
+ },
+ {
+  "key": "kitchen_install_129",
+  "name": "Silikonefjerner (pcs)",
+  "synonyms": [
+   "silikonefjerner",
+   "silicone remover",
+   "fjerner silikone",
+   "rens silikone"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "kitchen_install_130",
+  "name": "Rengøringsmiddel (liter)",
+  "synonyms": [
+   "rengøringsmiddel",
+   "cleaner",
+   "detergent",
+   "universal rengøring"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 49
+ },
+ {
+  "key": "kitchen_install_131",
+  "name": "Affedter (liter)",
+  "synonyms": [
+   "affedter",
+   "degreaser",
+   "affedtning",
+   "rens affedter"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 69
+ },
+ {
+  "key": "kitchen_install_132",
+  "name": "Skuffe-/dørmagnet (pcs)",
+  "synonyms": [
+   "magnetlås",
+   "cabinet magnet catch",
+   "magnet beslag",
+   "lås magnet skab"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 25
+ },
+ {
+  "key": "kitchen_install_133",
+  "name": "Hængselkopboringskappe (set)",
+  "synonyms": [
+   "hængselkop",
+   "hinge cup cover",
+   "afdækning hængsel",
+   "kappe hængsel"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 49
+ },
+ {
+  "key": "kitchen_install_134",
+  "name": "Skabsbelysning sensor (pcs)",
+  "synonyms": [
+   "dørsensor lys",
+   "cabinet light sensor",
+   "sensor til led",
+   "skabslys sensor"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "kitchen_install_135",
+  "name": "Kabelclips (box)",
+  "synonyms": [
+   "kabelclips",
+   "cable clips",
+   "clips til kabel",
+   "ledning clips"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 39
+ },
+ {
+  "key": "kitchen_install_136",
+  "name": "Kabelbindere (box)",
+  "synonyms": [
+   "kabelbindere",
+   "cable ties",
+   "strips",
+   "zip ties"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 39
+ },
+ {
+  "key": "kitchen_install_137",
+  "name": "Skabsventilationsrist (pcs)",
+  "synonyms": [
+   "ventilationsrist skab",
+   "cabinet vent grille",
+   "rist til sokkel",
+   "ventrist køkken"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "kitchen_install_138",
+  "name": "Sokkelventilationsrist (pcs)",
+  "synonyms": [
+   "sokkelrist",
+   "plinth vent grille",
+   "ventilationsrist sokkel",
+   "rist sokkel ventilation"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "kitchen_install_139",
+  "name": "Hvidvare skydelågebeslag (integreret) (set)",
+  "synonyms": [
+   "skydelågebeslag",
+   "sliding hinge kit",
+   "integreret køleskab beslag",
+   "integreret front beslag"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 249
+ },
+ {
+  "key": "kitchen_install_140",
+  "name": "Integreret opvasker monteringssæt (set)",
+  "synonyms": [
+   "monteringssæt opvasker",
+   "dishwasher mounting kit",
+   "integreret opvasker beslag",
+   "beslag opvaskemaskine"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "kitchen_install_141",
+  "name": "Køkkenlås til børnesikring (set)",
+  "synonyms": [
+   "børnesikring skab",
+   "cabinet child lock",
+   "skabslås barn",
+   "child safety lock"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "kitchen_install_142",
+  "name": "Skraldespandslåg / top (pcs)",
+  "synonyms": [
+   "skraldespandslåg",
+   "bin lid",
+   "låg affaldsspand",
+   "låg sortering"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "kitchen_install_143",
+  "name": "Bordplade pakningsliste (roll)",
+  "synonyms": [
+   "pakningsliste",
+   "sealing strip",
+   "tætningsliste bordplade",
+   "liste tætning køkken"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 69
+ },
+ {
+  "key": "kitchen_install_144",
+  "name": "Lyddæmpningsmåtte under vask (m2)",
+  "synonyms": [
+   "lyddæmpningsmåtte",
+   "sound deadening mat",
+   "måtte under vask",
+   "dæmpning rustfri vask"
+  ],
+  "unit": "m2",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "kitchen_install_145",
+  "name": "Bordpladeudskæring skabelon (pcs)",
+  "synonyms": [
+   "skabelon udskæring",
+   "cutout template",
+   "skabelon vask udskæring",
+   "template countertop"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "kitchen_install_146",
+  "name": "Bordplade reparation (kit) (set)",
+  "synonyms": [
+   "bordplade reparationskit",
+   "worktop repair kit",
+   "laminat reparation",
+   "reparationssæt bordplade"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "kitchen_install_147",
+  "name": "Fugeske/kit-værktøj (set)",
+  "synonyms": [
+   "fugeske",
+   "sealant tool",
+   "fugeværktøj",
+   "kitværktøj"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "kitchen_install_148",
+  "name": "Spartel til lim/fuge (pcs)",
+  "synonyms": [
+   "spartel",
+   "spatula",
+   "limspartel",
+   "fugespartel"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 39
+ },
+ {
+  "key": "kitchen_install_149",
+  "name": "Arbejdslampe (pcs)",
+  "synonyms": [
+   "arbejdslampe",
+   "work light",
+   "lampe arbejdslys",
+   "bygge lampe"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "kitchen_install_150",
+  "name": "Smådele køkken (diverse) (set)",
+  "synonyms": [
+   "smådele køkken",
+   "misc kitchen parts",
+   "diverse beslag",
+   "småting montering"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 200
+ },
+ {
+  "key": "masonry_001",
+  "name": "Mørtel (Universel) 25kg",
+  "synonyms": [
+   "mørtel",
+   "mortar",
+   "universalmørtel",
+   "mørtel 25kg",
+   "mortar 25kg"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "masonry_002",
+  "name": "Muremørtel 25kg",
+  "synonyms": [
+   "muremørtel",
+   "brick mortar",
+   "mortar brick",
+   "mørtel mur",
+   "muremørtel 25kg"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 89
+ },
+ {
+  "key": "masonry_003",
+  "name": "Pudsemørtel 25kg",
+  "synonyms": [
+   "pudsemørtel",
+   "render mortar",
+   "plaster mortar",
+   "mørtel puds",
+   "puds mørtel 25kg"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "masonry_004",
+  "name": "Vandskuringsmørtel 25kg",
+  "synonyms": [
+   "vandskuringsmørtel",
+   "vandskuring",
+   "skim coat mortar",
+   "facademørtel vandskuring",
+   "vandskuring mørtel 25kg"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 109
+ },
+ {
+  "key": "masonry_005",
+  "name": "Fugemørtel 25kg",
+  "synonyms": [
+   "fugemørtel",
+   "pointing mortar",
+   "fuge mørtel",
+   "fugemørtel 25kg",
+   "brick joint mortar"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 119
+ },
+ {
+  "key": "masonry_006",
+  "name": "Hydraulisk Kalk (NHL) 25kg",
+  "synonyms": [
+   "hydraulisk kalk",
+   "nhl kalk",
+   "lime nhl",
+   "nhl 25kg",
+   "kalkmørtel"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 189
+ },
+ {
+  "key": "masonry_007",
+  "name": "Kalk (Pulver) 25kg",
+  "synonyms": [
+   "kalk",
+   "lime powder",
+   "kalkpulver",
+   "kalk 25kg",
+   "slaked lime"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "masonry_008",
+  "name": "Cement 25kg",
+  "synonyms": [
+   "cement",
+   "portland cement",
+   "cement 25kg",
+   "cement 25 kg"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "masonry_009",
+  "name": "Blandesand 0-4mm 25kg",
+  "synonyms": [
+   "blandesand",
+   "sand 0-4",
+   "mix sand",
+   "sand til mørtel",
+   "blandesand 25kg"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 59
+ },
+ {
+  "key": "masonry_010",
+  "name": "Finpuds 25kg",
+  "synonyms": [
+   "finpuds",
+   "fine plaster",
+   "finish plaster",
+   "fin puds",
+   "puds fin 25kg"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 139
+ },
+ {
+  "key": "masonry_011",
+  "name": "Grovpuds 25kg",
+  "synonyms": [
+   "grovpuds",
+   "base coat plaster",
+   "groft puds",
+   "puds grov 25kg",
+   "render base coat"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "masonry_012",
+  "name": "Reparationsmørtel 20kg",
+  "synonyms": [
+   "reparationsmørtel",
+   "repair mortar",
+   "betonreparation",
+   "mørtel reparation",
+   "repair mortar 20kg"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "masonry_013",
+  "name": "Hurtighærdende Reparationsmørtel 20kg",
+  "synonyms": [
+   "hurtighærdende reparationsmørtel",
+   "rapid repair mortar",
+   "quick set mortar",
+   "hurtigmørtel reparation"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 249
+ },
+ {
+  "key": "masonry_014",
+  "name": "Fiberarmeret Reparationsmørtel 20kg",
+  "synonyms": [
+   "fiberarmeret mørtel",
+   "fiber repair mortar",
+   "armeret reparationsmørtel",
+   "mørtel med fibre"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 269
+ },
+ {
+  "key": "masonry_015",
+  "name": "Beton Spartel (fin) 10kg",
+  "synonyms": [
+   "betonspartel",
+   "concrete skim",
+   "cementbaseret spartel",
+   "fin beton spartel"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 189
+ },
+ {
+  "key": "masonry_016",
+  "name": "Flydespartel Udendørs 20kg",
+  "synonyms": [
+   "flydespartel udendørs",
+   "outdoor self level",
+   "udendørs gulvspartel",
+   "spartel udendørs"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 229
+ },
+ {
+  "key": "masonry_017",
+  "name": "Primer til Mineralske Underlag 1L",
+  "synonyms": [
+   "primer mineralsk",
+   "mineral primer",
+   "grunder murværk",
+   "primer puds",
+   "hæftegrunder mur"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "masonry_018",
+  "name": "Primer til Mineralske Underlag 5L",
+  "synonyms": [
+   "primer mineralsk 5l",
+   "mineral primer 5l",
+   "grunder murværk 5l",
+   "primer puds 5 liter"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 399
+ },
+ {
+  "key": "masonry_019",
+  "name": "Kalkmaling (Mineralsk) 10L",
+  "synonyms": [
+   "kalkmaling",
+   "limewash",
+   "mineral paint kalk",
+   "kalk maling 10l",
+   "lime paint"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 699
+ },
+ {
+  "key": "masonry_020",
+  "name": "Silikatmaling (Mineralsk) 10L",
+  "synonyms": [
+   "silikatmaling",
+   "silicate paint",
+   "mineral paint silicate",
+   "facademaling silikat",
+   "silikat maling 10l"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 899
+ },
+ {
+  "key": "masonry_021",
+  "name": "Facademaling Akryl 10L",
+  "synonyms": [
+   "facademaling",
+   "exterior paint",
+   "akryl facademaling",
+   "maling facade 10l",
+   "facade paint acrylic"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 799
+ },
+ {
+  "key": "masonry_022",
+  "name": "Facadegrunding 10L",
+  "synonyms": [
+   "facadegrunding",
+   "exterior primer",
+   "grunder facade",
+   "primer facade 10l"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 649
+ },
+ {
+  "key": "masonry_023",
+  "name": "Imprægnering Murværk 5L",
+  "synonyms": [
+   "imprægnering",
+   "masonry sealer",
+   "water repellent",
+   "murværk imprægnering",
+   "facade imprægnering"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 599
+ },
+ {
+  "key": "masonry_024",
+  "name": "Anti-Saltpeter Behandling 1L",
+  "synonyms": [
+   "saltpeter",
+   "salpeter",
+   "efflorescence remover",
+   "saltudtræk fjerner",
+   "saltpeter behandling"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 159
+ },
+ {
+  "key": "masonry_025",
+  "name": "Alge-/Mosfjerner Facade 5L",
+  "synonyms": [
+   "algefjerner",
+   "mosfjerner",
+   "algae remover",
+   "facaderens alger",
+   "moss remover"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 249
+ },
+ {
+  "key": "masonry_026",
+  "name": "Skimmelfjerner 1L",
+  "synonyms": [
+   "skimmelfjerner",
+   "mold remover",
+   "mugfjerner",
+   "skimmel rens"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 89
+ },
+ {
+  "key": "masonry_027",
+  "name": "Cementslørfjerner 1L",
+  "synonyms": [
+   "cementslørfjerner",
+   "cement haze remover",
+   "fliserens cementslør",
+   "cement haze"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "masonry_028",
+  "name": "Fugerens (Murværk) 1L",
+  "synonyms": [
+   "fugerens",
+   "joint cleaner",
+   "rengøring murfuger",
+   "brick joint cleaner"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "masonry_029",
+  "name": "Fugesand (Til mursten/sten) 25kg",
+  "synonyms": [
+   "fugesand",
+   "joint sand",
+   "sand til fuger",
+   "fugesand 25kg"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 59
+ },
+ {
+  "key": "masonry_030",
+  "name": "Stenmel (Fuge) 20kg",
+  "synonyms": [
+   "stenmel",
+   "stone dust",
+   "fugestenmel",
+   "joint stone dust"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 69
+ },
+ {
+  "key": "masonry_031",
+  "name": "Mursten Standard Rød (pcs)",
+  "synonyms": [
+   "mursten",
+   "brick",
+   "rød mursten",
+   "standard mursten",
+   "brick red"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 6
+ },
+ {
+  "key": "masonry_032",
+  "name": "Mursten Gul (pcs)",
+  "synonyms": [
+   "gul mursten",
+   "yellow brick",
+   "mursten gul",
+   "brick yellow"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 7
+ },
+ {
+  "key": "masonry_033",
+  "name": "Mursten Hvid/lys (pcs)",
+  "synonyms": [
+   "hvid mursten",
+   "light brick",
+   "mursten lys",
+   "white brick"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 9
+ },
+ {
+  "key": "masonry_034",
+  "name": "Lecablok 10cm (pcs)",
+  "synonyms": [
+   "lecablok 10",
+   "leca block 10cm",
+   "letklinkerblok 10",
+   "lecablok"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 29
+ },
+ {
+  "key": "masonry_035",
+  "name": "Lecablok 15cm (pcs)",
+  "synonyms": [
+   "lecablok 15",
+   "leca block 15cm",
+   "letklinkerblok 15"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 39
+ },
+ {
+  "key": "masonry_036",
+  "name": "Lecablok 20cm (pcs)",
+  "synonyms": [
+   "lecablok 20",
+   "leca block 20cm",
+   "letklinkerblok 20"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 49
+ },
+ {
+  "key": "masonry_037",
+  "name": "Gasbetonblok 10cm (pcs)",
+  "synonyms": [
+   "gasbeton",
+   "aac block",
+   "porebeton 10cm",
+   "gasbetonblok 10"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 39
+ },
+ {
+  "key": "masonry_038",
+  "name": "Gasbetonblok 15cm (pcs)",
+  "synonyms": [
+   "gasbeton 15",
+   "aac block 15cm",
+   "porebeton 15cm",
+   "gasbetonblok 15"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 55
+ },
+ {
+  "key": "masonry_039",
+  "name": "Gasbeton Lim 25kg",
+  "synonyms": [
+   "gasbeton lim",
+   "aac adhesive",
+   "porebeton lim",
+   "bloklim 25kg"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "masonry_040",
+  "name": "Tyndfugemørtel 25kg",
+  "synonyms": [
+   "tyndfugemørtel",
+   "thin bed mortar",
+   "thin joint mortar",
+   "limmørtel"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "masonry_041",
+  "name": "Armeringsnet 5x5 (pr m2)",
+  "synonyms": [
+   "armeringsnet",
+   "reinforcement mesh",
+   "net til puds",
+   "pudsnet",
+   "armeringsnet m2"
+  ],
+  "unit": "m2",
+  "fallbackPriceDKK": 35
+ },
+ {
+  "key": "masonry_042",
+  "name": "Glasfibernet til puds (roll)",
+  "synonyms": [
+   "glasfibernet",
+   "fiberglass mesh",
+   "pudsnet glasfiber",
+   "armeringsnet glasfiber"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "masonry_043",
+  "name": "Hjørneprofil til puds (pcs)",
+  "synonyms": [
+   "hjørneprofil puds",
+   "corner bead render",
+   "hjørneliste puds",
+   "puds hjørneprofil"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 49
+ },
+ {
+  "key": "masonry_044",
+  "name": "Stopprofil til puds (pcs)",
+  "synonyms": [
+   "stopprofil",
+   "render stop bead",
+   "afslutningsprofil puds",
+   "puds stopprofil"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 59
+ },
+ {
+  "key": "masonry_045",
+  "name": "Dilationsprofil til puds (pcs)",
+  "synonyms": [
+   "dilationsprofil",
+   "expansion bead",
+   "bevægelsesfuge profil",
+   "puds dilationsprofil"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "masonry_046",
+  "name": "Armeringsbånd (roll)",
+  "synonyms": [
+   "armeringsbånd",
+   "reinforcing tape",
+   "puds tape",
+   "netbånd"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 89
+ },
+ {
+  "key": "masonry_047",
+  "name": "Murbindere (box)",
+  "synonyms": [
+   "murbindere",
+   "wall ties",
+   "bindere mur",
+   "muranker bindere"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "masonry_048",
+  "name": "Murankre (box)",
+  "synonyms": [
+   "muranker",
+   "masonry anchors",
+   "anker murværk",
+   "væganker mur"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "masonry_049",
+  "name": "Spiralanker til revner (set)",
+  "synonyms": [
+   "spiralanker",
+   "crack stitching",
+   "revne armering",
+   "crack repair anchors"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 399
+ },
+ {
+  "key": "masonry_050",
+  "name": "Injektionsmørtel (patron)",
+  "synonyms": [
+   "injektionsmørtel",
+   "injection mortar",
+   "chemical anchor mortar",
+   "limanker patron"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "masonry_051",
+  "name": "Fugeskum (montageskum) (pcs)",
+  "synonyms": [
+   "montageskum",
+   "expanding foam",
+   "fugeskum",
+   "byggeskum patron"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 89
+ },
+ {
+  "key": "masonry_052",
+  "name": "Fugemasse Facade (MS polymer) (pcs)",
+  "synonyms": [
+   "ms polymer",
+   "facadefuge",
+   "ms sealant",
+   "polymer fugemasse",
+   "fugemasse udendørs"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 89
+ },
+ {
+  "key": "masonry_053",
+  "name": "Silikone Udendørs (pcs)",
+  "synonyms": [
+   "udendørs silikone",
+   "exterior silicone",
+   "weatherproof silicone",
+   "silikone facade"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "masonry_054",
+  "name": "Akrylfuge (udendørs) (pcs)",
+  "synonyms": [
+   "akrylfuge udendørs",
+   "exterior acrylic sealant",
+   "malerfuge udendørs"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 49
+ },
+ {
+  "key": "masonry_055",
+  "name": "Fugepistol (pcs)",
+  "synonyms": [
+   "fugepistol",
+   "caulk gun",
+   "patronpistol"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "masonry_056",
+  "name": "Dampspærre (folie) 20m2 (roll)",
+  "synonyms": [
+   "dampspærre",
+   "vapor barrier",
+   "dampspaerre",
+   "plastfolie",
+   "folie dampspærre"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "masonry_057",
+  "name": "Fugtspærre / Grundmursplade (m2)",
+  "synonyms": [
+   "grundmursplade",
+   "damp proof membrane",
+   "fugtspærre",
+   "grundmur plade",
+   "drænplade"
+  ],
+  "unit": "m2",
+  "fallbackPriceDKK": 89
+ },
+ {
+  "key": "masonry_058",
+  "name": "Murpap (roll)",
+  "synonyms": [
+   "murpap",
+   "dpc",
+   "damp proof course",
+   "murpap rulle",
+   "fugtspærre murpap"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 179
+ },
+ {
+  "key": "masonry_059",
+  "name": "Butylbånd (roll)",
+  "synonyms": [
+   "butylbånd",
+   "butyl tape",
+   "tætningsbånd butyl",
+   "seal tape butyl"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "masonry_060",
+  "name": "Tætningsbånd (puds/facade) (roll)",
+  "synonyms": [
+   "tætningsbånd",
+   "sealing tape",
+   "facade bånd",
+   "puds tætningsbånd"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "masonry_061",
+  "name": "Sokkelpuds 25kg",
+  "synonyms": [
+   "sokkelpuds",
+   "base render",
+   "plinth render",
+   "puds sokkel",
+   "sockel puds"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "masonry_062",
+  "name": "Sokkelforsegling / sokkelmaling 5L",
+  "synonyms": [
+   "sokkelmaling",
+   "plinth paint",
+   "sokkelforsegling",
+   "base seal paint"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 449
+ },
+ {
+  "key": "masonry_063",
+  "name": "Sokkeltæt 5kg",
+  "synonyms": [
+   "sokkeltæt",
+   "plinth waterproof",
+   "sokkel tætning",
+   "waterproof plinth"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 399
+ },
+ {
+  "key": "masonry_064",
+  "name": "Bitumen (kold) 5L",
+  "synonyms": [
+   "bitumen",
+   "bitumen coating",
+   "kold asfalt",
+   "bitumen 5l",
+   "foundation bitumen"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 399
+ },
+ {
+  "key": "masonry_065",
+  "name": "Bitumenbånd (roll)",
+  "synonyms": [
+   "bitumenbånd",
+   "bitumen tape",
+   "tætningsbånd bitumen",
+   "bitumen strip"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "masonry_066",
+  "name": "Facadeisolering EPS 100mm (m2)",
+  "synonyms": [
+   "eps 100mm",
+   "facadeisolering",
+   "styrofoam 100mm",
+   "polystyrene insulation 100",
+   "eps isolering 100"
+  ],
+  "unit": "m2",
+  "fallbackPriceDKK": 89
+ },
+ {
+  "key": "masonry_067",
+  "name": "Facadeisolering EPS 150mm (m2)",
+  "synonyms": [
+   "eps 150mm",
+   "styrofoam 150mm",
+   "eps isolering 150",
+   "facadeisolering 150"
+  ],
+  "unit": "m2",
+  "fallbackPriceDKK": 119
+ },
+ {
+  "key": "masonry_068",
+  "name": "Facadeisolering Lim 25kg",
+  "synonyms": [
+   "facadelim",
+   "eps adhesive",
+   "lim til facadeisolering",
+   "adhesive eps",
+   "isoleringslim 25kg"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 179
+ },
+ {
+  "key": "masonry_069",
+  "name": "Facadeisolering Armeringspuds 25kg",
+  "synonyms": [
+   "armeringspuds",
+   "reinforced base coat",
+   "facade armeringspuds",
+   "base coat eps"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 189
+ },
+ {
+  "key": "masonry_070",
+  "name": "Facade dyvler til EPS (box)",
+  "synonyms": [
+   "facadedyvler",
+   "insulation anchors",
+   "dyvler eps",
+   "isoleringsdyvler"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "masonry_071",
+  "name": "Net til facadeisolering (roll)",
+  "synonyms": [
+   "facadenet",
+   "eps mesh",
+   "armeringsnet eps",
+   "fiberglass mesh eps"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 249
+ },
+ {
+  "key": "masonry_072",
+  "name": "Pudset slutpuds (kornet) 25kg",
+  "synonyms": [
+   "slutpuds",
+   "finish render",
+   "kornet puds",
+   "facadepuds",
+   "top coat render"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 219
+ },
+ {
+  "key": "masonry_073",
+  "name": "Silikoneharpiks Slutpuds 25kg",
+  "synonyms": [
+   "silikoneharpiks puds",
+   "silicone resin render",
+   "silicone render",
+   "slutpuds silikone"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 299
+ },
+ {
+  "key": "masonry_074",
+  "name": "Silikat Slutpuds 25kg",
+  "synonyms": [
+   "silikat puds",
+   "silicate render",
+   "mineral render",
+   "slutpuds silikat"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 289
+ },
+ {
+  "key": "masonry_075",
+  "name": "Pudset farvepigment (set)",
+  "synonyms": [
+   "farvepigment",
+   "pigment",
+   "puds pigment",
+   "color pigment render"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "masonry_076",
+  "name": "Fugejern (set)",
+  "synonyms": [
+   "fugejern",
+   "jointing tool",
+   "mur fugeværktøj",
+   "fuge værktøj"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "masonry_077",
+  "name": "Pudsreparationskit (set)",
+  "synonyms": [
+   "pudsreparation",
+   "render repair kit",
+   "facade reparationskit",
+   "reparationssæt puds"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "masonry_078",
+  "name": "Revnefuge (elastisk) (pcs)",
+  "synonyms": [
+   "revnefuge",
+   "crack filler",
+   "elastisk revnefuge",
+   "crack sealant"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 89
+ },
+ {
+  "key": "masonry_079",
+  "name": "Revnearmering (netbånd) (roll)",
+  "synonyms": [
+   "revnearmering",
+   "crack tape",
+   "armeringsbånd revner",
+   "mesh tape cracks"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 89
+ },
+ {
+  "key": "masonry_080",
+  "name": "Betonforsegler 1L",
+  "synonyms": [
+   "betonforsegler",
+   "concrete sealer",
+   "forsegler beton",
+   "sealer concrete 1l"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 169
+ },
+ {
+  "key": "masonry_081",
+  "name": "Betonforsegler 5L",
+  "synonyms": [
+   "betonforsegler 5l",
+   "concrete sealer 5l",
+   "forsegler beton 5 liter"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 549
+ },
+ {
+  "key": "masonry_082",
+  "name": "Betonprimer 1L",
+  "synonyms": [
+   "betonprimer",
+   "concrete primer",
+   "primer beton",
+   "grunder beton"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "masonry_083",
+  "name": "Betonprimer 5L",
+  "synonyms": [
+   "betonprimer 5l",
+   "concrete primer 5l",
+   "primer beton 5 liter",
+   "grunder beton 5l"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 449
+ },
+ {
+  "key": "masonry_084",
+  "name": "Betonmaling 10L",
+  "synonyms": [
+   "betonmaling",
+   "concrete paint",
+   "maling beton",
+   "garage floor paint",
+   "gulvmaling beton"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 899
+ },
+ {
+  "key": "masonry_085",
+  "name": "Epoxy Gulvmaling (2K) (set)",
+  "synonyms": [
+   "epoxy gulv",
+   "epoxy floor coating",
+   "2k epoxy maling",
+   "garage epoxy"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 1299
+ },
+ {
+  "key": "masonry_086",
+  "name": "Betonudjævning (hurtig) 20kg",
+  "synonyms": [
+   "betonudjævning",
+   "rapid leveling",
+   "quick leveling compound",
+   "hurtig udjævning beton"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 249
+ },
+ {
+  "key": "masonry_087",
+  "name": "Armeringsfiber til mørtel (set)",
+  "synonyms": [
+   "armeringsfiber",
+   "fibers mortar",
+   "poly fiber",
+   "fibre mørtel"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "masonry_088",
+  "name": "Støbearmering (jern) (pcs)",
+  "synonyms": [
+   "armeringsjern",
+   "rebar",
+   "jern armering",
+   "støbejern armering"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "masonry_089",
+  "name": "Armeringsnet til støb (m2)",
+  "synonyms": [
+   "armeringsnet støb",
+   "rebar mesh",
+   "welded mesh",
+   "støbenet"
+  ],
+  "unit": "m2",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "masonry_090",
+  "name": "Betonstøb (færdigbeton) 25kg",
+  "synonyms": [
+   "færdigbeton",
+   "ready mix concrete",
+   "betonmix",
+   "beton 25kg",
+   "betonblanding"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "masonry_091",
+  "name": "Kantforskalling (pr m)",
+  "synonyms": [
+   "kantforskalling",
+   "formwork edge",
+   "forskalling kant",
+   "forskalling bræt"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 29
+ },
+ {
+  "key": "masonry_092",
+  "name": "Armeringsafstandsholdere (set)",
+  "synonyms": [
+   "afstandsholdere",
+   "rebar spacers",
+   "afstandsklodser armering",
+   "spacers rebar"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "masonry_093",
+  "name": "Forskallingsolie 1L",
+  "synonyms": [
+   "forskallingsolie",
+   "form oil",
+   "release agent",
+   "olie forskalling"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "masonry_094",
+  "name": "Tætningsmanchet vindue/dør (pcs)",
+  "synonyms": [
+   "tætningsmanchet",
+   "window door collar",
+   "manchet facade",
+   "tætning karm"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "masonry_095",
+  "name": "Fugebagstop (bagstop) (roll)",
+  "synonyms": [
+   "bagstop",
+   "backer rod",
+   "fugebagstop",
+   "fuge skumprofil"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 59
+ },
+ {
+  "key": "masonry_096",
+  "name": "Facadefuge MS Polymer (sort) (pcs)",
+  "synonyms": [
+   "facadefuge sort",
+   "ms polymer sort",
+   "fugemasse sort",
+   "sealant black exterior"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 89
+ },
+ {
+  "key": "masonry_097",
+  "name": "Facadefuge MS Polymer (grå) (pcs)",
+  "synonyms": [
+   "facadefuge grå",
+   "ms polymer grå",
+   "fugemasse grå",
+   "sealant grey exterior"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 89
+ },
+ {
+  "key": "masonry_098",
+  "name": "Fugespartel / fugeværktøj (set)",
+  "synonyms": [
+   "fugespartel",
+   "sealant tool",
+   "fugeværktøj",
+   "kitværktøj"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "masonry_099",
+  "name": "Murbor (set)",
+  "synonyms": [
+   "murbor",
+   "masonry drill bits",
+   "bor mur",
+   "bor til beton"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "masonry_100",
+  "name": "Stålbørste (pcs)",
+  "synonyms": [
+   "stålbørste",
+   "wire brush",
+   "børste stål",
+   "rens børste mur"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 39
+ },
+ {
+  "key": "masonry_101",
+  "name": "Murværksrens (kraftig) 5L",
+  "synonyms": [
+   "murværksrens",
+   "brick cleaner",
+   "facaderens",
+   "rens murværk 5l"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 249
+ },
+ {
+  "key": "masonry_102",
+  "name": "Neutraliseringsmiddel efter rens 1L",
+  "synonyms": [
+   "neutraliseringsmiddel",
+   "neutralizer",
+   "efter rens neutraliser",
+   "neutralizer masonry"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "masonry_103",
+  "name": "Vådrums-/fugtbarriere (cementbaseret) 20kg",
+  "synonyms": [
+   "cementbaseret fugtbarriere",
+   "cement waterproofing",
+   "vandstop mørtel",
+   "waterproof slurry"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 349
+ },
+ {
+  "key": "masonry_104",
+  "name": "Krystallinsk vandtætning 20kg",
+  "synonyms": [
+   "krystallinsk vandtætning",
+   "crystalline waterproofing",
+   "beton vandtætning krystal",
+   "waterproof crystals"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 499
+ },
+ {
+  "key": "masonry_105",
+  "name": "Tætningsmørtel (vandstop) 25kg",
+  "synonyms": [
+   "tætningsmørtel",
+   "waterplug mortar",
+   "vandstop",
+   "water plug mortar",
+   "stop vand indtrængning"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 299
+ },
+ {
+  "key": "masonry_106",
+  "name": "Pudsgrunder (kvarts) 10L",
+  "synonyms": [
+   "pudsgrunder",
+   "quartz primer",
+   "kvartsgrunder",
+   "primer til puds",
+   "puds primer kvarts"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 799
+ },
+ {
+  "key": "masonry_107",
+  "name": "Kvartsgrunding 5L",
+  "synonyms": [
+   "kvartsgrunding",
+   "quartz primer 5l",
+   "kvarts primer",
+   "grunder kvarts 5 liter"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 499
+ },
+ {
+  "key": "masonry_108",
+  "name": "Blandespand (set)",
+  "synonyms": [
+   "blandespand",
+   "mix bucket",
+   "spand mørtel",
+   "spand puds"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "masonry_109",
+  "name": "Byggesække (affald) (pack)",
+  "synonyms": [
+   "byggesække",
+   "rubble bags",
+   "affaldssække byggeri",
+   "sække murbrokker"
+  ],
+  "unit": "pack",
+  "fallbackPriceDKK": 69
+ },
+ {
+  "key": "masonry_110",
+  "name": "Murbrokker bortskaffelse (set)",
+  "synonyms": [
+   "bortskaffelse murbrokker",
+   "rubble disposal",
+   "affald mur",
+   "deponi murbrokker"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 450
+ },
+ {
+  "key": "masonry_111",
+  "name": "Mørtelfarve/pigment (sort) (set)",
+  "synonyms": [
+   "mørtelpigment",
+   "pigment mortar",
+   "farve pigment mørtel",
+   "sort pigment mørtel"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "masonry_112",
+  "name": "Mørtelfarve/pigment (grå) (set)",
+  "synonyms": [
+   "pigment grå",
+   "mørtelpigment grå",
+   "farve mørtel grå",
+   "grey pigment mortar"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "masonry_113",
+  "name": "Mørtelfarve/pigment (hvid) (set)",
+  "synonyms": [
+   "pigment hvid",
+   "white pigment mortar",
+   "mørtelpigment hvid",
+   "kalk pigment hvid"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "masonry_114",
+  "name": "Fugemørtel farvet (special) 25kg",
+  "synonyms": [
+   "farvet fugemørtel",
+   "colored pointing mortar",
+   "special fuge mørtel",
+   "fugemørtel farvet 25kg"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 189
+ },
+ {
+  "key": "masonry_115",
+  "name": "Reparationspuds (fin) 10kg",
+  "synonyms": [
+   "reparationspuds",
+   "plaster repair",
+   "puds reparation fin",
+   "repair plaster 10kg"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 169
+ },
+ {
+  "key": "masonry_116",
+  "name": "Reparationspuds (grov) 10kg",
+  "synonyms": [
+   "reparationspuds grov",
+   "repair render",
+   "grov reparationspuds",
+   "render repair coarse"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 169
+ },
+ {
+  "key": "masonry_117",
+  "name": "Kalkpuds 25kg",
+  "synonyms": [
+   "kalkpuds",
+   "lime render",
+   "kalkbaseret puds",
+   "lime plaster 25kg"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 189
+ },
+ {
+  "key": "masonry_118",
+  "name": "Kalkmørtel 25kg",
+  "synonyms": [
+   "kalkmørtel",
+   "lime mortar",
+   "mørtel kalk",
+   "lime mortar 25kg"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 179
+ },
+ {
+  "key": "masonry_119",
+  "name": "Kalkfuge 25kg",
+  "synonyms": [
+   "kalkfuge",
+   "lime pointing",
+   "fuge kalk",
+   "kalk fugemørtel"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 189
+ },
+ {
+  "key": "masonry_120",
+  "name": "Silikatgrunder 5L",
+  "synonyms": [
+   "silikatgrunder",
+   "silicate primer",
+   "primer silikat",
+   "grunder mineral 5l"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 549
+ },
+ {
+  "key": "masonry_121",
+  "name": "Silikatgrunder 10L",
+  "synonyms": [
+   "silikatgrunder 10l",
+   "silicate primer 10l",
+   "primer mineral 10 liter"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 899
+ },
+ {
+  "key": "masonry_122",
+  "name": "Mineralsk Facadereparation (set)",
+  "synonyms": [
+   "facadereparation",
+   "masonry repair set",
+   "mineral repair",
+   "reparationssæt facade"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 249
+ },
+ {
+  "key": "masonry_123",
+  "name": "Fugtindikator / salttest (set)",
+  "synonyms": [
+   "fugtindikator",
+   "moisture test",
+   "salttest",
+   "fugt måling test"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "masonry_124",
+  "name": "Afvaskning (TSP) 1kg",
+  "synonyms": [
+   "tsp",
+   "afrensning",
+   "degreaser tsp",
+   "trinatriumfosfat",
+   "facade afvaskning"
+  ],
+  "unit": "kg",
+  "fallbackPriceDKK": 59
+ },
+ {
+  "key": "masonry_125",
+  "name": "Støvbindende forsegler 5L",
+  "synonyms": [
+   "støvbindende",
+   "dust binder",
+   "concrete dust sealer",
+   "støvforsegler"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 499
+ },
+ {
+  "key": "masonry_126",
+  "name": "Pudsnet til sokkel (roll)",
+  "synonyms": [
+   "pudsnet sokkel",
+   "mesh plinth",
+   "armeringsnet sokkel",
+   "net sokkel puds"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "masonry_127",
+  "name": "Sokkelprofil til facadeisolering (pcs)",
+  "synonyms": [
+   "sokkelprofil",
+   "starter profile eps",
+   "startprofil",
+   "facadeisolering sokkelprofil"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "masonry_128",
+  "name": "Drænplade montage (tilbehør) (set)",
+  "synonyms": [
+   "drænplade tilbehør",
+   "drain board fixings",
+   "montering drænplade",
+   "fastgørelse drænplade"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "masonry_129",
+  "name": "Grundmursisolering (set)",
+  "synonyms": [
+   "grundmursisolering",
+   "foundation insulation",
+   "sokkel isolering",
+   "perimeter insulation"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 399
+ },
+ {
+  "key": "masonry_130",
+  "name": "Kældervæg vandtætning (set)",
+  "synonyms": [
+   "kældervæg vandtætning",
+   "basement waterproofing",
+   "vandtætning kælder",
+   "waterproof basement wall"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 499
+ },
+ {
+  "key": "masonry_131",
+  "name": "Fugeskærer (set)",
+  "synonyms": [
+   "fugeskærer",
+   "joint raker",
+   "fugefræser",
+   "raker mortar joints"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "masonry_132",
+  "name": "Fugekrads (pcs)",
+  "synonyms": [
+   "fugekrads",
+   "joint scraper",
+   "krads fuge",
+   "scraper joints"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "masonry_133",
+  "name": "Støvmembran / afdækning (roll)",
+  "synonyms": [
+   "støvmembran",
+   "dust sheet",
+   "afdækning støv",
+   "cover sheet"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "masonry_134",
+  "name": "Afdækningsplast 20m2 (roll)",
+  "synonyms": [
+   "afdækningsplast",
+   "cover plastic",
+   "malerplast",
+   "plast afdækning 20m2"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 49
+ },
+ {
+  "key": "masonry_135",
+  "name": "Malertape 50mm (roll)",
+  "synonyms": [
+   "malertape 50",
+   "masking tape 50mm",
+   "afdækningstape 50mm"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 59
+ },
+ {
+  "key": "masonry_136",
+  "name": "Slibenet / slibesvamp (set)",
+  "synonyms": [
+   "slibesvamp",
+   "sanding sponge",
+   "slibenet",
+   "slibesæt puds"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "masonry_137",
+  "name": "Facadespartel / murspartel (pcs)",
+  "synonyms": [
+   "murspartel",
+   "trowel",
+   "spartel mur",
+   "puds spartel"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "masonry_138",
+  "name": "Blandingstilsætning (plastificering) (set)",
+  "synonyms": [
+   "plastificering",
+   "plasticizer",
+   "mørtel tilsætning",
+   "additive mortar"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "masonry_139",
+  "name": "Frostsikring til mørtel (set)",
+  "synonyms": [
+   "frostsikring",
+   "anti frost additive",
+   "frost additiv mørtel",
+   "winter mortar additive"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "masonry_140",
+  "name": "Hærdningsmembran til beton 5L",
+  "synonyms": [
+   "hærdningsmembran",
+   "curing compound",
+   "beton curing",
+   "curing membrane 5l"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 499
+ },
+ {
+  "key": "masonry_141",
+  "name": "Tætningsliste til facadefuger (roll)",
+  "synonyms": [
+   "tætningsliste",
+   "sealing strip",
+   "fugeliste",
+   "joint sealing strip"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "masonry_142",
+  "name": "Beskytter til murværk (imprægnering premium) 5L",
+  "synonyms": [
+   "imprægnering premium",
+   "premium masonry sealer",
+   "water repellent premium",
+   "facade sealer premium"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 799
+ },
+ {
+  "key": "masonry_143",
+  "name": "Facadefix / reparationslim (pcs)",
+  "synonyms": [
+   "reparationslim",
+   "masonry adhesive",
+   "facade lim",
+   "repair adhesive masonry"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "masonry_144",
+  "name": "Pudsforsegler / topcoat sealer 5L",
+  "synonyms": [
+   "pudsforsegler",
+   "render sealer",
+   "topcoat sealer",
+   "sealer puds 5l"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 599
+ },
+ {
+  "key": "masonry_145",
+  "name": "Kalkvand 5L",
+  "synonyms": [
+   "kalkvand",
+   "lime water",
+   "kalk vand 5l",
+   "limewater"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "masonry_146",
+  "name": "Kalkmælk (slurry) 5L",
+  "synonyms": [
+   "kalkmælk",
+   "lime slurry",
+   "kalkslurry",
+   "lime milk 5l"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "masonry_147",
+  "name": "Murværksfuge reparationssæt (set)",
+  "synonyms": [
+   "fuge reparationssæt",
+   "brick joint repair kit",
+   "repair kit mortar joints",
+   "reparationssæt murfuge"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "masonry_148",
+  "name": "Spand + svamp til afvask (set)",
+  "synonyms": [
+   "svamp",
+   "bucket sponge",
+   "afvask sæt",
+   "cleaning sponge set"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "masonry_149",
+  "name": "Børster til facade (set)",
+  "synonyms": [
+   "facadebørste",
+   "brush set",
+   "børste murværk",
+   "rens børster facade"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "masonry_150",
+  "name": "Smådele Murværk/Puds (diverse) (set)",
+  "synonyms": [
+   "smådele murværk",
+   "misc masonry parts",
+   "diverse puds tilbehør",
+   "småting facade"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 250
+ },
+ {
+  "key": "outdoor_001",
+  "name": "Terrassebræt Trykimprægneret 28x120mm (pr m)",
+  "synonyms": [
+   "terrassebræt",
+   "trykimp bræt",
+   "terrasse træ",
+   "deck board"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 49
+ },
+ {
+  "key": "outdoor_002",
+  "name": "Terrassebræt Thermotræ (pr m)",
+  "synonyms": [
+   "thermotræ",
+   "thermal deck",
+   "varmebehandlet træ"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 89
+ },
+ {
+  "key": "outdoor_003",
+  "name": "Terrassebræt Komposit (pr m)",
+  "synonyms": [
+   "komposit terrasse",
+   "composite decking"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "outdoor_004",
+  "name": "Strø Træ 45x95mm (pr m)",
+  "synonyms": [
+   "strøer",
+   "underkonstruktion terrasse"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 29
+ },
+ {
+  "key": "outdoor_005",
+  "name": "Jordskruer Terrasse (pcs)",
+  "synonyms": [
+   "jordskrue",
+   "ground screw"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "outdoor_006",
+  "name": "Stolpesko Justerbar (pcs)",
+  "synonyms": [
+   "stolpesko",
+   "post base adjustable"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "outdoor_007",
+  "name": "Betonflise 40x40cm (pcs)",
+  "synonyms": [
+   "haveflise",
+   "betonflise"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 35
+ },
+ {
+  "key": "outdoor_008",
+  "name": "Betonflise 50x50cm (pcs)",
+  "synonyms": [
+   "flise beton 50x50"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 49
+ },
+ {
+  "key": "outdoor_009",
+  "name": "Herregårdssten (m2)",
+  "synonyms": [
+   "herregårdssten",
+   "belægningssten"
+  ],
+  "unit": "m2",
+  "fallbackPriceDKK": 189
+ },
+ {
+  "key": "outdoor_010",
+  "name": "Stabilgrus (pr ton)",
+  "synonyms": [
+   "stabilgrus",
+   "underlag belægning"
+  ],
+  "unit": "ton",
+  "fallbackPriceDKK": 399
+ },
+ {
+  "key": "outdoor_011",
+  "name": "Sand 0-8mm (pr ton)",
+  "synonyms": [
+   "afretningssand"
+  ],
+  "unit": "ton",
+  "fallbackPriceDKK": 349
+ },
+ {
+  "key": "outdoor_012",
+  "name": "Fiberdug (ukrudtsdug) (m2)",
+  "synonyms": [
+   "ukrudtsdug",
+   "fiberdug"
+  ],
+  "unit": "m2",
+  "fallbackPriceDKK": 9
+ },
+ {
+  "key": "outdoor_013",
+  "name": "Kantsten Beton (pcs)",
+  "synonyms": [
+   "kantsten",
+   "edge stone"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "outdoor_014",
+  "name": "Plastkant til bed (pr m)",
+  "synonyms": [
+   "bedkant plast"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 19
+ },
+ {
+  "key": "outdoor_015",
+  "name": "Træhegn Trykimprægneret (pr fag)",
+  "synonyms": [
+   "træhegn",
+   "havehegn"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 899
+ },
+ {
+  "key": "outdoor_016",
+  "name": "Hegnspæl Trykimprægneret 90x90 (pcs)",
+  "synonyms": [
+   "hegnspæl",
+   "hegn stolpe"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "outdoor_017",
+  "name": "Beton til stolper (25kg)",
+  "synonyms": [
+   "stolpebeton"
+  ],
+  "unit": "bag",
+  "fallbackPriceDKK": 59
+ },
+ {
+  "key": "outdoor_018",
+  "name": "Terrasseskruer Rustfri (pakke)",
+  "synonyms": [
+   "terrasseskruer",
+   "rustfri skruer terrasse"
+  ],
+  "unit": "pack",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "outdoor_019",
+  "name": "Beslag til terrasse (pcs)",
+  "synonyms": [
+   "beslag terrasse"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 25
+ },
+ {
+  "key": "outdoor_020",
+  "name": "Træbeskyttelse Udendørs 5L",
+  "synonyms": [
+   "træbeskyttelse",
+   "wood protection outdoor"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 399
+ },
+ {
+  "key": "outdoor_021",
+  "name": "Terrasseolie 5L",
+  "synonyms": [
+   "terrasseolie",
+   "deck oil"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 449
+ },
+ {
+  "key": "outdoor_022",
+  "name": "Algefjerner Terrasse 5L",
+  "synonyms": [
+   "algefjerner terrasse"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 249
+ },
+ {
+  "key": "outdoor_023",
+  "name": "Ukrudtsmiddel (non-glyphosate) 5L",
+  "synonyms": [
+   "ukrudtsmiddel"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 299
+ },
+ {
+  "key": "outdoor_024",
+  "name": "Drænslange 100mm (pr m)",
+  "synonyms": [
+   "drænslange"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 39
+ },
+ {
+  "key": "outdoor_025",
+  "name": "Singels 16-32mm (pr ton)",
+  "synonyms": [
+   "singels"
+  ],
+  "unit": "ton",
+  "fallbackPriceDKK": 499
+ },
+ {
+  "key": "outdoor_026",
+  "name": "Havefliser Natursten (m2)",
+  "synonyms": [
+   "natursten fliser"
+  ],
+  "unit": "m2",
+  "fallbackPriceDKK": 499
+ },
+ {
+  "key": "outdoor_027",
+  "name": "Granitskærver (pr ton)",
+  "synonyms": [
+   "granitskærver"
+  ],
+  "unit": "ton",
+  "fallbackPriceDKK": 699
+ },
+ {
+  "key": "outdoor_028",
+  "name": "Stålkanter til belægning (pr m)",
+  "synonyms": [
+   "stålkanter"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 59
+ },
+ {
+  "key": "outdoor_029",
+  "name": "Havegang Fliser (m2)",
+  "synonyms": [
+   "gangsti fliser"
+  ],
+  "unit": "m2",
+  "fallbackPriceDKK": 299
+ },
+ {
+  "key": "outdoor_030",
+  "name": "Udendørs Trappeelement Beton (pcs)",
+  "synonyms": [
+   "beton trappe udendørs"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 899
+ },
+ {
+  "key": "outdoor_031",
+  "name": "Smådele Udendørs (diverse)",
+  "synonyms": [
+   "smådele udendørs"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 350
+ },
+ {
+  "key": "roof_001",
+  "name": "Tagpap Overpap (rulle)",
+  "synonyms": [
+   "tagpap",
+   "overpap",
+   "roofing felt",
+   "bitumen overpap"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 499,
+  "exclude": [
+   "gennemfoering",
+   "haette",
+   "klaeber",
+   "lim",
+   "patron",
+   "primer",
+   "skiver",
+   "soem"
+  ]
+ },
+ {
+  "key": "roof_002",
+  "name": "Tagpap Underpap (rulle)",
+  "synonyms": [
+   "underpap",
+   "tagpap underlag",
+   "roofing underlay bitumen"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 399,
+  "exclude": [
+   "klaeber",
+   "kork",
+   "lim",
+   "patron",
+   "primer",
+   "skiver",
+   "soem"
+  ]
+ },
+ {
+  "key": "roof_003",
+  "name": "Tagpap Klæber/Lim 5L",
+  "synonyms": [
+   "tagpap lim",
+   "roofing adhesive",
+   "bitumenlim"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 399
+ },
+ {
+  "key": "roof_004",
+  "name": "Bitumen Primer 5L",
+  "synonyms": [
+   "bitumen primer",
+   "tagpap primer",
+   "bitumen grunder"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 349
+ },
+ {
+  "key": "roof_005",
+  "name": "Tagpap Søm (box)",
+  "synonyms": [
+   "tagpapsøm",
+   "roofing nails",
+   "søm tagpap"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "roof_006",
+  "name": "Tagpap Skiver (box)",
+  "synonyms": [
+   "tagpap skiver",
+   "roofing washers",
+   "skiver tagpap"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "roof_007",
+  "name": "Tagpap Reparation (kit)",
+  "synonyms": [
+   "tagpap reparationskit",
+   "roof repair kit",
+   "lap tagpap"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "roof_008",
+  "name": "Tagpap Tætningsmasse (pcs)",
+  "synonyms": [
+   "tagpap fugemasse",
+   "bitumen sealant",
+   "tætningsmasse tagpap"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "roof_009",
+  "name": "Inddækning Tagpap (aluminium) (m)",
+  "synonyms": [
+   "inddækning tagpap",
+   "flashing",
+   "aluminium inddækning"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 89,
+  "exclude": [
+   "skrue",
+   "soem",
+   "tape"
+  ]
+ },
+ {
+  "key": "roof_010",
+  "name": "Tagfodinddækning (m)",
+  "synonyms": [
+   "tagfodinddækning",
+   "eaves flashing",
+   "tagfod blik"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "roof_011",
+  "name": "Skotrendeinddækning (m)",
+  "synonyms": [
+   "skotrende",
+   "valley flashing",
+   "skotrende blik"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "roof_012",
+  "name": "Murkroneafdækning (m)",
+  "synonyms": [
+   "murkrone",
+   "coping flashing",
+   "afdækning murkrone"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "roof_013",
+  "name": "Skorstensinddækning (set)",
+  "synonyms": [
+   "skorstensinddækning",
+   "chimney flashing",
+   "inddækning skorsten"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 599
+ },
+ {
+  "key": "roof_014",
+  "name": "Skorstenskrave (pcs)",
+  "synonyms": [
+   "skorstenskrave",
+   "chimney collar",
+   "krave skorsten"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "roof_015",
+  "name": "Rygningsbånd (roll)",
+  "synonyms": [
+   "rygningsbånd",
+   "ridge tape",
+   "tagryg bånd"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 299,
+  "exclude": [
+   "beslag",
+   "klips",
+   "skrue",
+   "soem"
+  ]
+ },
+ {
+  "key": "roof_016",
+  "name": "Rygningsbeslag (box)",
+  "synonyms": [
+   "rygningsbeslag",
+   "ridge brackets",
+   "beslag rygning"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "roof_017",
+  "name": "Rygningstætning (roll)",
+  "synonyms": [
+   "rygningstætning",
+   "ridge sealing",
+   "tætning rygning"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "roof_018",
+  "name": "Taghætte / udluftning (pcs)",
+  "synonyms": [
+   "taghætte",
+   "roof vent",
+   "udluftning tag"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 349
+ },
+ {
+  "key": "roof_019",
+  "name": "Ventilationshætte isoleret (pcs)",
+  "synonyms": [
+   "venthætte isoleret",
+   "insulated roof vent",
+   "isoleret taghætte"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 499
+ },
+ {
+  "key": "roof_020",
+  "name": "Skotrenderist / løvrist (m)",
+  "synonyms": [
+   "løvrist",
+   "leaf guard",
+   "skotrenderist"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "roof_021",
+  "name": "Tagrende Plast 125mm (m)",
+  "synonyms": [
+   "tagrende",
+   "gutter",
+   "plast tagrende 125"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 79,
+  "exclude": [
+   "boejle",
+   "clips",
+   "filter",
+   "net",
+   "pigge",
+   "rens",
+   "roerfilter",
+   "wipes"
+  ]
+ },
+ {
+  "key": "roof_022",
+  "name": "Tagrende Stål 125mm (m)",
+  "synonyms": [
+   "tagrende stål",
+   "steel gutter 125",
+   "tagrende metal 125"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 129,
+  "exclude": [
+   "boejle",
+   "clips",
+   "filter",
+   "net",
+   "rens",
+   "wipes"
+  ]
+ },
+ {
+  "key": "roof_023",
+  "name": "Tagrendekrog (pcs)",
+  "synonyms": [
+   "tagrendekrog",
+   "gutter bracket",
+   "krog tagrende"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 25
+ },
+ {
+  "key": "roof_024",
+  "name": "Tagrende Samlestykke (pcs)",
+  "synonyms": [
+   "samlestykke tagrende",
+   "gutter connector",
+   "samling tagrende"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 35
+ },
+ {
+  "key": "roof_025",
+  "name": "Tagrende Endebund (pcs)",
+  "synonyms": [
+   "endebund",
+   "gutter end cap",
+   "ende tagrende"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 29
+ },
+ {
+  "key": "roof_026",
+  "name": "Tagrende Udløb (pcs)",
+  "synonyms": [
+   "udløb tagrende",
+   "gutter outlet",
+   "nedløbsudløb"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 49
+ },
+ {
+  "key": "roof_027",
+  "name": "Nedløbsrør Plast 75mm (m)",
+  "synonyms": [
+   "nedløbsrør",
+   "downpipe",
+   "nedløb plast 75"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 69,
+  "exclude": [
+   "boejning",
+   "espalier",
+   "holder",
+   "loevfang",
+   "rensesaet"
+  ]
+ },
+ {
+  "key": "roof_028",
+  "name": "Nedløbsrør Stål 75mm (m)",
+  "synonyms": [
+   "nedløbsrør stål",
+   "steel downpipe",
+   "nedløb metal 75"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 109,
+  "exclude": [
+   "boejning",
+   "espalier",
+   "holder",
+   "loevfang"
+  ]
+ },
+ {
+  "key": "roof_029",
+  "name": "Nedløbsbøjning 75mm (pcs)",
+  "synonyms": [
+   "nedløbsbøjning",
+   "downpipe elbow",
+   "bøjning nedløb"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 49
+ },
+ {
+  "key": "roof_030",
+  "name": "Nedløbsrørholder (pcs)",
+  "synonyms": [
+   "rørholder nedløb",
+   "pipe clamp downpipe",
+   "holder nedløb"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 29
+ },
+ {
+  "key": "roof_031",
+  "name": "Løvfang til nedløb (pcs)",
+  "synonyms": [
+   "løvfang",
+   "leaf catcher",
+   "løvfang nedløb"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "roof_032",
+  "name": "Regnvandsudleder (pcs)",
+  "synonyms": [
+   "regnvandsudleder",
+   "rain diverter",
+   "udleder nedløb"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "roof_033",
+  "name": "Tagrenderens (liter)",
+  "synonyms": [
+   "tagrenderens",
+   "gutter cleaner",
+   "rens tagrende"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 89
+ },
+ {
+  "key": "roof_034",
+  "name": "Tagrende Tætningsliste (roll)",
+  "synonyms": [
+   "tætningsliste tagrende",
+   "gutter seal strip",
+   "gummiliste tagrende"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "roof_035",
+  "name": "Tagrende Silikone/Tætning (pcs)",
+  "synonyms": [
+   "tætning tagrende",
+   "gutter sealant",
+   "silikone tagrende"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "roof_036",
+  "name": "Sternbræt Trykimprægneret (m)",
+  "synonyms": [
+   "sternbræt",
+   "fascia board",
+   "sternbræt træ"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 59,
+  "exclude": [
+   "beslag",
+   "sten"
+  ]
+ },
+ {
+  "key": "roof_037",
+  "name": "Vindskede Trykimprægneret (m)",
+  "synonyms": [
+   "vindskede",
+   "bargeboard",
+   "vindskede træ"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 69,
+  "exclude": [
+   "beslag",
+   "sten"
+  ]
+ },
+ {
+  "key": "roof_038",
+  "name": "Sternbeslag (m)",
+  "synonyms": [
+   "sternbeslag",
+   "fascia flashing",
+   "beslag stern"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "roof_039",
+  "name": "Vindskedebeslag (m)",
+  "synonyms": [
+   "vindskedebeslag",
+   "barge flashing",
+   "beslag vindskede"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 89
+ },
+ {
+  "key": "roof_040",
+  "name": "Bølgeplade Inddækning (m)",
+  "synonyms": [
+   "bølgeplade inddækning",
+   "profiled sheet flashing",
+   "inddækning bølgeplade"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "roof_041",
+  "name": "Undertag Diffusionsåbent (roll)",
+  "synonyms": [
+   "undertag",
+   "diffusionsåben",
+   "roof underlay",
+   "underlay membrane"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 999,
+  "exclude": [
+   "clips",
+   "klammer",
+   "net",
+   "soem",
+   "strammer",
+   "strips"
+  ]
+ },
+ {
+  "key": "roof_042",
+  "name": "Undertag Diffusionstæt (roll)",
+  "synonyms": [
+   "undertag diffusionstæt",
+   "roof underlay closed",
+   "diffusionstæt undertag"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 799,
+  "exclude": [
+   "beslag",
+   "clips",
+   "klammer",
+   "net",
+   "skrue",
+   "soem",
+   "strammer",
+   "strips"
+  ]
+ },
+ {
+  "key": "roof_043",
+  "name": "Undertag Tape (roll)",
+  "synonyms": [
+   "undertag tape",
+   "underlay tape",
+   "tape undertag"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "roof_044",
+  "name": "Undertag Klæb (roll)",
+  "synonyms": [
+   "undertag klæb",
+   "underlay adhesive strip",
+   "klæbebånd undertag"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "roof_045",
+  "name": "Dampspærre 0.20mm (roll)",
+  "synonyms": [
+   "dampspærre",
+   "vapor barrier",
+   "plastfolie 0.20"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 299,
+  "exclude": [
+   "hjoerne",
+   "klae",
+   "krave",
+   "lim",
+   "manchet",
+   "sut",
+   "tape"
+  ]
+ },
+ {
+  "key": "roof_046",
+  "name": "Dampspærre Tape (roll)",
+  "synonyms": [
+   "dampspærretape",
+   "vapor barrier tape",
+   "tape dampspærre"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "roof_047",
+  "name": "Butylbånd (roll)",
+  "synonyms": [
+   "butylbånd",
+   "butyl tape",
+   "tætningsbånd butyl"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "roof_048",
+  "name": "Fugemasse MS Polymer (pcs)",
+  "synonyms": [
+   "ms polymer",
+   "sealant",
+   "fugemasse ms",
+   "facadefuge"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 89
+ },
+ {
+  "key": "roof_049",
+  "name": "Fugebagstop (roll)",
+  "synonyms": [
+   "bagstop",
+   "backer rod",
+   "fugebagstop"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 59
+ },
+ {
+  "key": "roof_050",
+  "name": "Tætningsmanchet til rør (pcs)",
+  "synonyms": [
+   "rørmanchet",
+   "pipe collar",
+   "tætningsmanchet tag",
+   "manchet rør"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 49
+ },
+ {
+  "key": "roof_051",
+  "name": "Isolering Mineraluld 50mm (m2)",
+  "synonyms": [
+   "isolering 50mm",
+   "mineraluld 50",
+   "rockwool 50",
+   "glasuld 50"
+  ],
+  "unit": "m2",
+  "fallbackPriceDKK": 29,
+  "exclude": [
+   "baand",
+   "blok",
+   "knive",
+   "murbatts",
+   "net",
+   "plade",
+   "plugs",
+   "skillevaeg",
+   "skrue",
+   "startsektion",
+   "tape",
+   "terraen"
+  ]
+ },
+ {
+  "key": "roof_052",
+  "name": "Isolering Mineraluld 100mm (m2)",
+  "synonyms": [
+   "isolering 100mm",
+   "mineraluld 100",
+   "rockwool 100",
+   "glasuld 100"
+  ],
+  "unit": "m2",
+  "fallbackPriceDKK": 45,
+  "exclude": [
+   "baand",
+   "blok",
+   "knive",
+   "murbatts",
+   "net",
+   "plugs",
+   "skillevaeg",
+   "skrue",
+   "startsektion",
+   "tape",
+   "terraen"
+  ]
+ },
+ {
+  "key": "roof_053",
+  "name": "Isolering Mineraluld 150mm (m2)",
+  "synonyms": [
+   "isolering 150mm",
+   "mineraluld 150",
+   "rockwool 150",
+   "glasuld 150"
+  ],
+  "unit": "m2",
+  "fallbackPriceDKK": 65,
+  "exclude": [
+   "blok",
+   "knive",
+   "murbatts",
+   "net",
+   "skillevaeg",
+   "tape",
+   "terraen"
+  ]
+ },
+ {
+  "key": "roof_054",
+  "name": "Isolering Mineraluld 200mm (m2)",
+  "synonyms": [
+   "isolering 200mm",
+   "mineraluld 200",
+   "rockwool 200",
+   "glasuld 200"
+  ],
+  "unit": "m2",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "roof_055",
+  "name": "Isolering Mineraluld 250mm (m2)",
+  "synonyms": [
+   "isolering 250mm",
+   "mineraluld 250",
+   "rockwool 250",
+   "glasuld 250"
+  ],
+  "unit": "m2",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "roof_056",
+  "name": "EPS Isolering 100mm (m2)",
+  "synonyms": [
+   "eps 100",
+   "styrofoam 100",
+   "polystyren 100mm"
+  ],
+  "unit": "m2",
+  "fallbackPriceDKK": 89
+ },
+ {
+  "key": "roof_057",
+  "name": "EPS Isolering 150mm (m2)",
+  "synonyms": [
+   "eps 150",
+   "styrofoam 150",
+   "polystyren 150mm"
+  ],
+  "unit": "m2",
+  "fallbackPriceDKK": 119
+ },
+ {
+  "key": "roof_058",
+  "name": "XPS Isolering 100mm (m2)",
+  "synonyms": [
+   "xps 100",
+   "extruded polystyrene 100",
+   "xps isolering 100"
+  ],
+  "unit": "m2",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "roof_059",
+  "name": "Dampspærre Lim/Tætning (pcs)",
+  "synonyms": [
+   "dampspærre lim",
+   "vapor sealant",
+   "tætning dampspærre"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "roof_060",
+  "name": "Isoleringsknive (set)",
+  "synonyms": [
+   "isoleringskniv",
+   "insulation knife",
+   "kniv isolering"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "roof_061",
+  "name": "Loftlem Isoleret (pcs)",
+  "synonyms": [
+   "loftlem",
+   "attic hatch",
+   "isoleret loftlem"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 999
+ },
+ {
+  "key": "roof_062",
+  "name": "Tætning Loftlem (set)",
+  "synonyms": [
+   "tætning loftlem",
+   "seal attic hatch",
+   "pakning loftlem"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "roof_063",
+  "name": "Loftventil (indblæsning) (pcs)",
+  "synonyms": [
+   "loftventil",
+   "air valve",
+   "ventil loft",
+   "indblæsning ventil"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "roof_064",
+  "name": "Loftventil (udsugning) (pcs)",
+  "synonyms": [
+   "udsugningsventil",
+   "exhaust valve",
+   "ventil udsugning"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "roof_065",
+  "name": "Ventilationsrør Ø100 (1m) (pcs)",
+  "synonyms": [
+   "ventilationsrør 100",
+   "spiro 100",
+   "duct pipe 100"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "roof_066",
+  "name": "Ventilationsrør Ø125 (1m) (pcs)",
+  "synonyms": [
+   "ventilationsrør 125",
+   "spiro 125",
+   "duct pipe 125"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 119
+ },
+ {
+  "key": "roof_067",
+  "name": "Ventilationsrør Ø160 (1m) (pcs)",
+  "synonyms": [
+   "ventilationsrør 160",
+   "spiro 160",
+   "duct pipe 160"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 169
+ },
+ {
+  "key": "roof_068",
+  "name": "Ventilationsbøjning Ø100 90° (pcs)",
+  "synonyms": [
+   "bøjning 100",
+   "duct elbow 100",
+   "knæk 100"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "roof_069",
+  "name": "Ventilationsbøjning Ø125 90° (pcs)",
+  "synonyms": [
+   "bøjning 125",
+   "duct elbow 125",
+   "knæk 125"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 119
+ },
+ {
+  "key": "roof_070",
+  "name": "Ventilationsbøjning Ø160 90° (pcs)",
+  "synonyms": [
+   "bøjning 160",
+   "duct elbow 160",
+   "knæk 160"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 159
+ },
+ {
+  "key": "roof_071",
+  "name": "Spændebånd Ø100 (pcs)",
+  "synonyms": [
+   "spændebånd 100",
+   "duct clamp 100",
+   "klemme ventilation 100"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 25
+ },
+ {
+  "key": "roof_072",
+  "name": "Spændebånd Ø125 (pcs)",
+  "synonyms": [
+   "spændebånd 125",
+   "duct clamp 125",
+   "klemme ventilation 125"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 29
+ },
+ {
+  "key": "roof_073",
+  "name": "Spændebånd Ø160 (pcs)",
+  "synonyms": [
+   "spændebånd 160",
+   "duct clamp 160",
+   "klemme ventilation 160"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 35
+ },
+ {
+  "key": "roof_074",
+  "name": "Ventilationstape Alu (roll)",
+  "synonyms": [
+   "alutape",
+   "aluminium tape",
+   "foil tape"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 69
+ },
+ {
+  "key": "roof_075",
+  "name": "Ventilationstape (stof) (roll)",
+  "synonyms": [
+   "duct tape",
+   "gaffatape",
+   "ventilation tape"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 69
+ },
+ {
+  "key": "roof_076",
+  "name": "Lydbøjle til ventilation (pcs)",
+  "synonyms": [
+   "lydbøjle",
+   "acoustic hanger",
+   "ophæng ventilation"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 39
+ },
+ {
+  "key": "roof_077",
+  "name": "Ventilationsophæng (set)",
+  "synonyms": [
+   "ophæng ventilation",
+   "duct hangers",
+   "bånd ophæng spiro"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "roof_078",
+  "name": "Tilbageløbsventil (pcs)",
+  "synonyms": [
+   "tilbageløbsventil",
+   "backdraft damper",
+   "spjældventil"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "roof_079",
+  "name": "Kondensisolering til spiro (m)",
+  "synonyms": [
+   "kondensisolering",
+   "duct insulation",
+   "isolering ventilation rør"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 29
+ },
+ {
+  "key": "roof_080",
+  "name": "Ventilationsrist Udvendig (pcs)",
+  "synonyms": [
+   "ventilationsrist",
+   "external grille",
+   "rist ventilation"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "roof_081",
+  "name": "Tagsten Betontagsten (m2)",
+  "synonyms": [
+   "tagsten beton",
+   "concrete roof tiles",
+   "betontagsten"
+  ],
+  "unit": "m2",
+  "fallbackPriceDKK": 179,
+  "coverage": {
+   "per_m2": 10,
+   "note": "betontagsten ca. 10 stk/m2"
+  },
+  "exclude": [
+   "beslag",
+   "clips",
+   "klaeber",
+   "kroge",
+   "maling",
+   "rens",
+   "skrue"
+  ]
+ },
+ {
+  "key": "roof_082",
+  "name": "Tagsten Tegl (m2)",
+  "synonyms": [
+   "tagsten tegl",
+   "clay roof tiles",
+   "tegl tagsten"
+  ],
+  "unit": "m2",
+  "fallbackPriceDKK": 299,
+  "coverage": {
+   "per_m2": 13,
+   "note": "tegl/falstagsten ca. 13 stk/m2"
+  },
+  "exclude": [
+   "beslag",
+   "clips",
+   "klaeber",
+   "kroge",
+   "maling",
+   "rens",
+   "skrue"
+  ]
+ },
+ {
+  "key": "roof_083",
+  "name": "Rygningssten (set)",
+  "synonyms": [
+   "rygningssten",
+   "ridge tiles",
+   "rygning tegl"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 699,
+  "coverage": {
+   "per_m": 2.5,
+   "note": "rygningssten ca. 2.5 stk/lbm"
+  },
+  "exclude": [
+   "beslag",
+   "kit",
+   "klips",
+   "lim",
+   "skrue"
+  ]
+ },
+ {
+  "key": "roof_084",
+  "name": "Rygning Klips (box)",
+  "synonyms": [
+   "rygning klips",
+   "ridge clips",
+   "klips rygningssten"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "roof_085",
+  "name": "Tagstensskruer (box)",
+  "synonyms": [
+   "tagstensskruer",
+   "roof tile screws",
+   "skruer tagsten"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "roof_086",
+  "name": "Tagstenslægter (m)",
+  "synonyms": [
+   "lægter tag",
+   "roof battens",
+   "taglægter"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 19
+ },
+ {
+  "key": "roof_087",
+  "name": "Kontralægter (m)",
+  "synonyms": [
+   "kontralægter",
+   "counter battens",
+   "afstandslister tag"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 15
+ },
+ {
+  "key": "roof_088",
+  "name": "Understrygning / tagfuge (pcs)",
+  "synonyms": [
+   "understrygning",
+   "roof sealing",
+   "tagfuge tegl"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "roof_089",
+  "name": "Stormkroge til tagsten (box)",
+  "synonyms": [
+   "stormkroge",
+   "storm clips",
+   "kroge tagsten"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 199,
+  "exclude": [
+   "plade",
+   "sten"
+  ]
+ },
+ {
+  "key": "roof_090",
+  "name": "Tagfodsklodser (set)",
+  "synonyms": [
+   "tagfodsklodser",
+   "eaves wedges",
+   "klodser tagfod"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "roof_091",
+  "name": "Bølgeplader (m2)",
+  "synonyms": [
+   "bølgeplader",
+   "corrugated sheets",
+   "tagplader bølge"
+  ],
+  "unit": "m2",
+  "fallbackPriceDKK": 179,
+  "coverage": {
+   "per_m2": 1,
+   "note": "bolgeplade normalt m2-pris"
+  }
+ },
+ {
+  "key": "roof_092",
+  "name": "Trapezplader (m2)",
+  "synonyms": [
+   "trapezplader",
+   "trapezoidal sheets",
+   "stålplader tag"
+  ],
+  "unit": "m2",
+  "fallbackPriceDKK": 199,
+  "coverage": {
+   "per_m2": 1,
+   "note": "trapezplade normalt m2-pris"
+  }
+ },
+ {
+  "key": "roof_093",
+  "name": "Skruer til tagplader (box)",
+  "synonyms": [
+   "tagpladeskruer",
+   "roof sheet screws",
+   "skruer tagplader"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "roof_094",
+  "name": "Tætningsskiver til tagplader (box)",
+  "synonyms": [
+   "tætningsskiver",
+   "sealing washers",
+   "skiver tagplader"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "roof_095",
+  "name": "Rygning til stålplader (m)",
+  "synonyms": [
+   "rygning stålplader",
+   "ridge cap steel",
+   "rygningsinddækning stål"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "roof_096",
+  "name": "Skotrende til stålplader (m)",
+  "synonyms": [
+   "skotrende stål",
+   "valley cap steel",
+   "skotrendeinddækning stål"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 169
+ },
+ {
+  "key": "roof_097",
+  "name": "Vindskedeinddækning stål (m)",
+  "synonyms": [
+   "vindskedeinddækning",
+   "barge cap steel",
+   "inddækning vindskede stål"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "roof_098",
+  "name": "Tagfodinddækning stål (m)",
+  "synonyms": [
+   "tagfodinddækning stål",
+   "eaves cap steel",
+   "inddækning tagfod stål"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "roof_099",
+  "name": "Skruer til lægter (box)",
+  "synonyms": [
+   "lægteskruer",
+   "batten screws",
+   "skruer lægter"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 179
+ },
+ {
+  "key": "roof_100",
+  "name": "Søm til lægter (box)",
+  "synonyms": [
+   "lægtesøm",
+   "batten nails",
+   "søm lægter"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "roof_101",
+  "name": "OSB 12mm (tag/loft) (m2)",
+  "synonyms": [
+   "osb",
+   "osb 12mm",
+   "osb plade tag",
+   "osb m2"
+  ],
+  "unit": "m2",
+  "fallbackPriceDKK": 69,
+  "coverage": {
+   "m2_per_unit": 2.98,
+   "note": "OSB plade 62.5x244 cm = ca. 1.52 m2; 122x244=2.98 m2"
+  }
+ },
+ {
+  "key": "roof_102",
+  "name": "Krydsfiner 12mm (tag/loft) (m2)",
+  "synonyms": [
+   "krydsfiner",
+   "plywood 12mm",
+   "krydsfiner tag",
+   "plywood m2"
+  ],
+  "unit": "m2",
+  "fallbackPriceDKK": 89,
+  "coverage": {
+   "m2_per_unit": 2.98,
+   "note": "krydsfiner plade 122x244 cm = ca. 2.98 m2"
+  }
+ },
+ {
+  "key": "roof_103",
+  "name": "Gipsplade 13mm (m2)",
+  "synonyms": [
+   "gipsplade",
+   "drywall",
+   "gips 13mm",
+   "gips m2"
+  ],
+  "unit": "m2",
+  "fallbackPriceDKK": 39,
+  "coverage": {
+   "m2_per_unit": 3.0,
+   "note": "gipsplade 120x250-260 cm = ca. 3 m2"
+  }
+ },
+ {
+  "key": "roof_104",
+  "name": "Dampspærreklæb (pcs)",
+  "synonyms": [
+   "dampspærreklæb",
+   "vapor adhesive",
+   "klæb dampspærre"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "roof_105",
+  "name": "Isoleringsnet (m2)",
+  "synonyms": [
+   "isoleringsnet",
+   "insulation net",
+   "net isolering"
+  ],
+  "unit": "m2",
+  "fallbackPriceDKK": 19
+ },
+ {
+  "key": "roof_106",
+  "name": "Loftforskalling (m)",
+  "synonyms": [
+   "forskalling loft",
+   "ceiling battens",
+   "forskalling m"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 15
+ },
+ {
+  "key": "roof_107",
+  "name": "Fugtstop primer (liter)",
+  "synonyms": [
+   "fugtstop",
+   "damp seal primer",
+   "primer fugtspærre"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "roof_108",
+  "name": "Fugtspærre maling (liter)",
+  "synonyms": [
+   "fugtspærre maling",
+   "damp proof paint",
+   "fugtspærre"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 179
+ },
+ {
+  "key": "roof_109",
+  "name": "Skimmelrens loft/tag (liter)",
+  "synonyms": [
+   "skimmelrens",
+   "mold remover",
+   "skimmelfjerner"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 89
+ },
+ {
+  "key": "roof_110",
+  "name": "Kondensisolering tape (roll)",
+  "synonyms": [
+   "kondens tape",
+   "insulation tape",
+   "tape rørisolering"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 59
+ },
+ {
+  "key": "roof_111",
+  "name": "Vindtæt membran (roll)",
+  "synonyms": [
+   "vindtæt",
+   "wind barrier",
+   "windproof membrane"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 699
+ },
+ {
+  "key": "roof_112",
+  "name": "Vindtæt tape (roll)",
+  "synonyms": [
+   "vindtæt tape",
+   "wind barrier tape",
+   "tape vindtæt"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "roof_113",
+  "name": "Vindtæt klæb (roll)",
+  "synonyms": [
+   "vindtæt klæb",
+   "adhesive strip wind",
+   "klæbebånd vindtæt"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "roof_114",
+  "name": "Ventileret stern (m)",
+  "synonyms": [
+   "ventileret stern",
+   "vent fascia",
+   "stern ventilation"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "roof_115",
+  "name": "Fugle-/insektnet tagfod (roll)",
+  "synonyms": [
+   "insektnet",
+   "bird comb",
+   "fuglenet tagfod"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "roof_116",
+  "name": "Ventilationsliste tagfod (m)",
+  "synonyms": [
+   "ventilationsliste",
+   "eaves vent",
+   "tagfod ventilation"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "roof_117",
+  "name": "Kipventilation (m)",
+  "synonyms": [
+   "kipventilation",
+   "ridge vent",
+   "ventilation kip"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 129
+ },
+ {
+  "key": "roof_118",
+  "name": "Ventilationsboks (pcs)",
+  "synonyms": [
+   "ventilationsboks",
+   "vent box",
+   "kasse ventilation"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "roof_119",
+  "name": "Isoleret flexslange ventilation (m)",
+  "synonyms": [
+   "isoleret flexslange",
+   "insulated flex duct",
+   "flex ventilation isoleret"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "roof_120",
+  "name": "Flexslange ventilation (m)",
+  "synonyms": [
+   "flexslange ventilation",
+   "flex duct",
+   "udsugningsslange"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 59
+ },
+ {
+  "key": "roof_121",
+  "name": "Isoleringsplugs til loft (box)",
+  "synonyms": [
+   "isoleringsplugs",
+   "insulation fixings",
+   "plugs isolering"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "roof_122",
+  "name": "Hæfteklammer til dampspærre (box)",
+  "synonyms": [
+   "hæfteklammer",
+   "staples vapor barrier",
+   "klammer dampspærre"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 69
+ },
+ {
+  "key": "roof_123",
+  "name": "Skruer Træ 5x80 (box)",
+  "synonyms": [
+   "træskruer 5x80",
+   "wood screws 5x80",
+   "skruer 5x80"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "roof_124",
+  "name": "Skruer Træ 5x60 (box)",
+  "synonyms": [
+   "træskruer 5x60",
+   "wood screws 5x60",
+   "skruer 5x60"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "roof_125",
+  "name": "Bygningsbeslag tag (box)",
+  "synonyms": [
+   "tagbeslag",
+   "roof brackets",
+   "beslag tagkonstruktion"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "roof_126",
+  "name": "Spærbeslag / bjælkesko (pcs)",
+  "synonyms": [
+   "bjælkesko",
+   "joist hanger",
+   "spærbeslag"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 35
+ },
+ {
+  "key": "roof_127",
+  "name": "Vinkelbeslag (box)",
+  "synonyms": [
+   "vinkelbeslag",
+   "angle brackets",
+   "hjørnebeslag"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "roof_128",
+  "name": "Søm til beslag (box)",
+  "synonyms": [
+   "beslagssøm",
+   "nails for brackets",
+   "søm beslag"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "roof_129",
+  "name": "Byggefuge indvendig (pcs)",
+  "synonyms": [
+   "byggefuge",
+   "construction sealant",
+   "fugemasse indvendig"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 69
+ },
+ {
+  "key": "roof_130",
+  "name": "Akrylfuge (pcs)",
+  "synonyms": [
+   "akrylfuge",
+   "acrylic sealant",
+   "malerfuge"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 39
+ },
+ {
+  "key": "roof_131",
+  "name": "Skærekniv blade (set)",
+  "synonyms": [
+   "knivblade",
+   "utility blades",
+   "blade kniv"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 49
+ },
+ {
+  "key": "roof_132",
+  "name": "Støvmaske (box)",
+  "synonyms": [
+   "støvmaske",
+   "dust mask",
+   "maske støv"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 79
+ },
+ {
+  "key": "roof_133",
+  "name": "Arbejdshandsker (box)",
+  "synonyms": [
+   "arbejdshandsker",
+   "work gloves",
+   "handsker"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "roof_134",
+  "name": "Affaldssække kraftige (box)",
+  "synonyms": [
+   "affaldssække",
+   "rubble bags",
+   "byggesække"
+  ],
+  "unit": "box",
+  "fallbackPriceDKK": 69
+ },
+ {
+  "key": "roof_135",
+  "name": "Afdækningsplast (roll)",
+  "synonyms": [
+   "afdækningsplast",
+   "cover plastic",
+   "malerplast"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 49
+ },
+ {
+  "key": "roof_136",
+  "name": "Afdækningspap (roll)",
+  "synonyms": [
+   "afdækningspap",
+   "cover paper",
+   "gulvpap"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 99
+ },
+ {
+  "key": "roof_137",
+  "name": "Malertape 50mm (roll)",
+  "synonyms": [
+   "malertape 50",
+   "masking tape 50mm",
+   "afdækningstape 50mm"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 59
+ },
+ {
+  "key": "roof_138",
+  "name": "Rengøringsmiddel (liter)",
+  "synonyms": [
+   "rengøringsmiddel",
+   "cleaner",
+   "detergent"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 49
+ },
+ {
+  "key": "roof_139",
+  "name": "Affedter (liter)",
+  "synonyms": [
+   "affedter",
+   "degreaser",
+   "affedtning"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 69
+ },
+ {
+  "key": "roof_140",
+  "name": "Smådele Tag/Isolering (diverse) (set)",
+  "synonyms": [
+   "smådele tag",
+   "misc roofing parts",
+   "småting isolering",
+   "diverse tag"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 250
+ },
+ {
+  "key": "roof_141",
+  "name": "Loftisolering Granulat (m3)",
+  "synonyms": [
+   "granulat isolering",
+   "loftisolering granulat",
+   "blown insulation"
+  ],
+  "unit": "m3",
+  "fallbackPriceDKK": 499
+ },
+ {
+  "key": "roof_142",
+  "name": "Dampspærre gennemføring (set)",
+  "synonyms": [
+   "gennemføring dampspærre",
+   "vapor penetration set",
+   "tætning gennemføring"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "roof_143",
+  "name": "Ventilationsfordeler (set)",
+  "synonyms": [
+   "ventilationsfordeler",
+   "duct manifold",
+   "fordeler ventilation"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 499
+ },
+ {
+  "key": "roof_144",
+  "name": "Ventilationslyddæmper (pcs)",
+  "synonyms": [
+   "lyddæmper",
+   "silencer duct",
+   "lydfælde ventilation"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 399
+ },
+ {
+  "key": "roof_145",
+  "name": "Ventilationsflex kobling (pcs)",
+  "synonyms": [
+   "kobling flex",
+   "duct connector",
+   "kobling ventilation"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 49
+ },
+ {
+  "key": "roof_146",
+  "name": "Tagreparationsmaling (liter)",
+  "synonyms": [
+   "tagmaling",
+   "roof coating",
+   "reparationsmaling tag"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 199
+ },
+ {
+  "key": "roof_147",
+  "name": "Bitumen koldasfalt 5L",
+  "synonyms": [
+   "koldasfalt",
+   "cold asphalt",
+   "bitumen kold",
+   "kold bitumen"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 399
+ },
+ {
+  "key": "roof_148",
+  "name": "Tagrens / algefjerner 5L",
+  "synonyms": [
+   "tagrens",
+   "algefjerner tag",
+   "roof cleaner",
+   "moss remover roof"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 249
+ },
+ {
+  "key": "roof_149",
+  "name": "Imprægnering tagsten 5L",
+  "synonyms": [
+   "imprægnering tag",
+   "roof tile sealer",
+   "water repellent roof"
+  ],
+  "unit": "liter",
+  "fallbackPriceDKK": 599
+ },
+ {
+  "key": "roof_150",
+  "name": "Skadedyrsnet ventilationsåbning (roll)",
+  "synonyms": [
+   "skadedyrsnet",
+   "insect mesh",
+   "net ventilation åbning"
+  ],
+  "unit": "roll",
+  "fallbackPriceDKK": 149
+ },
+ {
+  "key": "koekken_skab_bund_60cm",
+  "name": "Køkkenskab bund 60cm",
+  "synonyms": [
+   "bottom cabinet",
+   "underskab"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 1450
+ },
+ {
+  "key": "koekken_skab_bund_80cm",
+  "name": "Køkkenskab bund 80cm",
+  "synonyms": [
+   "bred underskab"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 1750
+ },
+ {
+  "key": "koekken_skab_oevre_60cm",
+  "name": "Køkkenskab øvre 60cm",
+  "synonyms": [
+   "overbygning",
+   "wall cabinet"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 1250
+ },
+ {
+  "key": "koekken_skab_oevre_80cm",
+  "name": "Køkkenskab øvre 80cm",
+  "synonyms": [],
+  "unit": "pcs",
+  "fallbackPriceDKK": 1550
+ },
+ {
+  "key": "koekken_hjoerneskab",
+  "name": "Køkkenskab hjørne",
+  "synonyms": [],
+  "unit": "pcs",
+  "fallbackPriceDKK": 2400
+ },
+ {
+  "key": "koekken_hojskab",
+  "name": "Køkkenhøjskab",
+  "synonyms": [
+   "tall cabinet"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 2200
+ },
+ {
+  "key": "koekken_skabsfront_udskift",
+  "name": "Skabsfront udskiftning (pr stk)",
+  "synonyms": [
+   "front swap"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 650
+ },
+ {
+  "key": "koekken_front_set_gennemsnit",
+  "name": "Komplet sæt køkkenfronter",
+  "synonyms": [
+   "front set"
+  ],
+  "unit": "set",
+  "fallbackPriceDKK": 14000
+ },
+ {
+  "key": "koekken_vask_rustfrit",
+  "name": "Køkkenvask rustfrit stål",
+  "synonyms": [
+   "sink"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 1800
+ },
+ {
+  "key": "koekken_blandingsbatteri",
+  "name": "Blandingsbatteri køkken",
+  "synonyms": [
+   "faucet",
+   "hane"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 1200
+ },
+ {
+  "key": "ovn_indbygget",
+  "name": "Indbygget ovn",
+  "synonyms": [
+   "oven"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 4500
+ },
+ {
+  "key": "opvaskemaskine_integreret",
+  "name": "Integreret opvaskemaskine",
+  "synonyms": [
+   "dishwasher"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 4200
+ },
+ {
+  "key": "koeleskab_fryser_indbygget",
+  "name": "Indbygget køleskab/fryser",
+  "synonyms": [
+   "fridge"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 5500
+ },
+ {
+  "key": "koeleskab_fritstaende",
+  "name": "Fritstående køleskab/fryser",
+  "synonyms": [],
+  "unit": "pcs",
+  "fallbackPriceDKK": 4800
+ },
+ {
+  "key": "komfur_induktionstop",
+  "name": "Induktionstop",
+  "synonyms": [
+   "induction hob"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 3800
+ },
+ {
+  "key": "emhaeng_koekken",
+  "name": "Emhæng/kogeaftrækker",
+  "synonyms": [
+   "hood"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 2200
+ },
+ {
+  "key": "bordplade_kvarts_m2",
+  "name": "Bordplade kvarts (pr m2)",
+  "synonyms": [
+   "quartz countertop"
+  ],
+  "unit": "m2",
+  "fallbackPriceDKK": 2800
+ },
+ {
+  "key": "bordplade_granit_m2",
+  "name": "Bordplade granit (pr m2)",
+  "synonyms": [
+   "granite countertop"
+  ],
+  "unit": "m2",
+  "fallbackPriceDKK": 2400
+ },
+ {
+  "key": "bordplade_trae_massivt_m",
+  "name": "Massivt træ bordplade (pr m)",
+  "synonyms": [
+   "wooden top"
+  ],
+  "unit": "m",
+  "fallbackPriceDKK": 1100
+ },
+ {
+  "key": "rivning_koekken_total",
+  "name": "Rivning af gammelt køkken (total)",
+  "synonyms": [
+   "demolition kitchen"
+  ],
+  "unit": "job",
+  "fallbackPriceDKK": 8500
+ },
+ {
+  "key": "rivning_fliser_vaegge_m2",
+  "name": "Rivning af vægfliser (pr m2)",
+  "synonyms": [],
+  "unit": "m2",
+  "fallbackPriceDKK": 180
+ },
+ {
+  "key": "kontejner_leje_byggeaffald",
+  "name": "Byggekontainer leje inkl. tømning",
+  "synonyms": [
+   "skip rental",
+   "container rental"
+  ],
+  "unit": "pcs",
+  "fallbackPriceDKK": 4500
+ },
+ {
+  "key": "laminatgulv_8mm_m2",
+  "name": "Laminatgulv 8mm (pr m2)",
+  "synonyms": [
+   "laminate flooring"
+  ],
+  "unit": "m2",
+  "fallbackPriceDKK": 180
+ },
+ {
+  "key": "vinylgulv_klik_m2",
+  "name": "Vinylgulv klik (pr m2)",
+  "synonyms": [
+   "vinyl floor"
+  ],
+  "unit": "m2",
+  "fallbackPriceDKK": 230
+ },
+ {
+  "key": "braeddegulv_fyr_22mm_m2",
+  "name": "Bræddegulv fyr 22mm (pr m2)",
+  "synonyms": [
+   "pine planks"
+  ],
+  "unit": "m2",
+  "fallbackPriceDKK": 340
+ },
+ {
+  "key": "door_slab_interior",
+  "name": "Indvendig dør (dørblad)",
+  "synonyms": [
+   "indvendig dør",
+   "dørblad",
+   "dørplade",
+   "innerdør",
+   "dør 725x2040",
+   "dør 825x2040",
+   "interior door",
+   "door leaf",
+   "door slab",
+   "indvendig doer"
+  ],
+  "unit": "pcs",
+  "exclude": [
+   "låsekasse",
+   "slutblik",
+   "låsecylinder",
+   "cylinder",
+   "dørgreb",
+   "greb",
+   "hængsel",
+   "karm",
+   "skrue",
+   "beslag",
+   "spion",
+   "pumpe",
+   "stopper",
+   "skilt",
+   "lås"
+  ]
+ },
+ {
+  "key": "door_slab_exterior",
+  "name": "Yderdør",
+  "synonyms": [
+   "yderdør",
+   "hoveddør",
+   "entredør",
+   "terrassedør",
+   "yderdor",
+   "front door",
+   "exterior door",
+   "entry door",
+   "terrace door"
+  ],
+  "unit": "pcs",
+  "exclude": [
+   "lås",
+   "låsekasse",
+   "cylinder",
+   "greb",
+   "hængsel",
+   "karm",
+   "skrue",
+   "beslag",
+   "dørlås",
+   "terrassedørlås",
+   "spion",
+   "pumpe",
+   "stopper"
+  ]
+ },
+ {
+  "key": "door_frame_interior",
+  "name": "Dørkarm (karmtræ)",
+  "synonyms": [
+   "dørkarm",
+   "karmtræ",
+   "karmtræ sæt",
+   "dørramme",
+   "karmträ",
+   "door frame",
+   "door casing",
+   "door liner",
+   "doerkarm"
+  ],
+  "unit": "set",
+  "exclude": [
+   "skrue",
+   "skunklem",
+   "skunk",
+   "lem",
+   "beslag",
+   "skab",
+   "køkken",
+   "hængsel",
+   "greb",
+   "lås",
+   "plug"
+  ]
+ },
+ {
+  "key": "door_hinge",
+  "name": "Dørhængsel (sæt)",
+  "synonyms": [
+   "dørhængsel",
+   "dørhængsler",
+   "hængsel",
+   "hængsler",
+   "dørhengsel",
+   "door hinge",
+   "door hinges",
+   "butt hinge",
+   "doerhaengsel"
+  ],
+  "unit": "set",
+  "exclude": [
+   "skab",
+   "køkken",
+   "låge",
+   "møbel",
+   "klaver",
+   "stabel",
+   "smig"
+  ]
+ },
+ {
+  "key": "door_handle_set",
+  "name": "Dørgreb sæt (greb + skilte)",
+  "synonyms": [
+   "dørgreb",
+   "dørgreb sæt",
+   "dørgrebsgarnitur",
+   "grebgarnitur",
+   "dørgrebssæt",
+   "door handle",
+   "door handle set",
+   "lever handle",
+   "doergreb"
+  ],
+  "unit": "set",
+  "exclude": [
+   "skab",
+   "køkken",
+   "møbel",
+   "karm",
+   "skrue",
+   "beslag",
+   "cylinder",
+   "indvendig dør",
+   "dørblade",
+   "spion",
+   "låsekasse",
+   "massiv",
+   "solid",
+   "dannebrog",
+   "finland",
+   "ubehandlet"
+  ]
+ },
+ {
+  "key": "door_lock_case",
+  "name": "Låsekasse (indstikslås)",
+  "synonyms": [
+   "låsekasse",
+   "indstikslås",
+   "låsekasse indstik",
+   "lasekasse",
+   "mortise lock",
+   "mortice lock",
+   "lock case",
+   "deadlock"
+  ],
+  "unit": "pcs",
+  "exclude": [
+   "greb",
+   "skilt",
+   "cylinder",
+   "slutblik",
+   "dørgreb",
+   "karm"
+  ]
+ },
+ {
+  "key": "door_cylinder",
+  "name": "Låsecylinder",
+  "synonyms": [
+   "låsecylinder",
+   "cylinder",
+   "sikkerhedscylinder",
+   "lasecylinder",
+   "lock cylinder",
+   "euro cylinder",
+   "door cylinder",
+   "profile cylinder"
+  ],
+  "unit": "pcs",
+  "exclude": [
+   "låsekasse",
+   "greb",
+   "slutblik",
+   "skilt",
+   "dørgreb"
+  ]
+ },
+ {
+  "key": "door_strike_plate",
+  "name": "Slutblik",
+  "synonyms": [
+   "slutblik",
+   "slutplade",
+   "låseblik",
+   "strike plate",
+   "striker plate",
+   "latch plate"
+  ],
+  "unit": "pcs",
+  "exclude": [
+   "ukrudt",
+   "keeper",
+   "cord",
+   "hair",
+   "garden",
+   "magnet",
+   "låsekasse"
+  ]
+ },
+ {
+  "key": "door_stop",
+  "name": "Dørstopper",
+  "synonyms": [
+   "dørstopper",
+   "dørstop",
+   "door stop",
+   "door stopper",
+   "door wedge",
+   "doerstopper"
+  ],
+  "unit": "pcs",
+  "exclude": [
+   "greb",
+   "skab",
+   "møbel",
+   "køkken"
+  ]
+ },
+ {
+  "key": "door_shims",
+  "name": "Indkiler / sleer (dørkiler)",
+  "synonyms": [
+   "dørkiler",
+   "kiler",
+   "sleer",
+   "indkiler",
+   "doerkiler",
+   "shims",
+   "door shims",
+   "packers",
+   "wedges",
+   "glazing packers"
+  ],
+  "unit": "pack",
+  "exclude": [
+   "tilefix",
+   "nivellering",
+   "flise",
+   "nivelering",
+   "eftermontering",
+   "k-mur",
+   "beslag",
+   "monteringsbeslag"
+  ]
+ },
+ {
+  "key": "door_closer",
+  "name": "Dørpumpe (dørlukker)",
+  "synonyms": [
+   "dørpumpe",
+   "dørlukker",
+   "door closer",
+   "overhead door closer",
+   "doerpumpe"
+  ],
+  "unit": "pcs",
+  "exclude": [
+   "checky",
+   "tæppe",
+   "carpet",
+   "tappet",
+   "tegning"
+  ]
+ },
+ {
+  "key": "door_peephole",
+  "name": "Dørspion",
+  "synonyms": [
+   "dørspion",
+   "kighul",
+   "peephole",
+   "door viewer",
+   "doerspion"
+  ],
+  "unit": "pcs"
+ },
+ {
+  "key": "door_letter_plate",
+  "name": "Brevklap / brevsprække",
+  "synonyms": [
+   "brevklap",
+   "brevsprække",
+   "postkasseklap",
+   "letter plate",
+   "letterbox flap",
+   "letter flap"
+  ],
+  "unit": "pcs"
+ },
+ {
+  "key": "window_unit",
+  "name": "Vindueselement (komplet vindue)",
+  "synonyms": [
+   "vindueselement",
+   "vinduesparti",
+   "window unit",
+   "window element",
+   "komplet vindue"
+  ],
+  "unit": "pcs",
+  "exclude": [
+   "maling",
+   "beskyttelse",
+   "telt",
+   "drivhus",
+   "vitavia",
+   "jalousi",
+   "tagvindue",
+   "partytelt",
+   "gori",
+   "skjuler",
+   "film",
+   "sæt",
+   "bundliste",
+   "dafa",
+   "karmliste",
+   "beslag",
+   "kravler",
+   "kraver",
+   "fluefanger",
+   "fluefælde",
+   "skraber",
+   "pest",
+   "udskiftningsblad",
+   "isolering",
+   "vindueskravler",
+   "sensor",
+   "klistermærke",
+   "nylonvridere",
+   "strips",
+   "greb",
+   "vasker",
+   "refill",
+   "i-profil",
+   "tesamoll",
+   "folie",
+   "insekt",
+   "fugle",
+   "foderhus",
+   "net",
+   "insect",
+   "d-c-fix",
+   "olie",
+   "lys",
+   "figur",
+   "halloween",
+   "deko",
+   "dekoration",
+   "lys"
+  ]
+ },
+ {
+  "key": "window_glazing_double",
+  "name": "Termorude (2-lags glas)",
+  "synonyms": [
+   "termorude",
+   "2-lags glas",
+   "isolerrude",
+   "termoglas",
+   "double glazing",
+   "double glazed unit",
+   "insulated glass unit",
+   "thermopane"
+  ],
+  "unit": "pcs",
+  "exclude": [
+   "flagstang",
+   "plasttopbeslag",
+   "beslag",
+   "dano",
+   "mast"
+  ]
+ },
+ {
+  "key": "window_handle",
+  "name": "Vinduesgreb",
+  "synonyms": [
+   "vinduesgreb",
+   "vindueshåndtag",
+   "window handle",
+   "casement handle",
+   "vindueshaandtag",
+   "window lock handle"
+  ],
+  "unit": "pcs"
+ },
+ {
+  "key": "window_hinge",
+  "name": "Vindueshængsel",
+  "synonyms": [
+   "vindueshængsel",
+   "vindueshængsler",
+   "vinduesbeslag",
+   "window hinge",
+   "casement hinge",
+   "friction stay",
+   "vindueshaengsel"
+  ],
+  "unit": "set",
+  "exclude": [
+   "dør",
+   "skab",
+   "køkken"
+  ]
+ },
+ {
+  "key": "window_seal_strip",
+  "name": "Tætningsliste vindue",
+  "synonyms": [
+   "tætningsliste",
+   "vinduesliste",
+   "window seal",
+   "weatherstrip",
+   "window weather stripping",
+   "tætningsliste vindue"
+  ],
+  "unit": "roll",
+  "exclude": [
+   "dør",
+   "køleskab",
+   "frys"
+  ]
+ },
+ {
+  "key": "window_sill",
+  "name": "Vindueskarm / sålbænk",
+  "synonyms": [
+   "vindueskarm",
+   "sålbænk",
+   "karmplade",
+   "vinduesplade",
+   "window sill",
+   "window board",
+   "sill board",
+   "vindueskarm træ",
+   "saalbaenk"
+  ],
+  "unit": "m",
+  "exclude": [
+   "maling",
+   "beskyttelse",
+   "beslag",
+   "skrue"
+  ]
+ },
+ {
+  "key": "glazing_bead",
+  "name": "Glasliste",
+  "synonyms": [
+   "glasliste",
+   "glasliste træ",
+   "glazing bead",
+   "glass bead",
+   "glasliste pvc",
+   "glass list"
+  ],
+  "unit": "m"
+ },
+ {
+  "key": "glazing_putty",
+  "name": "Vindueskit",
+  "synonyms": [
+   "vindueskit",
+   "kit",
+   "glaspudser kit",
+   "glazing putty",
+   "glazing compound",
+   "window putty"
+  ],
+  "unit": "kg",
+  "exclude": [
+   "reparation",
+   "reparationskit",
+   "glas",
+   "rude"
+  ]
+ },
+ {
+  "key": "stair_tread",
+  "name": "Trappetrin",
+  "synonyms": [
+   "trappetrin",
+   "trin",
+   "stair tread",
+   "step",
+   "trappetrin eg",
+   "trappetrin bøg"
+  ],
+  "unit": "pcs"
+ },
+ {
+  "key": "stair_handrail",
+  "name": "Håndliste / gelænder",
+  "synonyms": [
+   "håndliste",
+   "gelænder",
+   "håndgelænder",
+   "handrail",
+   "banister",
+   "railing",
+   "haandliste"
+  ],
+  "unit": "m"
+ },
+ {
+  "key": "stair_baluster",
+  "name": "Baluster (gelænderstolpe)",
+  "synonyms": [
+   "baluster",
+   "gelænderstolpe",
+   "sprosse",
+   "gelændersprosse",
+   "balusters",
+   "spindles",
+   "stair spindle"
+  ],
+  "unit": "pcs"
+ },
+ {
+  "key": "stair_stringer",
+  "name": "Trappevange",
+  "synonyms": [
+   "trappevange",
+   "vange",
+   "stringer",
+   "stair stringer",
+   "vange trappe"
+  ],
+  "unit": "pcs"
+ },
+ {
+  "key": "paving_slab",
+  "name": "Belægningsfliser (havelfliser)",
+  "synonyms": [
+   "havelfliser",
+   "belægningsfliser",
+   "betonfliser",
+   "havefliser",
+   "paving slab",
+   "patio slab",
+   "concrete paver"
+  ],
+  "unit": "m2",
+  "exclude": [
+   "rens",
+   "fjern",
+   "rensemiddel",
+   "dyrup",
+   "gori",
+   "væg",
+   "mur",
+   "imprægnering",
+   "dug",
+   "wire",
+   "opbindingswire",
+   "fibertex",
+   "plantex",
+   "membran",
+   "gummi",
+   "kantprofil",
+   "schiene",
+   "handsker",
+   "kantbånd"
+  ]
+ },
+ {
+  "key": "paving_brick",
+  "name": "Klinker / brosten",
+  "synonyms": [
+   "klinker",
+   "brosten",
+   "belægningsklinker",
+   "pavers",
+   "brick pavers",
+   "chaussésten",
+   "herregårdssten"
+  ],
+  "unit": "m2"
+ },
+ {
+  "key": "kerb_stone",
+  "name": "Kantsten",
+  "synonyms": [
+   "kantsten",
+   "kantblok",
+   "kantsten beton",
+   "kerbstone",
+   "curb stone",
+   "kerb",
+   "curb"
+  ],
+  "unit": "m"
+ },
+ {
+  "key": "paving_subbase",
+  "name": "Stabilgrus / bundsikringsgrus",
+  "synonyms": [
+   "stabilgrus",
+   "bundsikring",
+   "bærelag",
+   "bundsikringsgrus",
+   "sub base",
+   "base course",
+   "road base",
+   "stabilgrus 25kg"
+  ],
+  "unit": "bag"
+ },
+ {
+  "key": "weed_fabric",
+  "name": "Ukrudtsdug (fiberdug)",
+  "synonyms": [
+   "ukrudtsdug",
+   "fiberdug",
+   "jorddug",
+   "ukrudtsmembran",
+   "weed fabric",
+   "weed barrier",
+   "geotextile",
+   "membran underlag"
+  ],
+  "unit": "roll"
+ },
+ {
+  "key": "fence_panel",
+  "name": "Hegnspanel",
+  "synonyms": [
+   "hegnspanel",
+   "hegnssektion",
+   "fence panel",
+   "privacy panel",
+   "hegnspanel træ",
+   "panelhegn"
+  ],
+  "unit": "pcs",
+  "exclude": [
+   "beslag",
+   "l-beslag",
+   "vægbeslag",
+   "stolpespyd",
+   "stolpefod",
+   "skrue",
+   "isolator",
+   "hegnspæl",
+   "maskestørrel",
+   "pileflet",
+   "tråd"
+  ]
+ },
+ {
+  "key": "fence_post",
+  "name": "Hegnspæl",
+  "synonyms": [
+   "hegnspæl",
+   "hegnsstolpe",
+   "hegnspael",
+   "fence post",
+   "fence pole",
+   "stolpe træ",
+   "hegnsstolper"
+  ],
+  "unit": "pcs",
+  "exclude": [
+   "beslag",
+   "skrue",
+   "elementbeslag",
+   "l-beslag",
+   "isolator",
+   "skjul",
+   "renovationsskjul"
+  ]
+ },
+ {
+  "key": "fence_post_foot",
+  "name": "Stolpespyd (stolpefod)",
+  "synonyms": [
+   "stolpespyd",
+   "stolpefod",
+   "stolpesko",
+   "post spike",
+   "post anchor",
+   "post support",
+   "stolpe beslag"
+  ],
+  "unit": "pcs",
+  "exclude": [
+   "skrue",
+   "møtrik",
+   "bolt"
+  ]
+ },
+ {
+  "key": "fence_gate",
+  "name": "Hegnslåge",
+  "synonyms": [
+   "hegnslåge",
+   "låge",
+   "havelåge",
+   "hegnslaage",
+   "fence gate",
+   "garden gate"
+  ],
+  "unit": "pcs",
+  "exclude": [
+   "gateway",
+   "smart",
+   "wifi",
+   "hub",
+   "dæmper",
+   "adapter",
+   "lågedæmper",
+   "lågeadapter"
+  ]
+ },
+ {
+  "key": "fence_wire",
+  "name": "Hegnstråd / trådnet",
+  "synonyms": [
+   "hegnstråd",
+   "trådnet",
+   "hegnsnet",
+   "hønsenet",
+   "wire mesh",
+   "fencing wire",
+   "chicken wire",
+   "netting"
+  ],
+  "unit": "roll"
+ },
+ {
+  "key": "insulation_batts_50mm",
+  "name": "Mineraluld 50mm",
+  "synonyms": [
+   "mineraluld 50mm",
+   "isolering 50mm",
+   "batts 50",
+   "mineral wool 50mm",
+   "rockwool 50",
+   "glava 50"
+  ],
+  "unit": "m2"
+ },
+ {
+  "key": "insulation_batts_150mm",
+  "name": "Mineraluld 150mm",
+  "synonyms": [
+   "mineraluld 150mm",
+   "isolering 150mm",
+   "batts 150",
+   "mineral wool 150mm",
+   "rockwool 150"
+  ],
+  "unit": "m2"
+ },
+ {
+  "key": "insulation_batts_200mm",
+  "name": "Mineraluld 200mm",
+  "synonyms": [
+   "mineraluld 200mm",
+   "isolering 200mm",
+   "batts 200",
+   "mineral wool 200mm",
+   "rockwool 200"
+  ],
+  "unit": "m2"
+ },
+ {
+  "key": "insulation_pir_board",
+  "name": "PIR isoleringsplade",
+  "synonyms": [
+   "pir plade",
+   "pir",
+   "isoleringsplade pir",
+   "pir board",
+   "pir insulation",
+   "polyiso board",
+   "kingspan"
+  ],
+  "unit": "m2"
+ },
+ {
+  "key": "insulation_eps_board",
+  "name": "EPS / flamingo plade",
+  "synonyms": [
+   "eps plade",
+   "flamingo",
+   "polystyren",
+   "eps",
+   "eps board",
+   "styrofoam",
+   "polystyrenplade"
+  ],
+  "unit": "m2"
+ },
+ {
+  "key": "insulation_loose_fill",
+  "name": "Løsfyld isolering",
+  "synonyms": [
+   "løsfyld",
+   "løsfyldsisolering",
+   "papirisolering",
+   "cellulose insulation",
+   "loose fill insulation",
+   "indblæst isolering"
+  ],
+  "unit": "bag"
+ },
+ {
+  "key": "vapor_barrier_tape",
+  "name": "Damspærretape / isoleringstape",
+  "synonyms": [
+   "damspærretape",
+   "isolationstape",
+   "damspærre tape",
+   "vapor barrier tape",
+   "foil tape",
+   "alutape"
+  ],
+  "unit": "roll"
+ },
+ {
+  "key": "radiator_panel",
+  "name": "Panelradiator",
+  "synonyms": [
+   "radiator",
+   "panelradiator",
+   "radiatorelement",
+   "panel radiator",
+   "radiator hvid",
+   "convector radiator"
+  ],
+  "unit": "pcs",
+  "exclude": [
+   "skjuler",
+   "spray",
+   "maling",
+   "twist",
+   "skjold",
+   "spraymaling",
+   "cover",
+   "skjuler"
+  ]
+ },
+ {
+  "key": "radiator_towel",
+  "name": "Håndklædetørrer (radiator)",
+  "synonyms": [
+   "håndklædetørrer",
+   "håndklæderadiator",
+   "haandklaedetoerrer",
+   "towel warmer",
+   "towel radiator",
+   "håndklædetørrer el"
+  ],
+  "unit": "pcs",
+  "exclude": [
+   "spray",
+   "maling",
+   "skjuler"
+  ]
+ },
+ {
+  "key": "radiator_bracket",
+  "name": "Radiatorophæng",
+  "synonyms": [
+   "radiatorophæng",
+   "radiatorbeslag",
+   "radiator bracket",
+   "radiator mount",
+   "radiator konsol",
+   "vægkonsol radiator"
+  ],
+  "unit": "set",
+  "exclude": [
+   "cykel"
+  ]
+ },
+ {
+  "key": "underfloor_heating_pipe",
+  "name": "Gulvvarme rør",
+  "synonyms": [
+   "gulvvarmerør",
+   "gulvvarme rør",
+   "underfloor heating pipe",
+   "ufh pipe",
+   "gulvvarme slange",
+   "pex gulvvarme"
+  ],
+  "unit": "m"
+ },
+ {
+  "key": "brick_common",
+  "name": "Mursten (almindelig)",
+  "synonyms": [
+   "mursten",
+   "mursten rød",
+   "teglsten",
+   "brick",
+   "common brick",
+   "mursten 228x108"
+  ],
+  "unit": "pcs",
+  "exclude": [
+   "rist",
+   "facaderist",
+   "ventil",
+   "afdækning"
+  ]
+ },
+ {
+  "key": "brick_facing",
+  "name": "Facadesten / forblender",
+  "synonyms": [
+   "facadesten",
+   "forblender",
+   "facing brick",
+   "facade brick",
+   "forblendersten"
+  ],
+  "unit": "pcs"
+ },
+ {
+  "key": "concrete_block",
+  "name": "Betonblok / lecablok",
+  "synonyms": [
+   "betonblok",
+   "lecablok",
+   "leca blok",
+   "concrete block",
+   "lightweight block",
+   "gasbetonblok"
+  ],
+  "unit": "pcs"
+ },
+ {
+  "key": "aerated_block",
+  "name": "Gasbeton blok (porebeton)",
+  "synonyms": [
+   "gasbeton",
+   "porebeton",
+   "gasbetonblok",
+   "multipor",
+   "aerated concrete",
+   "autoclaved aerated",
+   "ytong"
+  ],
+  "unit": "pcs"
+ },
+ {
+  "key": "parquet_floor_m2",
+  "name": "Parketgulv (pr m2)",
+  "synonyms": [
+   "parketgulv",
+   "parket",
+   "træparket",
+   "parquet",
+   "parket ege",
+   "parquet floor",
+   "parketgulv eg"
+  ],
+  "unit": "m2"
+ },
+ {
+  "key": "engineered_wood_floor_m2",
+  "name": "Trægulv (lamel / 3-stav)",
+  "synonyms": [
+   "trægulv",
+   "lamelgulv",
+   "3-stav gulv",
+   "engineered wood floor",
+   "traegulv",
+   "plankegulv"
+  ],
+  "unit": "m2"
+ },
+ {
+  "key": "carpet_tile",
+  "name": "Tæppefliser",
+  "synonyms": [
+   "tæppefliser",
+   "tæppeflis",
+   "carpet tile",
+   "carpet tiles",
+   "tæppe gulv",
+   "tæppefliser kontor"
+  ],
+  "unit": "m2",
+  "exclude": [
+   "skåner",
+   "måtte",
+   "gulvmåtte",
+   "fortelt",
+   "gulvtæppe",
+   "løber"
+  ]
+ },
+ {
+  "key": "gipsboard_9mm",
+  "name": "Gipsplade 9mm",
+  "synonyms": [
+   "gipsplade 9mm",
+   "gips 9mm",
+   "gypsum board 9mm",
+   "plasterboard 9mm",
+   "gipsplade tynd"
+  ],
+  "unit": "pcs",
+  "exclude": [
+   "skrue",
+   "spartel"
+  ]
+ },
+ {
+  "key": "soundproof_gipsboard",
+  "name": "Lydgips / akustikgips",
+  "synonyms": [
+   "lydgips",
+   "akustikgips",
+   "lydgipsplade",
+   "soundproof plasterboard",
+   "acoustic plasterboard",
+   "lydplade"
+  ],
+  "unit": "pcs",
+  "exclude": [
+   "skrue",
+   "spartel"
+  ]
+ },
+ {
+  "key": "ceiling_grid_profile",
+  "name": "Nedhængt loft profil (akustik)",
+  "synonyms": [
+   "loftprofil",
+   "nedhængt loft",
+   "t-profil",
+   "loft skinne",
+   "ceiling grid",
+   "t grid profile",
+   "akustikloft profil"
+  ],
+  "unit": "m"
+ },
+ {
+  "key": "gutter_pvc",
+  "name": "Tagrende (PVC)",
+  "synonyms": [
+   "tagrende",
+   "tagrende pvc",
+   "tagrender",
+   "gutter",
+   "guttering",
+   "rain gutter",
+   "tagrende hvid"
+  ],
+  "unit": "m"
+ },
+ {
+  "key": "gutter_bracket",
+  "name": "Tagrendebeslag",
+  "synonyms": [
+   "tagrendebeslag",
+   "tagrendeholder",
+   "gutter bracket",
+   "gutter clip",
+   "tagrende beslag"
+  ],
+  "unit": "pcs",
+  "exclude": [
+   "bil",
+   "cykel"
+  ]
+ },
+ {
+  "key": "downpipe_pvc",
+  "name": "Nedløbsrør (tagvand)",
+  "synonyms": [
+   "nedløbsrør",
+   "nedløb",
+   "downpipe",
+   "downspout",
+   "tagvand nedløb",
+   "nedløbsrør pvc"
+  ],
+  "unit": "m"
+ }
+]

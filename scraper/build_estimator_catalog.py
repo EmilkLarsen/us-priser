@@ -245,7 +245,10 @@ def match_products(item, prods):
 
 
 def main():
-    keys = json.load(open(os.path.join(HERE, "estimator_keys.json"), encoding="utf-8"))
+    try:
+        keys = json.load(open(os.path.join(HERE, "estimator_keys.json"), encoding="utf-8"))
+    except FileNotFoundError:
+        keys = {}   # no estimator key list for this country - build catalog without keys
     prods = load_products()
     today = date.today().isoformat()
 
