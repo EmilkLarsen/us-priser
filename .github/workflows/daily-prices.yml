@@ -250,7 +250,7 @@ jobs:
       # scraper/check_stale.py. Checkout is main's tip, i.e. includes every
       # marker this run's scrape jobs just committed.
       - name: Alert on chains stuck for days
-        if: always()
+        if: always() && (github.event_name == 'schedule' || inputs.full == true)
         run: python scraper/check_stale.py
 
   alert:
