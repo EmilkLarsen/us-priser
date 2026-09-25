@@ -38,7 +38,9 @@ def discover_chains():
     chains = set()
     if os.path.isdir(LATEST):
         for fn in os.listdir(LATEST):
-            if fn == "prices.jsonl" or not fn.endswith(".jsonl"):
+            if fn.startswith(".") or fn in ("prices.jsonl", "scrape_state.json"):
+                continue
+            if not fn.endswith(".jsonl"):
                 continue
             chains.add(fn[:-len(".jsonl")])
     return sorted(chains) if chains else list(DEFAULT_CHAINS)
