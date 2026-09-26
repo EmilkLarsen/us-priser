@@ -1,0 +1,17 @@
+{
+ "fields": {
+  "chain": "str - silvan|xlbyg|stark|bauhaus|davidsen|fog|haraldnyborg|power|skousen",
+  "sku": "str|null - retailer SKU (unique per chain)",
+  "ean": "str|null - GTIN, checksum-validated",
+  "name": "str - product title as shown on retailer page",
+  "url": "str - product page URL",
+  "price": "float - DKK inkl. moms",
+  "unit": "str|null - sales unit where known (stk, plade, m, kvm)",
+  "in_stock": "bool|null - webshop stock; null = not exposed",
+  "image": "str|null - product image URL",
+  "campaign": "bool - STARK only: true when campaign price applied"
+ },
+ "price_precision": "2 decimals, DKK",
+ "vat": "all prices inkl. moms (Danish B2C webshops)",
+ "freshness": "see ages.json: last successful snapshot date per chain"
+}
