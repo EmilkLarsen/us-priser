@@ -41,7 +41,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        chain: [ace_us]
+        chain: [cpo_us]
     steps:
       - uses: actions/checkout@v4
         with:
