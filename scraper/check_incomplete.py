@@ -21,8 +21,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LATEST = os.path.join(ROOT, "data", "latest")
 
 # canonical fallback (dk-byggepriser itself) — used only if nothing else found
-DEFAULT_CHAINS = ["silvan", "xlbyg", "stark", "bauhaus", "davidsen",
-                  "fog", "haraldnyborg", "power", "skousen"]
+DEFAULT_CHAINS = []   # no fallback: unknown chains must never be guessed
 
 # known catalog sizes (approximate, from verified production runs) — a chain
 # whose snapshot holds <60% of this is treated as incomplete even with a marker
