@@ -2,11 +2,11 @@
  "date": "2026-09-27",
  "chains": {
   "cpo_us": {
-   "products": 8482,
+   "products": 8469,
    "price_changes": 0,
    "suspicious_changes": 0,
    "expired": 0,
-   "seconds": 3944.0
+   "seconds": 3926.7
   }
  }
 }
