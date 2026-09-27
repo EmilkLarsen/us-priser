@@ -1,5 +1,13 @@
 {
- "date": "2026-09-22",
- "total_rows": 0,
- "chains": {}
+ "date": "2026-09-27",
+ "total_rows": 299,
+ "chains": {
+  "cpo_us": {
+   "products": 299,
+   "price_changes": 0,
+   "suspicious_changes": 0,
+   "expired": 0,
+   "seconds": 136.5
+  }
+ }
 }
