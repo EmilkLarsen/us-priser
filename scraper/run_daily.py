@@ -17,7 +17,8 @@ from datetime import date
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CHAINS = ["cpo_us"]
+CHAINS = ["silvan", "xlbyg", "stark", "bauhaus", "davidsen",
+          "fog", "haraldnyborg", "power", "skousen"]
 
 
 def load_prev(chain):
@@ -173,6 +174,15 @@ def main():
                         continue
                     existing[rr.get("sku") or rr.get("url")] = rr
         prev_count = len(existing)
+        if not limit and not resuming and not rows and not prev_count:
+            # Full run produced NOTHING and there's no prior snapshot to keep.
+            # This is the k_rauta_fi failure shape (sitemap fetch failed -> 0
+            # urls -> "covered (0 rows)"): writing an empty file would mark the
+            # chain complete-ish with zero data. Fail LOUDLY instead so the
+            # workflow's alert path fires and the continuation retries.
+            summary[chain] = {"error": "full scrape returned 0 rows (fetch failure?)"}
+            print(f"  !! {chain}: full scrape returned 0 rows - flagging as error")
+            continue
         if not resuming and prev_count and len(rows) < prev_count * 0.3:
             summary[chain] = {
                 "error": f"collapse guard: {len(rows)} rows vs {prev_count} before",
