@@ -17,8 +17,7 @@ from datetime import date
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CHAINS = ["silvan", "xlbyg", "stark", "bauhaus", "davidsen",
-          "fog", "haraldnyborg", "power", "skousen"]
+CHAINS = ["cpo_us"]
 
 
 def load_prev(chain):
@@ -50,7 +49,7 @@ EXPIRE_AFTER_DAYS = 14
 MAX_MISSING_FRACTION = 0.15
 # Chains whose daily pass only covers a rotating slice of the catalog: rows
 # outside today's slice are "missing" by design, so no expiry applies.
-ROTATING_CHAINS = {"stark"}
+ROTATING_CHAINS = set()
 
 
 def expire_missing(existing, fresh_keys, today):
