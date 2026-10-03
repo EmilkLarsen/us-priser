@@ -55,6 +55,17 @@ def main():
             last = date.fromisoformat(open(marker).read().strip())
             age = (today - last).days
         except (OSError, ValueError):
+            # No valid marker. That is EXPECTED while a multi-night checkpoint
+            # build is in progress: run_daily only stamps the marker on a
+            # fresh-from-URL-1 complete pass, and scrape_with_checkpoint only
+            # deletes .checkpoint-<chain>.jsonl once the whole catalog is
+            # covered. So an existing checkpoint buffer = an actively-growing
+            # build, not a stall (verified live: bauhaus_se fired a false
+            # >3-day alert mid-build while gaining ~16k rows/night).
+            ckpt = os.path.join(LATEST, f".checkpoint-{chain}.jsonl")
+            if os.path.exists(ckpt):
+                print(f"  {chain}: checkpoint build in progress (no marker yet) - not stale")
+                continue
             stale.append(f"{chain} (no valid completion marker)")
             continue
         if age > MAX_AGE_DAYS:
