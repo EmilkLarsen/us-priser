@@ -26,8 +26,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LATEST = os.path.join(ROOT, "data", "latest")
 
 # canonical fallback (dk-byggepriser itself) — used only if nothing else found
-DEFAULT_CHAINS = ["silvan", "xlbyg", "stark", "bauhaus", "davidsen",
-                  "fog", "haraldnyborg", "power", "skousen"]
+DEFAULT_CHAINS = []
 MAX_AGE_DAYS = 3
 
 
