@@ -12,7 +12,7 @@ class is the struck-through was-price — parse salesprice only), SKU from
 data-pid, title from <title>, image from og:image. No EAN/GTIN in markup.
 """
 import re
-from common import get, sane_price, write_jsonl, scrape_urls
+from common import get, sane_price, write_jsonl, scrape_urls, scrape_with_checkpoint
 
 BASE = "https://www.cpooutlets.com"
 OUT = "data/latest/cpo_us.jsonl"
@@ -65,8 +65,8 @@ def handle(u, html):
     }]
 
 
-def scrape(limit=None):
-    return scrape_urls(fetch_url_list(limit), handle)
+def scrape(limit=None, deadline=None):
+    return scrape_with_checkpoint("cpo_us", fetch_url_list(limit), handle, limit, deadline)
 
 
 if __name__ == "__main__":
