@@ -3,11 +3,11 @@
  "total_rows": 8601,
  "chains": {
   "cpo_us": {
-   "products": 7551,
+   "products": 7346,
    "price_changes": 0,
    "suspicious_changes": 0,
    "expired": 0,
-   "seconds": 3548.4
+   "seconds": 3449.6
   }
  }
 }
