@@ -261,8 +261,8 @@ jobs:
     # failures exhaust the cap and then reach the alert job. Only schedule/full
     # runs heal: continuations have their own 4/day cap, and smoke dispatches
     # are interactive by nature.
-    needs: [scrape, merge, continue-check, healer]
-    if: always() && contains(needs.*.result, 'failure') && needs.healer.result != 'success' && (github.event_name == 'schedule' || inputs.full == true)
+    needs: [scrape, merge, continue-check]
+    if: always() && contains(needs.*.result, 'failure') && (github.event_name == 'schedule' || inputs.full == true)
     runs-on: ubuntu-latest
     permissions:
       contents: write
