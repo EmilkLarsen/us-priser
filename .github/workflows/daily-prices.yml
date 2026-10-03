@@ -253,14 +253,59 @@ jobs:
         if: always() && (github.event_name == 'schedule' || inputs.full == true)
         run: python scraper/check_stale.py
 
+  healer:
+    # Auto-fix tier: a failed run re-dispatches itself automatically (max 2/day,
+    # persistent marker files - same fetch/reset/regenerate/push pattern as the
+    # continuation counter above). Transient failures (site throttles, runner
+    # blips, momentary 403/429) self-heal here without paging anyone; structural
+    # failures exhaust the cap and then reach the alert job. Only schedule/full
+    # runs heal: continuations have their own 4/day cap, and smoke dispatches
+    # are interactive by nature.
+    needs: [scrape, merge, continue-check, healer]
+    if: always() && contains(needs.*.result, 'failure') && needs.healer.result != 'success' && (github.event_name == 'schedule' || inputs.full == true)
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Re-dispatch full run (max 2 per day)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name price-bot; git config user.email bot@noreply.github.com
+          for i in 1 2 3; do
+            git fetch origin main -q
+            git reset --hard origin/main -q
+            TODAY=$(date -u +%F)
+            find data/latest -maxdepth 1 -name '.autoheal-*' -not -name ".autoheal-${TODAY}-*" -delete
+            N=$(ls data/latest/.autoheal-${TODAY}-* 2>/dev/null | wc -l || echo 0)
+            if [ "$N" -ge 2 ]; then
+              echo "::error::auto-heal cap (2) reached today - structural failure, paging alert"
+              exit 1
+            fi
+            touch "data/latest/.autoheal-${TODAY}-$((N + 1))"
+            git add -A data/latest/.autoheal-*
+            git commit -q -m "auto-heal attempt $((N + 1)) ($TODAY)" || true
+            if git push origin main; then
+              gh workflow run daily-prices.yml -f full=true
+              echo "auto-healed: re-dispatched full run (attempt $((N + 1)))"
+              exit 0
+            fi
+            echo "push race, retry $i"; sleep $((i * 5))
+          done
+          exit 1
+
   alert:
     # continue-check added: it now does real git/bash work of its own (the
     # race-proof push loop above) that scrape/merge failing wouldn't catch -
     # a broken continue-check previously could never trip this alert at all,
     # since `contains(needs.*.result, ...)` only looks at jobs actually
     # listed here.
-    needs: [scrape, merge, continue-check]
-    if: always() && contains(needs.*.result, 'failure')
+    needs: [scrape, merge, continue-check, healer]
+    if: always() && contains(needs.*.result, 'failure') && needs.healer.result != 'success'
     runs-on: ubuntu-latest
     permissions:
       issues: write
