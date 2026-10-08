@@ -3,11 +3,7 @@
  "total_rows": 8611,
  "chains": {
   "cpo_us": {
-   "products": 7004,
-   "price_changes": 0,
-   "suspicious_changes": 0,
-   "expired": 0,
-   "seconds": 3290.1
+   "error": "HTTPError: HTTP Error 503: Service Unavailable"
   }
  }
 }
