@@ -250,7 +250,7 @@ jobs:
       # scraper/check_stale.py. Checkout is main's tip, i.e. includes every
       # marker this run's scrape jobs just committed.
       - name: Alert on chains stuck for days
-        if: always() && (github.event_name == 'schedule' || inputs.full == true)
+        if: always() && (github.event_name == 'schedule' || github.event.inputs.full == 'true')
         run: python scraper/check_stale.py
 
   healer:
@@ -262,7 +262,7 @@ jobs:
     # runs heal: continuations have their own 4/day cap, and smoke dispatches
     # are interactive by nature.
     needs: [scrape, merge, continue-check]
-    if: always() && contains(needs.*.result, 'failure') && (github.event_name == 'schedule' || inputs.full == true)
+    if: always() && contains(needs.*.result, 'failure') && (github.event_name == 'schedule' || github.event.inputs.full == 'true')
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -280,10 +280,16 @@ jobs:
             git fetch origin main -q
             git reset --hard origin/main -q
             TODAY=$(date -u +%F)
-            find data/latest -maxdepth 1 -name '.autoheal-*' -not -name ".autoheal-${TODAY}-*" -delete
-            N=$(ls data/latest/.autoheal-${TODAY}-* 2>/dev/null | wc -l || echo 0)
-            if [ "$N" -ge 2 ]; then
-              echo "::error::auto-heal cap (2) reached today - structural failure, paging alert"
+            # Chronic-failure guard: keep the last 5 days of markers and count
+            # them all. >= 3 heals in 5 days means the same failure comes back
+            # every night - re-dispatching forever would suppress the alert
+            # indefinitely (verified live: uk's screwfix markup drift healed
+            # silently for 13 straight days). At the cap, stop healing and let
+            # the alert job page.
+            find data/latest -maxdepth 1 -name '.autoheal-*' -not -newermt "$(date -u -d '-5 days' +%F)" -delete
+            N=$(ls data/latest/.autoheal-* 2>/dev/null | wc -l || echo 0)
+            if [ "$N" -ge 3 ]; then
+              echo "::error::auto-heal cap (3 heals in 5 days) reached - chronic failure, paging alert"
               exit 1
             fi
             touch "data/latest/.autoheal-${TODAY}-$((N + 1))"

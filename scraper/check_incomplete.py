@@ -26,10 +26,11 @@ def main():
     detail = {}
     for chain in CHAINS:
         marker = os.path.join(LATEST, f".{chain}-complete")
-        path = os.path.join(LATEST, f"{chain}.jsonl")
+        from common import chain_snapshot, open_text
+        path = chain_snapshot(ROOT, chain)
         n = 0
         if os.path.exists(path):
-            with open(path, encoding="utf-8") as f:
+            with open_text(path, "rt") as f:
                 n = sum(1 for _ in f)
         ok = (os.path.exists(marker) and open(marker).read().strip() == today
               and n >= EXPECTED.get(chain, 0) * 0.6)

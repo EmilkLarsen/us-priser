@@ -25,12 +25,18 @@ set -u
 chain="${1:?usage: commit_chain.sh <chain>}"
 
 paths=(
+  "data/latest/${chain}.jsonl.gz"
   "data/latest/${chain}.jsonl"
   "data/latest/summary-${chain}.json"
   "data/latest/.${chain}-complete"
+  "data/latest/.checkpoint-${chain}.jsonl.gz"
   "data/latest/.checkpoint-${chain}.jsonl"
   "data/latest/.seen-${chain}.txt"
 )
+# NOTE: both .jsonl.gz and legacy .jsonl variants are listed so the absent-
+# locally cleanup rule drops the raw twin the first time a gzip snapshot is
+# written - without that, a >100MB legacy .jsonl keeps failing every push
+# (brico_be: raw 101MB snapshot rejected by GitHub's file-size limit for days).
 if [ "$chain" = "stark" ]; then
   paths+=("data/latest/.stark-rotation-day" "data/latest/.stark-rotation-complete")
 fi

@@ -324,8 +324,23 @@ def scrape_with_checkpoint(chain, urls, handle, limit=None, deadline=None, fetch
         return scrape_urls(urls[:limit], handle)
 
     seen_path = f"data/latest/.seen-{chain}.txt"
-    checkpoint_path = f"data/latest/.checkpoint-{chain}.jsonl"
+    checkpoint_path = f"data/latest/.checkpoint-{chain}.jsonl.gz"
+    legacy_ckpt = f"data/latest/.checkpoint-{chain}.jsonl"
     os.makedirs(os.path.dirname(seen_path), exist_ok=True)
+
+    # One-shot migration: a checkpoint written by the pre-gzip format (plain
+    # .jsonl) moves to .jsonl.gz. GitHub's 100MB per-file limit rejects plain
+    # .jsonl checkpoints for big catalogs (brico_be hit it live 2026-10-10:
+    # 101.9MB checkpoint + 101.3MB snapshot = every push rejected for days),
+    # and without migration the resume state would be orphaned - brico would
+    # restart its 600k-URL catalog from URL 1.
+    if os.path.exists(legacy_ckpt) and not os.path.exists(checkpoint_path):
+        with open(legacy_ckpt, encoding="utf-8") as f:
+            rows = f.read()
+        with gzip.open(checkpoint_path, "wt", encoding="utf-8") as f:
+            f.write(rows)
+        os.remove(legacy_ckpt)
+        print(f"  {chain}: migrated legacy checkpoint to .jsonl.gz")
 
     seen = set()
     if os.path.exists(seen_path):
@@ -381,7 +396,7 @@ def scrape_with_checkpoint(chain, urls, handle, limit=None, deadline=None, fetch
                 return u, []
 
         with open(seen_path, "a", encoding="utf-8") as seen_f, \
-                open(checkpoint_path, "a", encoding="utf-8") as ckpt_f:
+                gzip.open(checkpoint_path, "at", encoding="utf-8") as ckpt_f:
 
             def record(u, rows):
                 seen_f.write(u + "\n")
@@ -437,7 +452,7 @@ def scrape_with_checkpoint(chain, urls, handle, limit=None, deadline=None, fetch
 
     cumulative, dedup_keys = [], set()
     if os.path.exists(checkpoint_path):
-        with open(checkpoint_path, encoding="utf-8") as f:
+        with gzip.open(checkpoint_path, "rt", encoding="utf-8") as f:
             for line in f:
                 try:
                     row = json.loads(line)
@@ -494,11 +509,31 @@ def rotate_slice(urls, rotation_days, today_epoch_day=None):
     return [u for i, u in enumerate(ordered) if i % rotation_days == nth]
 
 
+def open_text(path, mode="rt"):
+    """Open a text file; .gz paths compress/decompress transparently. gzip
+    append ('at') writes a concatenated multi-member stream that 'rt' reads
+    back transparently - used for the per-chain checkpoint buffers."""
+    if path.endswith(".gz"):
+        return gzip.open(path, mode, encoding="utf-8")
+    return open(path, mode, encoding="utf-8")
+
+
+def chain_snapshot(root, chain):
+    """Path of a chain's per-chain snapshot, preferring .jsonl.gz. GitHub's
+    100MB per-file limit rejects raw .jsonl once a catalog passes ~150k rows
+    (brico_be: 101.3MB snapshot rejected live 2026-10-10). Falls back to the
+    legacy .jsonl so pre-gzip data keeps being readable."""
+    gz = os.path.join(root, "data", "latest", f"{chain}.jsonl.gz")
+    if os.path.exists(gz):
+        return gz
+    return os.path.join(root, "data", "latest", f"{chain}.jsonl")
+
+
 def write_jsonl(path, rows):
     d = os.path.dirname(path)
     if d:
         os.makedirs(d, exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
+    with open_text(path, "wt") as f:
         for r in rows:
             f.write(json.dumps(r, ensure_ascii=False) + "\n")
 

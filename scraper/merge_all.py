@@ -38,10 +38,11 @@ def main():
     seen, n, dupes = set(), 0, 0
     with open(merged_path, "w", encoding="utf-8") as out:
         for chain in CHAINS:
-            p = os.path.join(LATEST, f"{chain}.jsonl")
+            from common import chain_snapshot, open_text
+            p = chain_snapshot(os.path.dirname(LATEST), chain)
             if not os.path.exists(p):
                 continue
-            with open(p, encoding="utf-8") as f:
+            with open_text(p, "rt") as f:
                 for line in f:
                     try:
                         r = json.loads(line)

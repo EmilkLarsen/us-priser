@@ -21,11 +21,12 @@ CHAINS = ["cpo_us"]
 
 
 def load_prev(chain):
-    path = os.path.join(ROOT, "data", "latest", f"{chain}.jsonl")
+    from common import chain_snapshot, open_text
+    path = chain_snapshot(ROOT, chain)
     prev = {}
     if not os.path.exists(path):
         return prev
-    with open(path, encoding="utf-8") as f:
+    with open_text(path, "rt") as f:
         for line in f:
             try:
                 r = json.loads(line)
@@ -118,7 +119,7 @@ def main():
             summary[chain] = {"error": f"{type(e).__name__}: {e}"}
             continue
 
-        out = os.path.join(ROOT, "data", "latest", f"{chain}.jsonl")
+        out = os.path.join(ROOT, "data", "latest", f"{chain}.jsonl.gz")
         # persist continuation offset if the time budget stopped us mid-chain
         import common as _c
         cont = getattr(_c, "last_continue_offset", None)
@@ -151,6 +152,7 @@ def main():
         # is legitimately still catching up.
         checkpoint_pending = (
             os.path.exists(os.path.join(ROOT, "data", "latest", f".seen-{chain}.txt"))
+            or os.path.exists(os.path.join(ROOT, "data", "latest", f".checkpoint-{chain}.jsonl.gz"))
             or os.path.exists(os.path.join(ROOT, "data", "latest", f".checkpoint-{chain}.jsonl"))
         )
         resuming = bool(cont) or checkpoint_pending
@@ -164,8 +166,18 @@ def main():
         # accurate scrape through. Deduping first means the guard compares
         # against what the catalog actually contains.
         existing = {}
-        if os.path.exists(out):
-            with open(out, encoding="utf-8") as f:
+        # Prior snapshot: prefer the .gz twin (new format), fall back to the
+        # legacy raw .jsonl. open_text decompresses transparently - reading the
+        # gz bytes as text (open()) fails every json.loads line and silently
+        # empties the merge, which then deletes the legacy file on write.
+        # Confirmed live 2026-10-13: first .gz-format run merged against zero
+        # prior rows and replaced a 30k-row fog snapshot with 5 rows.
+        _prior = os.path.join(ROOT, "data", "latest", f"{chain}.jsonl.gz")
+        if not os.path.exists(_prior):
+            _prior = os.path.join(ROOT, "data", "latest", f"{chain}.jsonl")
+        if os.path.exists(_prior):
+            from common import open_text
+            with open_text(_prior, "rt") as f:
                 for line in f:
                     try:
                         rr = json.loads(line)
@@ -206,6 +218,11 @@ def main():
                 print(f"  {stamped} products newly missing, {expired} expired (missing >= {EXPIRE_AFTER_DAYS} days)")
         merged_rows = list(existing.values())
         write_jsonl(out, merged_rows)
+        # remove the legacy raw twin so the old (potentially >100MB) file
+        # stops being committed and readers can't double-count both formats
+        legacy_out = os.path.join(ROOT, "data", "latest", f"{chain}.jsonl")
+        if os.path.exists(legacy_out):
+            os.remove(legacy_out)
         # completion marker only when every url in the chain was processed.
         #
         # Confirmed live (2026-09-18): this used to gate on the WORKFLOW-
@@ -292,10 +309,11 @@ def main():
         n = 0
         with open(merged, "w", encoding="utf-8") as out:
             for chain in CHAINS:
-                p = os.path.join(ROOT, "data", "latest", f"{chain}.jsonl")
+                from common import chain_snapshot, open_text
+                p = chain_snapshot(ROOT, chain)
                 if not os.path.exists(p):
                     continue
-                with open(p, encoding="utf-8") as f:
+                with open_text(p, "rt") as f:
                     for line in f:
                         out.write(line)
                         n += 1

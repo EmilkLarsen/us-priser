@@ -37,7 +37,10 @@ def discover_chains():
     chains = set()
     if os.path.isdir(LATEST):
         for fn in os.listdir(LATEST):
-            if fn.startswith(".") or fn in ("prices.jsonl", "scrape_state.json"):
+            if fn.startswith(".") or fn in ("prices.jsonl", "prices.jsonl.gz", "scrape_state.json"):
+                continue
+            if fn.endswith(".jsonl.gz"):
+                chains.add(fn[:-len(".jsonl.gz")])
                 continue
             if not fn.endswith(".jsonl"):
                 continue
@@ -61,8 +64,12 @@ def main():
             # covered. So an existing checkpoint buffer = an actively-growing
             # build, not a stall (verified live: bauhaus_se fired a false
             # >3-day alert mid-build while gaining ~16k rows/night).
-            ckpt = os.path.join(LATEST, f".checkpoint-{chain}.jsonl")
+            ckpt = os.path.join(LATEST, f".checkpoint-{chain}.jsonl.gz")
             if os.path.exists(ckpt):
+                print(f"  {chain}: checkpoint build in progress (no marker yet) - not stale")
+                continue
+            ckpt_legacy = os.path.join(LATEST, f".checkpoint-{chain}.jsonl")
+            if os.path.exists(ckpt_legacy):
                 print(f"  {chain}: checkpoint build in progress (no marker yet) - not stale")
                 continue
             stale.append(f"{chain} (no valid completion marker)")
