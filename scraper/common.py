@@ -323,7 +323,8 @@ def scrape_with_checkpoint(chain, urls, handle, limit=None, deadline=None, fetch
     if limit:
         return scrape_urls(urls[:limit], handle)
 
-    seen_path = f"data/latest/.seen-{chain}.txt"
+    seen_path = f"data/latest/.seen-{chain}.txt.gz"
+    legacy_seen = f"data/latest/.seen-{chain}.txt"
     checkpoint_path = f"data/latest/.checkpoint-{chain}.jsonl.gz"
     legacy_ckpt = f"data/latest/.checkpoint-{chain}.jsonl"
     os.makedirs(os.path.dirname(seen_path), exist_ok=True)
@@ -334,6 +335,12 @@ def scrape_with_checkpoint(chain, urls, handle, limit=None, deadline=None, fetch
     # 101.9MB checkpoint + 101.3MB snapshot = every push rejected for days),
     # and without migration the resume state would be orphaned - brico would
     # restart its 600k-URL catalog from URL 1.
+    if os.path.exists(legacy_seen) and not os.path.exists(seen_path):
+        with open(legacy_seen, encoding="utf-8") as f:
+            lines = f.read()
+        with gzip.open(seen_path, "wt", encoding="utf-8") as f:
+            f.write(lines)
+        os.remove(legacy_seen)
     if os.path.exists(legacy_ckpt) and not os.path.exists(checkpoint_path):
         with open(legacy_ckpt, encoding="utf-8") as f:
             rows = f.read()
@@ -344,7 +351,7 @@ def scrape_with_checkpoint(chain, urls, handle, limit=None, deadline=None, fetch
 
     seen = set()
     if os.path.exists(seen_path):
-        with open(seen_path, encoding="utf-8") as f:
+        with gzip.open(seen_path, "rt", encoding="utf-8") as f:
             seen = {line.rstrip("\n") for line in f if line.strip()}
 
     remaining = [u for u in urls if u not in seen]
@@ -395,7 +402,7 @@ def scrape_with_checkpoint(chain, urls, handle, limit=None, deadline=None, fetch
                 print(f"  ! {u}: parse error {type(e).__name__}: {e}")
                 return u, []
 
-        with open(seen_path, "a", encoding="utf-8") as seen_f, \
+        with gzip.open(seen_path, "at", encoding="utf-8") as seen_f, \
                 gzip.open(checkpoint_path, "at", encoding="utf-8") as ckpt_f:
 
             def record(u, rows):
@@ -447,7 +454,7 @@ def scrape_with_checkpoint(chain, urls, handle, limit=None, deadline=None, fetch
             if hit_deadline:
                 print(f"  {chain}: soft deadline reached, stopping early "
                       f"(transient failures left unseen for the next run)")
-        with open(seen_path, encoding="utf-8") as f:
+        with gzip.open(seen_path, "rt", encoding="utf-8") as f:
             seen = {line.rstrip("\n") for line in f if line.strip()}
 
     cumulative, dedup_keys = [], set()

@@ -31,6 +31,7 @@ paths=(
   "data/latest/.${chain}-complete"
   "data/latest/.checkpoint-${chain}.jsonl.gz"
   "data/latest/.checkpoint-${chain}.jsonl"
+  "data/latest/.seen-${chain}.txt.gz"
   "data/latest/.seen-${chain}.txt"
 )
 # NOTE: both .jsonl.gz and legacy .jsonl variants are listed so the absent-
