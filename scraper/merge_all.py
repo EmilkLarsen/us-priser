@@ -39,7 +39,7 @@ def main():
     with open(merged_path, "w", encoding="utf-8") as out:
         for chain in CHAINS:
             from common import chain_snapshot, open_text
-            p = chain_snapshot(os.path.dirname(LATEST), chain)
+            p = chain_snapshot(ROOT, chain)
             if not os.path.exists(p):
                 continue
             with open_text(p, "rt") as f:
