@@ -31,7 +31,10 @@ permissions:
   contents: write
 
 concurrency:
-  group: daily-prices
+  # Smoke dispatches get their own group so a manual smoke can never supersede
+  # a queued full run (confirmed live 2026-10-13: a smoke dispatch cancelled a
+  # queued full run waiting on the shared group).
+  group: ${{ github.event_name == 'schedule' || github.event.inputs.full == 'true' && 'daily-prices' || 'daily-prices-smoke' }}
   cancel-in-progress: false   # never kill a running catalog build
 
 jobs:
