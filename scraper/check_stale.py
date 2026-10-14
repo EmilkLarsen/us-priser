@@ -74,6 +74,9 @@ def main():
                 continue
             stale.append(f"{chain} (no valid completion marker)")
             continue
+        if chain in KNOWN_BLOCKED:
+            print(f"  {chain}: known-blocked (bot-walled from CI IPs), stale {age}d - not alerted")
+            continue
         if age > MAX_AGE_DAYS:
             stale.append(f"{chain} (last full pass {last}, {age} days ago)")
     if stale:

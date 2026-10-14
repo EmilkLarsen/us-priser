@@ -46,7 +46,7 @@ jobs:
       matrix:
         chain: [cpo_us]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           # Always main's CURRENT tip, never the SHA this run was created
           # at: a run queued behind another one (concurrency group) would
@@ -100,7 +100,7 @@ jobs:
     if: always()   # merge whatever succeeded — partial catalog beats none
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           # Always main's CURRENT tip, never the SHA this run was created
           # at: a run queued behind another one (concurrency group) would
@@ -184,7 +184,7 @@ jobs:
       contents: write
       actions: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           # Always main's CURRENT tip, never the SHA this run was created
           # at: a run queued behind another one (concurrency group) would
@@ -271,7 +271,7 @@ jobs:
       contents: write
       actions: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           ref: main
       - name: Re-dispatch full run (max 2 per day)
@@ -319,7 +319,7 @@ jobs:
     permissions:
       issues: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           # Always main's CURRENT tip, never the SHA this run was created
           # at: a run queued behind another one (concurrency group) would
