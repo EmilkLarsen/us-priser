@@ -29,6 +29,12 @@ LATEST = os.path.join(ROOT, "data", "latest")
 DEFAULT_CHAINS = []
 MAX_AGE_DAYS = 3
 
+# no bot-walled chains verified in this country yet - kept defined so the
+# stale-exemption branch below can never NameError (bit every non-dk/fi/uk
+# repo live 2026-10-15: check_stale crashed, continue-check failed, healer
+# churned every night)
+KNOWN_BLOCKED = set()
+
 
 def discover_chains():
     env = os.environ.get("CHAINS", "")
