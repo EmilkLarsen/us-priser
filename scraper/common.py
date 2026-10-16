@@ -471,7 +471,14 @@ def scrape_with_checkpoint(chain, urls, handle, limit=None, deadline=None, fetch
                 dedup_keys.add(key)
                 cumulative.append(row)
 
-    if len(seen) >= len(urls):
+    # "Covered" = every url in TODAY'S catalog was attempted - NOT
+    # len(seen) >= len(urls). The seen-set is unique while `urls` can carry
+    # duplicate sitemap entries, so the raw-count check can disagree with
+    # the resume step's own "0 left" computation forever: obi_it live
+    # 2026-10-16 (90769 unique seen, 0 urls left, 91058 raw list) kept its
+    # checkpoint and re-dispatched itself via continue-check every day.
+    uncovered = [u for u in urls if u not in seen]
+    if not uncovered:
         print(f"  {chain}: full catalog covered today ({len(cumulative)} rows) - resetting checkpoint for tomorrow")
         for p in (seen_path, checkpoint_path):
             if os.path.exists(p):

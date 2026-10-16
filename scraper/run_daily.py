@@ -252,7 +252,21 @@ def main():
         # definition of "done for today" - the separate row-count-vs-
         # EXPECTED check in check_incomplete.py is what judges whether the
         # accumulated catalog is big enough).
-        complete_now = not limit and not resuming and len(rows) > 0
+        # A resumed pass whose scrape ended with the checkpoint cleared
+        # (every url in today's catalog attempted) IS a complete
+        # verification of the catalog: stamp the marker instead of
+        # deadlocking big multi-night chains into daily continuation
+        # redispatches (obi_it live 2026-10-16: 0 urls left, but
+        # `resuming` kept complete_now False forever). A pass cut short by
+        # the time budget leaves the checkpoint in place and still
+        # suppresses the marker, exactly as before.
+        checkpoint_after = (
+            os.path.exists(os.path.join(ROOT, "data", "latest", f".seen-{chain}.txt"))
+            or os.path.exists(os.path.join(ROOT, "data", "latest", f".seen-{chain}.txt.gz"))
+            or os.path.exists(os.path.join(ROOT, "data", "latest", f".checkpoint-{chain}.jsonl.gz"))
+            or os.path.exists(os.path.join(ROOT, "data", "latest", f".checkpoint-{chain}.jsonl"))
+        )
+        complete_now = not limit and len(rows) > 0 and (not resuming or not checkpoint_after)
         marker = os.path.join(ROOT, "data", "latest", f".{chain}-complete")
         if complete_now:
             # Stamped with the date the scrape FINISHED, not `today`
