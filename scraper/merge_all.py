@@ -58,12 +58,15 @@ def main():
 
     # merge per-chain summary files
     summary = {}
+    summary_dates = {}
     for sp in glob.glob(os.path.join(LATEST, "summary-*.json")):
         try:
             d = json.load(open(sp))
         except json.JSONDecodeError:
             continue
-        summary.update(d.get("chains", {}))
+        for chain, cd in d.get("chains", {}).items():
+            summary[chain] = cd
+            summary_dates[chain] = d.get("date")
 
     json.dump({"date": today, "total_rows": n, "chains": summary},
               open(os.path.join(LATEST, "summary.json"), "w"), indent=1)
@@ -78,7 +81,12 @@ def main():
             ages = {}
     for chain in CHAINS:
         d = summary.get(chain, {})
-        if "products" in d:  # success this run
+        # success THIS run: the summary file must carry today's own date. A
+        # summary-<chain>.json from an earlier run survives on main whenever
+        # the chain doesn't reach commit (cancelled job, crash) - stamping
+        # ages from it marked a stale chain fresh forever (ages.json is the
+        # freshness ledger consumers use to reject old data).
+        if "products" in d and summary_dates.get(chain) == today:
             ages[chain] = today
     json.dump(ages, open(ages_path, "w"), indent=1)
 

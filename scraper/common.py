@@ -572,6 +572,8 @@ def valid_ean(e):
     s = str(e).strip()
     if not s.isdigit() or len(s) not in (8, 12, 13, 14):
         return None
+    if len(set(s)) == 1:  # 0000000000000 / 1111111111111 pass the checksum - retailer junk
+        return None
     digits = [int(c) for c in s]
     check = digits.pop()
     total = sum(d * (3 if i % 2 == 0 else 1)
