@@ -77,7 +77,12 @@ jobs:
           PYTHONUNBUFFERED: "1"
         run: |
           if [ "${{ inputs.continuation }}" = "true" ]; then
-            INC=$(python scraper/check_incomplete.py 2>/dev/null | sed -n 's/^incomplete: //p')
+            INC=$(python scraper/check_incomplete.py 2>/dev/null | sed -n 's/^incomplete: //p' | tr -d ' ')
+          # tr -d ' ': check_incomplete prints ', '-joined names
+          # but the case below matches ',<chain>,' - without stripping
+          # spaces every chain AFTER THE FIRST in the incomplete list was
+          # treated as 'already complete' and silently skipped by
+          # continuations (nl/hubo_nl live 2026-10-18: stalled 5 days).
             case ",$INC," in
               *",${{ matrix.chain }},"*) echo "${{ matrix.chain }} still incomplete - continuing" ;;
               *) echo "${{ matrix.chain }} already complete today - skipping"; exit 0 ;;
@@ -195,7 +200,12 @@ jobs:
         id: check
         run: |
           python scraper/check_incomplete.py || true
-          INC=$(python scraper/check_incomplete.py 2>/dev/null | sed -n 's/^incomplete: //p')
+          INC=$(python scraper/check_incomplete.py 2>/dev/null | sed -n 's/^incomplete: //p' | tr -d ' ')
+          # tr -d ' ': check_incomplete prints ', '-joined names
+          # but the case below matches ',<chain>,' - without stripping
+          # spaces every chain AFTER THE FIRST in the incomplete list was
+          # treated as 'already complete' and silently skipped by
+          # continuations (nl/hubo_nl live 2026-10-18: stalled 5 days).
           echo "incomplete=$INC" >> $GITHUB_OUTPUT
       - name: Re-dispatch for incomplete chains
         if: steps.check.outputs.incomplete != '' && steps.check.outputs.incomplete != '(none)'
