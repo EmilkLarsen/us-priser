@@ -54,7 +54,7 @@ jobs:
           # committed in the meantime (see scripts/commit_chain.sh).
           ref: main
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
@@ -91,7 +91,7 @@ jobs:
           if [ "${{ github.event.inputs.full }}" = "true" ] || [ "${{ github.event_name }}" = "schedule" ]; then
             python scraper/run_daily.py --only ${{ matrix.chain }}
           else
-            python scraper/run_daily.py --only ${{ matrix.chain }} ${{ inputs.limit || '30' }}
+            python scraper/run_daily.py --only ${{ matrix.chain }} ${{ github.event.inputs.limit || '30' }}
           fi
 
       - name: Commit snapshot
@@ -113,7 +113,7 @@ jobs:
           # committed in the meantime (see scripts/commit_chain.sh).
           ref: main
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 

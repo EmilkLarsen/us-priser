@@ -78,6 +78,9 @@ def main():
             if os.path.exists(ckpt_legacy):
                 print(f"  {chain}: checkpoint build in progress (no marker yet) - not stale")
                 continue
+            if chain in KNOWN_BLOCKED:
+                print(f"  {chain}: known-blocked (bot-walled from CI IPs), retrying nightly - not alerted")
+                continue
             stale.append(f"{chain} (no valid completion marker)")
             continue
         if chain in KNOWN_BLOCKED:
