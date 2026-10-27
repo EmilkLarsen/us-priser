@@ -1,5 +1,5 @@
 {
- "date": "2026-10-26",
+ "date": "2026-10-27",
  "chains": {
   "cpo_us": {
    "error": "HTTPError: HTTP Error 503: Service Unavailable"
