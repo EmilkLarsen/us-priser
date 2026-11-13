@@ -360,3 +360,40 @@ jobs:
               await github.rest.issues.create({ owner: context.repo.owner,
                 repo: context.repo.repo, title, body });
             }
+
+  resolve-alerts:
+    # Housekeeping: the alert job opens one issue per failed day and nothing
+    # ever closed them (16 open on dk, 35 on us by 2026-11-13). When a run
+    # finishes with NO failing job - and the scrape job actually ran, so a
+    # fully-skipped run can't close a still-real alert - close every open
+    # alert issue with a resolution comment pointing at the green run.
+    needs: [scrape, merge, continue-check, healer]
+    if: always() && !contains(needs.*.result, 'failure') && needs.scrape.result == 'success'
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Close resolved alert issues
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const prefix = 'Nightly price run failed ';
+            const runUrl = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            const open = await github.paginate(github.rest.issues.listForRepo, {
+              owner: context.repo.owner, repo: context.repo.repo,
+              state: 'open', per_page: 100
+            });
+            // pull_request entries share the issues API - skip them explicitly
+            const stale = open.filter(i => !i.pull_request && i.title.startsWith(prefix));
+            for (const issue of stale) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner, repo: context.repo.repo,
+                issue_number: issue.number,
+                body: `Resolved - a later run completed with no failing jobs: ${runUrl}`
+              });
+              await github.rest.issues.update({
+                owner: context.repo.owner, repo: context.repo.repo,
+                issue_number: issue.number, state: 'closed'
+              });
+            }
+            core.info(`closed ${stale.length} resolved alert issue(s)`);
