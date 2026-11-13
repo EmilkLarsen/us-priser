@@ -33,7 +33,12 @@ MAX_AGE_DAYS = 3
 # stale-exemption branch below can never NameError (bit every non-dk/fi/uk
 # repo live 2026-10-15: check_stale crashed, continue-check failed, healer
 # churned every night)
-KNOWN_BLOCKED = set()
+# cpooutlets.com has served a site-wide Demandware "Site Offline" maintenance
+# page to every client (verified from residential IP 2026-10-18 and 2026-11-13;
+# scrape itself still runs and fails gracefully, merge keeps the last good
+# snapshot). Retried nightly; never alerted while the retailer is down. Remove
+# this entry when cpooutlets.com is serving real pages again.
+KNOWN_BLOCKED = {"cpo_us"}
 
 
 def discover_chains():
