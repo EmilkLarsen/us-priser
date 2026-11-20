@@ -1,8 +1,8 @@
 {
- "date": "2026-11-19",
+ "date": "2026-11-20",
  "chains": {
   "cpo_us": {
-   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+   "error": "HTTPError: HTTP Error 404: Not Found"
   }
  }
 }
